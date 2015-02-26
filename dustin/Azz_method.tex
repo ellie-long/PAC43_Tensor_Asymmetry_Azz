@@ -1,0 +1,277 @@
+%Format:latex
+%\documentclass[fleqn,twoside]{article}
+\documentclass[12pt]{article}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.0in}
+\setlength{\topmargin}{0.0in}
+\setlength{\textheight}{9.0in}
+
+% if you want to include PostScript figures
+\usepackage{graphicx}
+% if you have landscape tables
+%\usepackage[figuresright]{rotating}
+
+% Personal packages
+%\usepackage{dcolumn}
+%\usepackage{epsfig}
+%\usepackage{amsmath,amssymb,graphicx}
+%\usepackage{rotate}
+
+% declarations for front matter
+
+\title{
+Measurement of $A_{zz}$
+}
+
+\author{
+dustin\\
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+A quick outline of how to measure $A_{zz}$.
+\end{abstract}
+
+\section{ Measurement of $A_{zz}$ }
+
+The measured DIS double differential cross section for a spin-1 target characterized by a vector polarization $P_{z}$ and tensor polarization
+$P_{zz}$ is expressed as,
+\begin{equation}
+\frac{d^2\sigma_p}{dxdQ^2}=\frac{d^2\sigma}{dxdQ^2}\left(1-P_zP_BA_1+\frac{1}{2}P_{zz}A_{zz}\right),
+\label{eq:one}
+\end{equation}
+where, $\sigma_p$ ($\sigma$) is the polarized (unpolarized) cross section, $P_B$ is the incident electron beam polarization, and $A_1$ ($A_{zz}$) is the
+vector (tensor) asymmetry of the virtual-photon deuteron cross section.  This allows us to write
+the positive polarized tensor, $0<P_{zz}\leq 1$, asymmetry using unpolarized electron beam as,
+\begin{equation}
+\label{Azz}
+A_{zz}=\frac{2}{P_{zz}}\left(\frac{\sigma^1-\sigma}{\sigma}\right),
+\end{equation}
+where $\sigma^1$ is the polarized cross section for
+\begin{equation}
+P_{zz}=\frac{n_+-2n_0+n_-}{n_++n_-+n_0},\mbox{ for~} n_++n_->2n_0.
+\end{equation}
+Here $n_m$ represents the portion of the ensemble in the $m$ state.
+
+Using Eq. \ref{Azz} the asymmetry $A_{zz}$ compares two different cross sections measured under different 
+polarization conditions of the target, positively tensor polarized and unpolarized.  
+To obtain both relative cross section measurements in the same configuration the same target
+cup and material will be used at alternating polarization states.  In addition the same exact field will be used to keep
+acceptance consistent within the setability of the supper conducting magnet. 
+
+\noindent [{\sl The NMR will be
+used on both to probe polarization.  To move from polarized to unpolarized measurements the target
+polarization will be annihilated using destructive NRM loop field changes and destructive DNP microwave pumping.
+It is also possible to remove LHe in the nose of the target to remove the polarization by heating.
+During unpolarized data taking the incident electron beam heating is enough to remove the thermal equilibrium polarization.
+
+The NMR measurement will ensure zero polarization.  The target material will be
+kept at $\sim$1 K for polarized and unpolarized data collection.  These
+consistencies are used to minimize the systematic differences in the
+polarized and unpolarized data collection.  To minimize systematic effect over 
+time the polarization condition will be switched twice in a 24 hour period. 
+This is expected to account for drift in integrated charge accumulation.
+
+(I think we should move this discussion to another section dealing with target
+physics and the overhead time accounting. Also,  I would favor dumping the LHe, and refilling the
+nose.)}]
+
+The expressions for the tensor asymmetry in Eq. \ref{Azz} needs to be modified to take into account the presence of
+unpolarized nuclei in the deuterated ammonia ($^{14}$N$^2$H$_3$, ND$_3$ for 
+short) target. Since many of the factors invoved in the cross sections cancel in
+the ratio, the asymmetry can then be expressed in terms 
+of the charge normalized, efficiency corrected numbers of polarized $N^1$ and 
+unpolarized $N$ counts, 
+\begin{equation} \label{3}
+A_{zz}=\frac{2}{fP_{zz}}\left(\frac{N^1-N}{N}\right).
+\end{equation}
+Here $f$ is the dilution factor defined as,
+\begin{equation}
+f=\frac{N_D\sigma_D}{N_N\sigma_N+N_D\sigma_D+\Sigma N_A\sigma_A},
+\end{equation}
+where $N_D$ is the number of deuterium nuclei in the target and and $\sigma_D$ 
+is the corresponding inclusive double differential scattering cross 
+section,
+$N_N$ is the nitrogen number of scattered nuclei with cross section $\sigma_N$, and
+$N_A$ is the numbers of other scattering nuclei of mass number $A$ with cross section $\sigma_A$.
+The denominator of the dilution factor can be written in terms of the relative volume ratio of
+$ND_3$ to $LHe$ in the target cell, or the packing fraction $p_f$.  In our case of cylindrical geometry
+the packing fraction is equivalent to the percent of the cell length filled with $ND_3$.  For the
+full development of the dilution factor see Appendix \ref{dil}.
+
+The measurement of the tensor asymmetry allows for a calculation of tensor structure function $b_1$
+using the world data on the leading-twist structure function $F_1^d$,
+\begin{equation}
+b_1=-\frac{3}{2}A_{zz}F_1^d.
+\end{equation} 
+
+In addition $b_1$ can be calculated directly using the difference of the two 
+measured cross sections, however the uncertainties will be larger 
+than for $A_{zz}$.
+
+The time necessary to achieve the desired precision $\delta A$ is:
+\begin{equation}
+T=\frac{N_T}{R_D}=\frac{16}{P_{zz}^2f^2\delta A_{zz}^2R_D}.
+\end{equation} 
+where $R_D$ is the deuteron rate and $N_T = N^1 + N$ is the total estimated 
+number of counts to achieve the uncertainty $\delta A_{zz}$.  See Appendix
+\ref{stat} for full details of the statistical uncertainty.
+
+\section{ Systematic Uncertainty in $A_{zz}$ }
+The systematic uncertainty of the asymmetry $A_{zz}$ can be estimated based on know relative uncertainties and 
+the systematic effects seen in past experiments.  
+
+\subsection{ Target Polarization }
+The target positive tensor polarization $P_{zz}$  is calculated using the vector polarization $P_{z}$
+using Boltzmann statistics for spin temperature equilibrium,
+\begin{equation}
+P_{zz}=2-\sqrt{4-3P_z^2}.
+\end{equation}
+The uncertainty in $P_{zz}$ depends only on the uncertainty in the NMR measurement of $P_z$.
+This leads to the expression,
+\begin{equation}
+\delta P_{zz}=\frac{3P_z}{\sqrt{4-3P_z^2}}\delta P_z.
+\end{equation}
+Polarization uncertainty for $ND_4$ have historically been no smaller than 5\%.  However with
+new techniques in polarization uncertainty minimization we anticipate to be able to achieve
+considerable reduction.  Here we use the estimate of 4\% relative uncertainty in $P_z$ for and
+average vector polarization of 45\% leading to a relative uncertainty in $P_{zz}$ of 7.7\%.
+
+\subsection{ Time dependent factors }
+
+Systematic variation in time due to detector drift was
+studied for transversity JLab experiment E06-010. For 3 months running, all detectors in
+HRS were stable to about a 1\% level.  The scintillators, drift chambers, and 
+lead-glass shower detector are stable to $\sim$2\% in 3 months, assuming
+no significant radiation damage or detector gas loss.
+For the measurement of $A_{zz}$ we expect no issue with radiation damage
+being the beam current is comparatively low and in the spectrometer.
+
+\subsection{ Radiative Corrections }
+The systematic effect on $A_{zz}$ due to the QED radiative corrections will be quite small. 
+Based on previous data for unpolarized radiative corrections we use a 1.5\% uncertainty.
+The polarized contribution is considered to be negligible for the range in $x$ that we
+are measuring.
+
+\subsection{ Charge Determination }
+The Beam Charge Monitor at low current are estimated to have an uncertainty 
+lower than 5\%.  Integrating over a reasonable time the charge can be measured to 
+approximately 1\%.  The Hall A tungsten calorimeter can be used to further reduce this uncertainty.
+
+\subsection{ Total Systematic Uncertainty }
+Table \ref{error1} shows a list of the leading uncertainties contributing to the systematic error in $A_{zz}$.
+The resulting estimate in the relative uncertainty of $A_{zz}$ is 9.2\%.
+\begin{table}
+\begin{center}
+\begin{tabular}{lccc}
+(\#)&source & error (\%)\\ \hline  
+(1)&Target Polarization & 8\% \\
+(2)&Dilution/Packing fraction & 4\% \\
+(3)&Detector Drift & 1\% \\
+(4)&Radiative Corrections & 1.5\% \\
+(5)&Charge Determination & 1\% \\
+(6)&Detector resolution and efficiency & 1\% \\\hline
+   &Total & 9.2\% \\\hline
+\end{tabular}
+\end{center}
+\caption{The systematic error estimates of the $A_{zz}$ asymmetry measurement.}
+\label{error1}
+\end{table}
+
+\appendix
+\section{Rendering Dilution Factor}
+\label{dil}
+To derive the dilution factor we first start with the ratio of 
+polarized to unpolarized counts.
+%equation used to obtain the observable in terms of each measured cross section.
+%\begin{equation}
+%\frac{A_{zz}P_{zz}}{2}=\left(\frac{\sigma^1-\sigma}{\sigma}\right).
+%\end{equation}
+In each case, the number of counts that are actually measured, and neglecting 
+the small contributions of the thin aluminium cup window materials, NMR coils, etc.,
+are
+\begin{equation}
+N_1=Q_1\varepsilon_1 {\cal A}_1 l_1[(\sigma_N+3\sigma_1)p_f+\sigma_{He}(1-p_f)],
+\end{equation}
+and
+\begin{equation}
+N=Q\varepsilon {\cal A}l[(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)].
+\end{equation}
+where $Q$ represents accumulated charge, $\varepsilon$ is the dectector 
+efficiency, ${\cal A}$ the cup acceptance, and $l$ the cup length.  
+
+For
+this calculation we assume similar charge accumulation such that $Q\simeq Q_1$, 
+and that the efficiencies stay constant, in which case all factors drop out of 
+the ratio leading to
+\begin{eqnarray}
+\nonumber \frac{N_1}{N}& = &\frac{{(\sigma_N+3\sigma_1)p_f+\sigma_{He}(1-p_f)}
+}{(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)}\\
+\nonumber & = & \frac{{(\sigma_N+3\sigma(1+2A_{zz}P_{zz}/2))p_f+\sigma_{He}(1-p_
+f)}}{(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)}\\
+\nonumber & = & \frac{{[(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_
+f)]+3\sigma A_{zz}P_{zz}/2}}{(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)}\\
+\nonumber & = & 1 + \frac{3\sigma 
+A_{zz}P_{zz}/2}{(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)}\\
+& = & 1 + \frac{1}{2} f A_{zz}P_{zz}, 
+\end{eqnarray}
+where $\sigma_1 = \sigma(1+2A_{zz}P_{zz}/2)$ has ben substituted, per 
+eq.~(\ref{eq:one}), with $P_B =0$. It can be seen that the above result 
+corresponds to eq.~(\ref{3}) in the main text.
+
+\section{Statistical Uncertainty Calculation}
+\label{stat}
+To investigate the statistical uncertainty we start with the equation for $A_{zz}$ using
+measured counts for polarized data $N_1$ and unpolarized data $N$, 
+\begin{equation}
+A_{zz}=\frac{2}{fP_{zz}}\left(\frac{N_1-N}{N}\right).
+\end{equation}
+The absolute error with respect to counts in then,
+\begin{equation}
+\delta A_{zz}=\frac{2}{fP_{zz}}\sqrt{\left(\frac{\delta N_1}{N}\right)^2+\left(\frac{N_1\delta N}{N^2}\right)^2}.
+\end{equation}
+To approximate, assume $N_1\simeq N$, so that twice $N$ is required to obtain the total number of count
+$N_T$ for the experiment leading to,
+\begin{equation}
+\delta A_{zz}=\frac{4}{fP_{zz}}\frac{1}{\sqrt{N_T}}.
+\end{equation}
+
+
+\clearpage
+
+
+
+\end{document}
+
+\appendix
+\section{Rendering Dilution Factor}
+\label{dil}
+To acquire the dilution factor we first start with the equation used
+to obtain the observable in terms of each measured cross section.
+\begin{equation}
+\frac{A_{zz}P_{zz}}{2}=\left(\frac{\sigma^1-\sigma}{\sigma}\right).
+\end{equation}
+In each case the number of counts that are actually measured is,
+\begin{equation}
+N_1=Q_1A_1l_1[(\sigma_N+3\sigma_1)p_f+\sigma_{He}(1-p_f)],
+\end{equation}
+and
+\begin{equation}
+N=QAl[(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)].
+\end{equation}
+Here $Q$ represents accumulated charge, $A$ the cup acceptance, and $l$ the cup length.  For
+this calculation we assume similar charge accumulation such that $Q\simeq Q_1$ in which case all
+factors drop out of the ratio leading to,
+\begin{equation}
+\frac{N_1-N}{N}=\frac{{(\sigma_N+3\sigma_1)p_f+\sigma_{He}(1-p_f)}-[(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)]}{(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)}.
+\end{equation}
+\begin{equation}
+\frac{N_1-N}{N}=\frac{{(\sigma_N+3\sigma(1+1/2A_{zz}P_{zz}))p_f+\sigma_{He}(1-p_f)}-[(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)]}{(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)}.
+\end{equation}
+\begin{equation}
+\frac{N_1-N}{N}=\frac{1/2A_{zz}P_{zz}p_f3\sigma}{(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)}=\frac{A_{zz}P_{zz}f}{2}.
+\end{equation}
+

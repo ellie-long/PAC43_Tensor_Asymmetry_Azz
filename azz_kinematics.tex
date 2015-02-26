@@ -1,0 +1,135 @@
+\documentclass[12pt]{article}
+
+\usepackage{fullpage}
+\usepackage{breqn}
+\usepackage{epsfig}
+\usepackage{longtable}
+\usepackage{fontenc}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{rotating}
+\usepackage{psfrag}
+\usepackage{graphics}
+\usepackage{lscape}
+\usepackage{xspace}
+\usepackage{hyperref}
+
+
+\bibliographystyle{input/prsty}
+
+\input{input/0_defs.tex}
+
+%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\pagestyle{empty}
+ 
+%\begin{center}
+% \LARGE{
+%  Tensor Asymmetry $A_{zz}$ in the $x>1$ Region
+% }
+%\end{center}
+%
+%\hrule \vspace{.05cm}\hrule
+%
+%\input{input/0_author.tex}
+
+%\newpage
+
+%\begin{abstract}
+%  \input{input/0_abstract.tex}
+%\end{abstract}
+
+\newpage
+
+%\section*{Foreword}
+
+%\input{input/foreword.tex}
+
+
+\clearpage
+
+
+\tableofcontents
+
+
+\pagestyle{plain}
+
+\clearpage
+
+%\section{Quotes (To be removed)}
+%\input{input/0_quotes.tex}
+
+%\section{Background and Motivation}
+%\input{input/1_intro.tex}
+% \subsection{Tensor Structure of the Deuteron}
+% \input{input/1_tensor_pol.tex}
+% \subsection{Quasi-Elastic and $x>1$ Scattering from Spin-1 Targets}
+% \input{input/1_b1_background.tex}
+
+%\subsubsection{First Measurement of $b_1(x)$ by the HERMES Collaboration}
+% \input{input/data.tex}
+
+% \subsection{The Tensor Asymmetry \Azz}
+%\label{PREDB1X}
+%   \input{input/1_th_predictions.tex}
+
+
+\section{The Proposed Experiment}
+
+\input{input/Azz_method.tex}
+
+\input{input/kinematics.tex}
+
+%\input{input/overhead.tex}
+
+%\input{input/target.tex}
+
+
+
+% \section{Summary}
+%  \input{input/7summary.tex}
+\clearpage
+\appendix
+%\section{Rates and Kinematics}
+%\begin{figure}
+%\begin{center}
+%\includegraphics[width=1.0\textwidth,angle=00]{newfigs/ellie/b1_rates_hms_shms.eps}
+%\caption{\label{PROJDETAIL}
+%{\bf Top Left: }
+%Projected precision of the tensor structure function $b_1$  with \production_days days of beam time.
+%{\bf Right:}
+%Corresponding projected precision of the tensor asymmetry $A_{zz}$.
+%Data at different $Q^2$ are combined with an x-binning that varies slightly per point, but is approximately $\pm0.05$.
+%%The black band
+%%represents the systematic uncertainty.
+%Also shown are the HERMES data~\cite{Airapetian:2005cb}, and the calculations from Kumano~\cite{Kumano:2010vz}, Miller~\cite{Miller:1989nc,Miller_tmp}, and Sargsian~\cite{MISAK}.
+%}
+%\end{center}
+%\end{figure}
+
+%\section{Statistical error calculations of $A_{zz}$}
+%\input{input/Azz_error.tex}
+%\input{input/b1_error.tex}
+%\input{input/dustin3.tex}
+%  Go to fullpage mode
+
+\topmargin 0pt
+\advance \topmargin by -\headheight
+\advance \topmargin by -\headsep
+
+\textheight 8.9in
+
+\oddsidemargin 0pt
+\evensidemargin \oddsidemargin
+\marginparwidth 0.5in
+
+\textwidth 6.5in
+\clearpage
+%\begin{thebibliography}{99}
+%\input{input/bib.tex}
+%\end{thebibliography}
+
+\bibliography{input/bibliography}
+\end{document}

@@ -1,0 +1,2559 @@
+@STRING(PRL="Phys. Rev. Lett.")
+@STRING(RMP="Rev. Mod. Phys.")
+@STRING(PRA="Phys. Rev. A")
+@STRING(PRC="Phys. Rev. C")
+@STRING(PRD="Phys. Rev. D")
+@STRING(PRDR="Phys. Rev. D, Rapid communications")
+@STRING(NPA="Nucl. Phys. A")
+@STRING(PLB="Phys. Lett. B")
+
+@article{Bosted:2012qc,
+      author         = "Bosted, P.E. and Mamyan, V.",
+      title          = "{Empirical Fit to electron-nucleus scattering}",
+      year           = "2012",
+      eprint         = "1203.2262",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      reportNumber   = "JLAB-PHY-12-1525",
+      SLACcitation   = "%%CITATION = ARXIV:1203.2262;%%",
+}
+
+@Article{Hoodbhoy:1988am,
+     author    = "Hoodbhoy, Pervez and Jaffe, R. L. and Manohar, Aneesh",
+     title     = "{Novel Effects in Deep Inelastic Scattering from Spin 1
+                  Hadrons}",
+     journal   = "Nucl. Phys.",
+     volume    = "B312",
+     year      = "1989",
+     pages     = "571",
+     doi       = "10.1016/0550-3213(89)90572-5",
+     SLACcitation  = "%%CITATION = NUPHA,B312,571;%%"
+}
+
+@Article{Lampe:1998eu,
+     author    = "Lampe, Bodo and Reya, Ewald",
+     title     = "{Spin physics and polarized structure functions}",
+     journal   = "Phys. Rept.",
+     volume    = "332",
+     year      = "2000",
+     pages     = "1-163",
+     eprint    = "hep-ph/9810270",
+     archivePrefix = "arXiv",
+     doi       = "10.1016/S0370-1573(99)00100-3",
+     SLACcitation  = "%%CITATION = HEP-PH/9810270;%%"
+}
+
+@Article{Close:1990zw,
+     author    = "Close, F. E. and Kumano, S.",
+     title     = "{A sum rule for the spin dependent structure function b-
+                  1(x) for spin one hadrons}",
+     journal   = "Phys. Rev.",
+     volume    = "D42",
+     year      = "1990",
+     pages     = "2377-2379",
+     doi       = "10.1103/PhysRevD.42.2377",
+     SLACcitation  = "%%CITATION = PHRVA,D42,2377;%%"
+}
+
+@Article{Khan:1991qk,
+     author    = "Khan, H. and Hoodbhoy, P.",
+     title     = "{Convenient parametrization for deep inelastic structure
+                  functions of the deuteron}",
+     journal   = "Phys. Rev.",
+     volume    = "C44",
+     year      = "1991",
+     pages     = "1219-1222",
+     doi       = "10.1103/PhysRevC.44.1219",
+     SLACcitation  = "%%CITATION = PHRVA,C44,1219;%%"
+}
+
+@Article{Kumano:2010vz,
+     author    = "Kumano, S.",
+     title     = "{Tensor-polarized quark and antiquark distribution
+                  functions in a spin-one hadron}",
+     journal   = "Phys. Rev.",
+     volume    = "D82",
+     year      = "2010",
+     pages     = "017501",
+     eprint    = "1005.4524",
+     archivePrefix = "arXiv",
+     primaryClass  =  "hep-ph",
+     doi       = "10.1103/PhysRevD.82.017501",
+     SLACcitation  = "%%CITATION = 1005.4524;%%"
+}
+
+@Article{Bora:1997pi,
+     author    = "Bora, K. and Jaffe, R. L.",
+     title     = "{The double scattering contribution to b1(x,Q**2) in the
+                  deuteron}",
+     journal   = "Phys. Rev.",
+     volume    = "D57",
+     year      = "1998",
+     pages     = "6906-6911",
+     eprint    = "hep-ph/9711323",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevD.57.6906",
+     SLACcitation  = "%%CITATION = HEP-PH/9711323;%%"
+}
+
+@Article{Nikolaev:1996jy,
+     author    = "Nikolaev, Nikolai N. and Schafer, W.",
+     title     = "{Nonvanishing tensor polarization of sea quarks in
+                  polarized deuterons}",
+     journal   = "Phys. Lett.",
+     volume    = "B398",
+     year      = "1997",
+     pages     = "245-251",
+     eprint    = "hep-ph/9611460",
+     archivePrefix = "arXiv",
+     doi       = "10.1016/S0370-2693(97)00250-5",
+     SLACcitation  = "%%CITATION = HEP-PH/9611460;%%"
+}
+
+@Article{Sather:1990bq,
+     author    = "Sather, Eric and Schmidt, Carl",
+     title     = "{Size and scaling of the double helicity flip hadronic
+                  structure function}",
+     journal   = "Phys. Rev.",
+     volume    = "D42",
+     year      = "1990",
+     pages     = "1424-1428",
+     doi       = "10.1103/PhysRevD.42.1424",
+     SLACcitation  = "%%CITATION = PHRVA,D42,1424;%%"
+}
+
+@Article{Piller:1997ny,
+     author    = "Piller, G. and Niesler, G. and Weise, W.",
+     title     = "{Diffractive phenomena and shadowing in deep-inelastic
+                  scattering}",
+     journal   = "Z. Phys.",
+     volume    = "A358",
+     year      = "1997",
+     pages     = "407-413",
+     eprint    = "hep-ph/9707266",
+     archivePrefix = "arXiv",
+     doi       = "10.1007/s002180050348",
+     SLACcitation  = "%%CITATION = HEP-PH/9707266;%%"
+}
+
+@Article{Miller:1989nc,
+     author    = "Miller, G. A.",
+     title     = "The b1 structure function and nuclear pions",
+     journal   = "Stanford Proceedings 1989, Electronuclear Physics with Internal Targets 30-33"
+}
+
+@Misc{Miller13,
+     author    = "Miller, Gerald A.",
+     note      = "{{\it Pionic and Hidden-Color, Six-Quark Contributions to the
+                        Deuteron b1 Structure Function}, 2013, arXiv 1311.4561}"
+}
+
+@article{Miller:2013hla,
+      author         = "Miller, Gerald A.",
+      title          = "{Pionic and Hidden-Color, Six-Quark Contributions to the
+                        Deuteron b1 Structure Function}",
+      year           = "2013",
+      eprint         = "1311.4561",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      reportNumber   = "NT@UW-13-28",
+      SLACcitation   = "%%CITATION = ARXIV:1311.4561;%%",
+}
+
+
+
+@Article{Bueltmann:1998wq,
+     author    = "Bueltmann, Stephen L. and others",
+     title     = "{A study of lithium deuteride as a material for a polarized
+                  target}",
+     journal   = "Nucl. Instrum. Meth.",
+     volume    = "A425",
+     year      = "1999",
+     pages     = "23-36",
+     doi       = "10.1016/S0168-9002(98)01341-2",
+     SLACcitation  = "%%CITATION = NUIMA,A425,23;%%"
+}
+
+@Article{Sutton:1991ay,
+     author    = "Sutton, P. J. and Martin, Alan D. and Roberts, R. G. and
+                  Stirling, W. James",
+     title     = "{Parton distributions for the pion extracted from Drell-Yan
+                  and prompt photon experiments}",
+     journal   = "Phys. Rev.",
+     volume    = "D45",
+     year      = "1992",
+     pages     = "2349-2359",
+     doi       = "10.1103/PhysRevD.45.2349",
+     SLACcitation  = "%%CITATION = PHRVA,D45,2349;%%"
+}
+
+@Misc{Miller_tmp,
+     author    = "Miller, G. A.",
+     note      = "Private communication, to be published"
+}
+
+@Misc{MISAK,
+     author    = "Sargsian, M",
+     note      = "Private communication, to be published"
+}
+
+@Article{Riedl:2005jq,
+     author    = "Riedl, Caroline",
+     title     = "{The first measurement of the tensor structure function
+                  b1(d) of the  deuteron with the HERMES experiment}",
+     year      = "2005",
+     Journal   = "Ph. D thesis, DESY-THESIS-2005-027"
+}
+@misc{ALTOBIAS,
+     author    = "Tobias, Al",
+     note     = "{Measurement of the Proton and Deuteron Spin Structure Functions $g_1$ and $g_2$. Ph. D thesis, 2001.}",
+     year      = "2001",
+     Journal   = "Ph. D thesis"
+}
+
+@misc{CKEITH,
+	author = "{C. Keith, JLab polarized target group. Private communication}"
+}
+
+@misc{DUSTIN,
+	author = "{D. Keller, ``Uncertainty in DNP Target Data for E08-007'', JLab-TN-12-051.}"
+}
+
+@Article{Frankfurt:1983qs,
+     author    = "Frankfurt, L. L. and Strikman, M. I.",
+     title     = "{HIGH MOMENTUM TRANSFER PROCESSES WITH POLARIZED
+                  DEUTERONS}",
+     journal   = "Nucl. Phys.",
+     volume    = "A405",
+     year      = "1983",
+     pages     = "557-580",
+     doi       = "10.1016/0375-9474(83)90518-3",
+     SLACcitation  = "%%CITATION = NUPHA,A405,557;%%"
+}
+
+@Article{Pais:1967zz,
+     author    = "Pais, A.",
+     title     = "{Low-Energy Theorems for Spin S>~1}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "19",
+     year      = "1967",
+     pages     = "544-546",
+     doi       = "10.1103/PhysRevLett.19.544",
+     SLACcitation  = "%%CITATION = PRLTA,19,544;%%"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@Article{Burkhardt:1970ti,
+     author    = "Burkhardt, Hugh and Cottingham, W. N.",
+     title     = "Sum rules for forward virtual Compton scattering",
+     journal   = "Annals Phys.",
+     volume    = "56",
+     year      = "1970",
+     pages     = "453-463"
+}
+@Article{Amarian:2002ar,
+     author    = "Amarian, M. and others",
+     title     = "The Q**2 evolution of the generalized Gerasimov-Drell-Hearn
+                  integral  for the neutron using a He-3 target",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "89",
+     year      = "2002",
+     pages     = "242301"
+}
+
+@Article{Amarian:2004tmp,
+     author    = "Amarian, M. and others",
+     title     = "The $Q^2$ evolution of the Neutron Spin Structure Moments
+                  using a $^3$He target",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "92",
+     year      = "2004",
+     pages     = "022301"
+}
+@Article{Amarian:2004yf,
+     author    = "Amarian, M. and others",
+     title     = "Measurement of the generalized forward spin
+                  polarizabilities of the neutron",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "93",
+     year      = "2004",
+     pages     = "152301",
+}
+@Article{Meziani:2004ne,
+     author    = "Meziani, Z.-E. and others",
+     title     = "Higher twists and color polarizabilities in the neutron",
+     year      = "2004",
+     SLIFERCOMMENT = {eprint    = "hep-ph/0404066"},
+     note = "hep-ph/0404066",
+     SLACcitation  = "%%CITATION = HEP-PH 0404066;%%"
+}
+
+@Article{Deur:2004ti,
+     author    = "Deur, A. and others",
+     title     = "{Experimental determination of the evolution of the Bjorken
+                  integral at  low Q**2}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "93",
+     year      = "2004",
+     pages     = "212001",
+     eprint    = "hep-ex/0407007",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevLett.93.212001",
+     SLACcitation  = "%%CITATION = HEP-EX/0407007;%%"
+}
+
+
+
+@Article{Ji:1999mr,
+     author    = "Ji, Xiang-Dong and Osborne, Jonathan",
+     title     = "Generalized sum rules for spin-dependent structure
+                  functions of the  nucleon",
+     journal   = "J. Phys.",
+     volume    = "G27",
+     year      = "2001",
+     pages     = "127",
+     eprint    = "hep-ph/9905410",
+     SLACcitation  = "%%CITATION = HEP-PH 9905410;%%"
+}
+@Article{Drechsel:2000ct,
+     author    = "Drechsel, D. and Kamalov, S. S. and Tiator, L.",
+     title     = "The GDH sum rule and related integrals",
+     journal   = "Phys. Rev.",
+     volume    = "D63",
+     year      = "2001",
+     pages     = "114010"
+}
+@Article{Amroun:1994qj,
+     author    = "Amroun, A. and others",
+     title     = "H-3 and He-3 electromagnetic form-factors",
+     journal   = "Nucl. Phys.",
+     volume    = "A579",
+     year      = "1994",
+     pages     = "596-626"
+}
+@Article{Drechsel:1998hk,
+     author    = "Drechsel, D. and Hanstein, O. and Kamalov, S. S. and
+                  Tiator, L.",
+     title     = "A unitary isobar model for pion photo- and
+                  electroproduction on the  proton up to 1-GeV",
+     journal   = "Nucl. Phys.",
+     volume    = "A645",
+     year      = "1999",
+     pages     = "145-174"
+}
+@Article{CiofidegliAtti:1994cm,
+     author    = "Ciofi degli Atti, Claudio and Pace, E. and Salme, G.",
+     title     = "Investigation of the neutron form-factors by inclusive
+                  quasielastic scattering of polarized electrons off
+                  polarized He-3: A Theoretical overview",
+     journal   = "Phys. Rev.",
+     volume    = "C51",
+     year      = "1995",
+     pages     = "1108-1119"
+}
+@Article{Pace:2001cm,
+     author    = "Pace, E. and Salme, G. and Scopetta, S. and Kievsky, A.",
+     title     = "Neutron structure function F2(n)(x) from deep inelastic
+                  electron  scattering off few-nucleon systems",
+     journal   = "Phys. Rev.",
+     volume    = "C64",
+     year      = "2001",
+     pages     = "055203"
+}
+@Article{Anthony:2002hy,
+     author    = "Anthony, P. L. and others",
+ collaboration = "E155",
+     title     = "Precision measurement of the proton and deuteron spin
+                  structure  functions g2 and asymmetries A(2)",
+     journal   = "Phys. Lett.",
+     volume    = "B553",
+     year      = "2003",
+     pages     = "18-24",
+     eprint    = "hep-ex/0204028",
+     SLACcitation  = "%%CITATION = HEP-EX 0204028;%%"
+}
+@Article{Airapetian:2002wd,
+     author    = "Airapetian, A. and others",
+ collaboration = "HERMES",
+     title     = "The Q**2-dependence of the generalised Gerasimov-Drell-
+                  Hearn integral for the deuteron, proton and neutron",
+     journal   = "Eur. Phys. J.",
+     volume    = "C26",
+     year      = "2003",
+     pages     = "527-538",
+     eprint    = "hep-ex/0210047",
+     SLACcitation  = "%%CITATION = HEP-EX 0210047;%%"
+}
+@Article{Fatemi:2003yh,
+     author    = "Fatemi, R. and others",
+     title     = "Measurement of the proton spin structure function
+                  g1(x,Q**2) for Q**2  from 0.15-GeV**2 to 1.6-GeV**2 with
+                  CLAS",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "91",
+     year      = "2003",
+     pages     = "222002"
+}
+@Article{Wandzura:1977qf,
+     author    = "Wandzura, S. and Wilczek, Frank",
+     title     = "SUM RULES FOR SPIN DEPENDENT ELECTROPRODUCTION: TEST OF
+                  RELATIVISTIC CONSTITUENT QUARKS",
+     journal   = "Phys. Lett.",
+     volume    = "B72",
+     year      = "1977",
+     pages     = "195"
+}
+@Article{Meissner_chiral2,
+     author    = "Bernard, Veronique and Hemmert, Thomas R. and Meissner,
+                  Ulf-G.",
+     title     = "Novel analysis of chiral loop effects in the generalized
+                  Gerasimov-Drell-Hearn sum rule",
+     journal   = "Phys. Lett.",
+     volume    = "B545",
+     year      = "2002",
+     pages     = "105-111",
+     eprint    = "hep-ph/0203167",
+     SLACcitation  = "%%CITATION = HEP-PH 0203167;%%"
+}
+@Article{Bernard:2002bs,
+     author    = "Bernard, Veronique and Hemmert, Thomas R. and Meissner,
+                  Ulf-G.",
+     title     = "Novel analysis of chiral loop effects in the generalized
+                  Gerasimov-Drell-Hearn sum rule",
+     journal   = "Phys. Lett.",
+     volume    = "B545",
+     year      = "2002",
+     pages     = "105-111",
+     eprint    = "hep-ph/0203167",
+     SLACcitation  = "%%CITATION = HEP-PH 0203167;%%"
+}
+@Article{Kao:2002cp,
+     author    = "Kao, Chung Wen and Spitzenberg, Thomas and Vanderhaeghen,
+                  Marc",
+     title     = "Burkhardt-Cottingham sum rule and forward spin
+                  polarizabilities in heavy baryon chiral perturbation
+                  theory",
+     journal   = "Phys. Rev.",
+     volume    = "D67",
+     year      = "2003",
+     pages     = "016001",
+     eprint    = "hep-ph/0209241",
+     SLACcitation  = "%%CITATION = HEP-PH 0209241;%%"
+}
+@Article{Abe:1998wq,
+     author    = "Abe, K. and others",
+ collaboration = "E143",
+     title     = "Measurements of the proton and deuteron spin structure
+                  functions g1  and g2",
+     journal   = "Phys. Rev.",
+     volume    = "D58",
+     year      = "1998",
+     pages     = "112003",
+     eprint    = "hep-ph/9802357",
+     SLACcitation  = "%%CITATION = HEP-PH 9802357;%%"
+}
+@misc{SOLVI,
+      note={P. Solvignon,
+               b1 Technical note \#06,
+               (2011).}
+ }
+
+@misc{GDHSHORT,
+      note={S. Gerasimov,
+                Sov. J. Nucl. Phys. {\bf 2}, 430
+               (1966);
+            {S. D. Drell and A. C. Hearn} ,
+        Phys. Rev. Lett. {\bf 16}, 908 (1966);
+            {M. Hosoda and K. Yamamoto},
+        {Prog. Theor. Phys. } {\bf 30}, 425 (1966).}
+ }
+@Article{Gockeler:2000ja,
+     author    = "Gockeler, M. and others",
+     title     = "A lattice calculation of the nucleon's spin-dependent
+                  structure  function g2 revisited",
+     journal   = "Phys. Rev.",
+     volume    = "D63",
+     year      = "2001",
+     pages     = "074506",
+     eprint    = "hep-lat/0011091",
+     SLACcitation  = "%%CITATION = HEP-LAT 0011091;%%"
+}
+@Article{Stratmann:1993aw,
+     author    = "Stratmann, M.",
+     title     = "Bag model predictions for polarized structure functions and
+                  their Q**2 evolutions",
+     journal   = "Z. Phys.",
+     volume    = "C60",
+     year      = "1993",
+     pages     = "763-772",
+     SLACcitation  = "%%CITATION = ZEPYA,C60,763;%%"
+}
+@Article{Song:1996ea,
+     author    = "Song, X.",
+     title     = "Polarized structure function $g_2$ in the CM bag model",
+     journal   = "Phys. Rev.",
+     volume    = "D54",
+     year      = "1996",
+     pages     = "1955-1966",
+     eprint    = "hep-ph/9604264",
+     SLACcitation  = "%%CITATION = HEP-PH 9604264;%%"
+}
+@Article{Weigel:2000gx,
+     author    = "Weigel, Herbert and Gamberg, Leonard P.",
+     title     = "Hadron structure functions within a chiral quark model",
+     journal   = "Nucl. Phys.",
+     volume    = "A680",
+     year      = "2000",
+     pages     = "48-51",
+     eprint    = "hep-ph/0004057",
+     SLACcitation  = "%%CITATION = HEP-PH 0004057;%%"
+}
+@Article{Wakamatsu:2000ex,
+     author    = "Wakamatsu, M.",
+     title     = "Polarized structure functions g2(x) in the chiral quark
+                  soliton model",
+     journal   = "Phys. Lett.",
+     volume    = "B487",
+     year      = "2000",
+     pages     = "118-124",
+     eprint    = "hep-ph/0006212",
+     SLACcitation  = "%%CITATION = HEP-PH 0006212;%%"
+}
+@Article{Nazaryan:2005zc,
+     author    = "Nazaryan, Vahagn and Carlson, Carl E. and Griffioen, Keith
+                  A.",
+     title     = "{New experimental constraints on polarizability corrections
+                  to hydrogen  hyperfine structure}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "96",
+     year      = "2006",
+     pages     = "163001",
+     eprint    = "hep-ph/0512108",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevLett.96.163001",
+     SLACcitation  = "%%CITATION = HEP-PH/0512108;%%"
+}
+@Article{Prok:2008ev,
+     author    = "Prok, Y. and others",
+ collaboration = "CLAS",
+     title     = "{Moments of the Spin Structure Functions g_1^p and g_1^d
+                  for 0.05 < Q^2 < 3.0 GeV^2}",
+     year      = "2008",
+     eprint    = "0802.2232",
+     archivePrefix = "arXiv",
+     primaryClass  =  "nucl-ex",
+     SLACcitation  = "%%CITATION = 0802.2232;%%"
+}
+
+@Article{Simula:2001iy,
+     author    = "Simula, S. and Osipenko, M. and Ricco, G. and Taiuti, M.",
+     title     = "{Leading and higher twists in the proton polarized
+                  structure function  g1(p) at large Bjorken x}",
+     journal   = "Phys. Rev.",
+     volume    = "D65",
+     year      = "2002",
+     pages     = "034017",
+     eprint    = "hep-ph/0107036",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevD.65.034017",
+     SLACcitation  = "%%CITATION = HEP-PH/0107036;%%"
+}
+
+@Article{Slifer:2008re_offic,
+     author    = "Slifer, K. and others",
+ collaboration = "E94010",
+     title     = "{3He Spin-Dependent Cross Sections and Sum Rules}",
+     year      = "2008",
+     eprint    = "0803.2267",
+     archivePrefix = "arXiv",
+     primaryClass  =  "nucl-ex",
+     SLACcitation  = "%%CITATION = 0803.2267;%%"
+}
+
+@Article{Slifer:2008re_old,
+     author    = "Slifer, K. and others",
+ collaboration = "E94010",
+     title     = "{3He Spin-Dependent Cross Sections and Sum Rules}",
+     year      = "2008",
+     journal   = "arXiv:0803.2267, Accepted for publication in Phys. Rev. Lett.",
+}
+
+
+@Article{Slifer:2008re,
+     author    = "Slifer, K. and others",
+ collaboration = "E94010",
+     title     = "{3He Spin-Dependent Cross Sections and Sum Rules}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "101",
+     pages     = "022303",
+     year      = "2008",
+     eprint    = "0803.2267",
+     archivePrefix = "arXiv",
+     primaryClass  =  "nucl-ex",
+     SLACcitation  = "%%CITATION = 0803.2267;%%"
+}
+
+
+@Article{Meyer:1985dta,
+     author    = "Meyer, W. and others",
+     title     = "{TENSOR POLARIZATION OF DEUTERONS IN IRRADIATED ND-3}",
+     journal   = "Nucl. Instrum. Meth.",
+     volume    = "A244",
+     year      = "1986",
+     pages     = "574",
+     doi       = "10.1016/0168-9002(86)91087-9",
+     SLACcitation  = "%%CITATION = NUIMA,A244,574;%%"
+}
+
+@article{Meyer:1985ju,
+      author         = "Meyer, W. and Schilling, E.",
+      title          = "Tensor Polarized Deuteron Targets for
+                        Intermediate-Energy Physics Experiments",
+      year           = "1985",
+      reportNumber   = "BONN-HE-85-06, C84-09-03.1",
+      SLACcitation   = "%%CITATION = BONN-HE-85-06 ETC.;%%",
+      journal        = "BONN-HE-85-06, C84-09-03.1"
+}
+
+
+@Article{Dulya:1997qc,
+     author    = "Dulya, C. and others",
+ collaboration = "Spin Muon",
+     title     = "{A line-shape analysis for spin-1 NMR signals}",
+     journal   = "Nucl. Instrum. Meth.",
+     volume    = "A398",
+     year      = "1997",
+     pages     = "109-125",
+     doi       = "10.1016/S0168-9002(97)00317-3",
+     SLACcitation  = "%%CITATION = NUIMA,A398,109;%%"
+}
+
+@Article{Airapetian:2005cb,
+     author    = "Airapetian, A. and others",
+ collaboration = "HERMES",
+     title     = "{First measurement of the tensor structure function b1 of
+                  the deuteron}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "95",
+     year      = "2005",
+     pages     = "242001",
+     eprint    = "hep-ex/0506018",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevLett.95.242001",
+     SLACcitation  = "%%CITATION = HEP-EX/0506018;%%"
+}
+
+@Article{Osipenko:2005nx,
+     author    = "Osipenko, M. and others",
+     title     = "{Global analysis of data on the proton structure function
+                  g1 and  extraction of its moments}",
+     journal   = "Phys. Rev.",
+     volume    = "D71",
+     year      = "2005",
+     pages     = "054007",
+     eprint    = "hep-ph/0503018",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevD.71.054007",
+     SLACcitation  = "%%CITATION = HEP-PH/0503018;%%"
+}
+
+@Article{Wesselmann:2006mw,
+     author    = "Wesselmann, F. R. and others",
+ collaboration = "RSS",
+     title     = "{Proton Spin Structure in the Resonance Region}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "98",
+     year      = "2007",
+     pages     = "132003",
+     eprint    = "nucl-ex/0608003",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevLett.98.132003",
+     SLACcitation  = "%%CITATION = NUCL-EX/0608003;%%"
+}
+
+@Article{Guichon:1995pu,
+     author    = "Guichon, P. A. M. and Liu, G. Q. and Thomas, Anthony
+                  William",
+     title     = "{Virtual Compton scattering and generalized
+                  polarizabilities of the proton}",
+     journal   = "Nucl. Phys.",
+     volume    = "A591",
+     year      = "1995",
+     pages     = "606-638",
+     eprint    = "nucl-th/9605031",
+     archivePrefix = "arXiv",
+     doi       = "10.1016/0375-9474(95)00217-O",
+     SLACcitation  = "%%CITATION = NUCL-TH/9605031;%%"
+}
+
+@Article{Zemach,
+     author    = "Zemach, A. C.",
+     title     = "Proton Structure and the Hyperfine Shift in Hydrogen", 
+     journal   = "Phys. Rev.", 
+     volume    = "104", 
+     pages     = "1771", 
+     year      = "1956"
+}
+
+
+@Article{Shuryak:1981pi,
+     author    = "Shuryak, Edward V. and Vainshtein, A. I.",
+     title     = "{Theory of Power Corrections to Deep Inelastic Scattering
+                  in Quantum Chromodynamics. 2. Q**4 Effects: Polarized
+                  Target}",
+     journal   = "Nucl. Phys.",
+     volume    = "B201",
+     year      = "1982",
+     pages     = "141",
+     doi       = "10.1016/0550-3213(82)90377-7",
+     SLACcitation  = "%%CITATION = NUPHA,B201,141;%%"
+}
+
+@Article{Jones:2006kf,
+     author    = "Jones, M. K. and others",
+ collaboration = "Resonance Spin Structure",
+     title     = "{Proton G(E)/G(M) from beam-target asymmetry}",
+     journal   = "Phys. Rev.",
+     volume    = "C74",
+     year      = "2006",
+     pages     = "035201",
+     eprint    = "nucl-ex/0606015",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevC.74.035201",
+     SLACcitation  = "%%CITATION = NUCL-EX/0606015;%%"
+}
+
+@Article{Averett:1999nz,
+     author    = "Averett, T. D. and others",
+     title     = "{A solid polarized target for high-luminosity
+                  experiments}",
+     journal   = "Nucl. Instrum. Meth.",
+     volume    = "A427",
+     year      = "1999",
+     pages     = "440-454",
+     doi       = "10.1016/S0168-9002(98)01431-4",
+     SLACcitation  = "%%CITATION = NUIMA,A427,440;%%"
+}
+
+@Article{Hayashi:1995xt,
+     author    = "Hayashi, N. and others",
+     title     = "{Online system for NMR polarization measurement}",
+     journal   = "Nucl. Instrum. Meth.",
+     volume    = "A356",
+     year      = "1995",
+     pages     = "91-95",
+     doi       = "10.1016/0168-9002(94)01451-5",
+     SLACcitation  = "%%CITATION = NUIMA,A356,91;%%"
+}
+
+@Article{Niinikoski:1981kc,
+     author    = "Niinikoski, T. O.",
+     title     = "{DILUTION REFRIGERATOR FOR A 2-LITER POLARIZED TARGET}",
+     journal   = "Nucl. Instr. Meth.",
+     volume    = "192",
+     year      = "1982",
+     pages     = "151",
+     doi       = "10.1016/0029-554X(82)90817-5",
+     SLACcitation  = "%%CITATION = NUIMA,192,151;%%"
+}
+
+@Article{Court:1993mc,
+     author    = "Court, G. R. and Gifford, D. W. and Harrison, P. and Heyes,
+                  W. G. and Houlden, M. A.",
+     title     = "{A High precision Q meter for the measurement of proton
+                  polarization in polarized targets}",
+     journal   = "Nucl. Instrum. Meth.",
+     volume    = "A324",
+     year      = "1993",
+     pages     = "433-440",
+     doi       = "10.1016/0168-9002(93)91047-Q",
+     SLACcitation  = "%%CITATION = NUIMA,A324,433;%%"
+}
+
+@Article{Crabb:1997cy,
+     author    = "Crabb, D. G. and Meyer, W.",
+     title     = "{Solid polarized targets for nuclear and particle physics
+                  experiments}",
+     journal   = "Ann. Rev. Nucl. Part. Sci.",
+     volume    = "47",
+     year      = "1997",
+     pages     = "67-109",
+     doi       = "10.1146/annurev.nucl.47.1.67",
+     SLACcitation  = "%%CITATION = ARNUA,47,67;%%"
+}
+
+@Article{Keith:2003ca,
+     author    = "Keith, C. D. and others",
+     title     = "{A polarized target for the CLAS detector}",
+     journal   = "Nucl. Instrum. Meth.",
+     volume    = "A501",
+     year      = "2003",
+     pages     = "327-339",
+     doi       = "10.1016/S0168-9002(03)00429-7",
+     SLACcitation  = "%%CITATION = NUIMA,A501,327;%%"
+}
+
+@Article{Martin:2009iq,
+     author    = "Martin, A. D. and Stirling, W. J. and Thorne, R. S. and
+                  Watt, G.",
+     title     = "{Parton distributions for the LHC}",
+     journal   = "Eur. Phys. J.",
+     volume    = "C63",
+     year      = "2009",
+     pages     = "189-285",
+     eprint    = "0901.0002",
+     archivePrefix = "arXiv",
+     primaryClass  =  "hep-ph",
+     doi       = "10.1140/epjc/s10052-009-1072-5",
+     SLACcitation  = "%%CITATION = 0901.0002;%%"
+}
+
+@Article{Carlson:1997qn,
+     author    = "Carlson, J. and Schiavilla, R.",
+     title     = "{Structure and dynamics of few-nucleon systems}",
+     journal   = "Rev. Mod. Phys.",
+     volume    = "70",
+     year      = "1998",
+     pages     = "743-842",
+     doi       = "10.1103/RevModPhys.70.743",
+     SLACcitation  = "%%CITATION = RMPHA,70,743;%%"
+}
+@Article{Edelmann:1997ik,
+     author    = "Edelmann, J. and Piller, G. and Weise, W.",
+     title     = "{Deuteron spin structure functions at small Bjorken-x}",
+     journal   = "Phys. Rev.",
+     volume    = "C57",
+     year      = "1998",
+     pages     = "3392-3405",
+     eprint    = "hep-ph/9709455",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevC.57.3392",
+     SLACcitation  = "%%CITATION = HEP-PH/9709455;%%"
+}
+
+@Article{Umnikov:1996qv,
+     author    = "Umnikov, A. Yu.",
+     title     = "{Relativistic Calculation of Structure Functions b_{1,2}(X)
+                  of the Deuteron}",
+     journal   = "Phys. Lett.",
+     volume    = "B391",
+     year      = "1997",
+     pages     = "177-184",
+     eprint    = "hep-ph/9605291",
+     archivePrefix = "arXiv",
+     doi       = "10.1016/S0370-2693(96)01440-2",
+     SLACcitation  = "%%CITATION = HEP-PH/9605291;%%"
+}
+
+@Article{Efremov:1981vs,
+     author    = "Efremov, A. V. and Teryaev, O. V.",
+     title     = "{ON HIGH P(T) VECTOR MESONS SPIN ALIGNMENT}",
+     journal   = "Sov. J. Nucl. Phys.",
+     volume    = "36",
+     year      = "1982",
+     pages     = "557",
+     SLACcitation  = "%%CITATION = SJNCA,36,557;%%"
+}
+
+@Article{Forest:1996kp,
+     author    = "Forest, J. L. and others",
+     title     = "{Femtometer Toroidal Structures in Nuclei}",
+     journal   = "Phys. Rev.",
+     volume    = "C54",
+     year      = "1996",
+     pages     = "646-667",
+     eprint    = "nucl-th/9603035",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevC.54.646",
+     SLACcitation  = "%%CITATION = NUCL-TH/9603035;%%"
+}
+
+@Article{Frankfurt:1981mk,
+     author    = "Frankfurt, L. L. and Strikman, M. I.",
+     title     = "{High-Energy Phenomena, Short Range Nuclear Structure and
+                  QCD}",
+     journal   = "Phys. Rept.",
+     volume    = "76",
+     year      = "1981",
+     pages     = "215-347",
+     doi       = "10.1016/0370-1573(81)90129-0",
+     SLACcitation  = "%%CITATION = PRPLC,76,215;%%"
+}
+
+@Article{Sargsian:2001gu,
+     author    = "Sargsian, M. M. and Simula, S. and Strikman, M. I.",
+     title     = "{Neutron structure function and inclusive DIS from H-3 and
+                  He-3 at large  Bjorken-x}",
+     journal   = "Phys. Rev.",
+     volume    = "C66",
+     year      = "2002",
+     pages     = "024001",
+     eprint    = "nucl-th/0105052",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevC.66.024001",
+     SLACcitation  = "%%CITATION = NUCL-TH/0105052;%%"
+}
+
+
+
+%\cite{FS81} L.~L.~Frankfurt, M.~I.~Strikman, Phys.\ Rept.\ {\bf 76}, 215-347 (1981).
+%\cite{SSS}M.~M.~Sargsian, S.~Simula, M.~I.~Strikman,  Phys.\ Rev.\ {\bf C66}, 024001 (2002).
+%\cite{MS}M.~M.~Sargsiabm {\em private communication}
+
+
+@article{Taneja:2011sy,
+      author         = "Taneja, Swadhin K. and Kathuria, Kunal and Liuti,
+                        Simonetta and Goldstein, Gary R.",
+      title          = "{Angular momentum sum rule for spin one hadronic
+                        systems}",
+      journal        = "Phys.Rev.",
+      volume         = "D86",
+      pages          = "036008",
+      doi            = "10.1103/PhysRevD.86.036008",
+      year           = "2012",
+      eprint         = "1101.0581",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1101.0581;%%",
+}
+
+@article{Brodsky:1983vf,
+      author         = "Brodsky, Stanley J. and Ji, Chueng-Ryong and Lepage, G.
+                        Peter",
+      title          = "{Quantum Chromodynamic Predictions for the Deuteron
+                        Form-Factor}",
+      journal        = "Phys.Rev.Lett.",
+      volume         = "51",
+      pages          = "83",
+      doi            = "10.1103/PhysRevLett.51.83",
+      year           = "1983",
+      reportNumber   = "SLAC-PUB-3064",
+      SLACcitation   = "%%CITATION = PRLTA,51,83;%%",
+}
+
+@article{Brodsky:2005ww,
+      author         = "Brodsky, Stanley J.",
+      title          = "{Novel Nuclear Effects in QCD: Non-Universality of
+                        Nuclear Antishadowing and Hidden Color Phenomena}",
+      journal        = "AIP Conf.Proc.",
+      volume         = "792",
+      pages          = "279-282",
+      doi            = "10.1063/1.2122036",
+      year           = "2005",
+      reportNumber   = "SLAC-PUB-11305",
+      SLACcitation   = "%%CITATION = APCPC,792,279;%%",
+}
+
+@article{deBoer:1974vr,
+      author         = "de Boer, W.",
+      title          = "Dynamic Orientation of Nuclei at Low Temperatures: A
+                        Study of the Mechanisms of Dynamic Polarization in
+                        Polarized Targets",
+      year           = "1974",
+      reportNumber   = "CERN-74-11",
+      SLACcitation   = "%%CITATION = CERN-74-11 ETC.;%%",
+      journal        = "Cern Report CERN-74-11"
+}
+
+@misc{CRABBLAB,
+      note={S. Bueltmann, D. Crabb, Y. Prok. {\it UVa Target Studies},  UVa Target Lab technical note, 1999.}
+ }
+ 
+@misc{misak-convo,
+     note ={M.~Sargsian, private communication}
+     }
+
+@article{PhysRevLett.82.1379,
+  title = {Precise Measurement of the Deuteron Elastic Structure Function $\mathit{A}({\mathit{Q}}^{2})$},
+  author = {Abbott, D. and Ahmidouch, A. and Anklin, H. and Arvieux, J. and Ball, J. and Beedoe, S. and Beise, E. J. and Bimbot, L. and Boeglin, W. and Breuer, H. and Carlini, R. and Chant, N. S. and Danagoulian, S. and Dow, K. and Ducret, J.-E. and Dunne, J. and Ent, R. and Ewell, L. and Eyraud, L. and Furget, C. and Gar\ifmmode \mbox{\c{c}}\else \c{c}\fi{}on, M. and Gilman, R. and Glashausser, C. and Gueye, P. and Gustafsson, K. and Hafidi, K. and Honegger, A. and Jourdan, J. and Kox, S. and Kumbartzki, G. and Lu, L. and Lung, A. and Mack, D. and Markowitz, P. and McIntyre, J. and Meekins, D. and Merchez, F. and Mitchell, J. and Mohring, R. and Mtingwa, S. and Mrktchyan, H. and Pitz, D. and Qin, L. and Ransome, R. and R\'eal, J.-S. and Roos, P. G. and Rutt, P. and Sawafta, R. and Stepanyan, S. and Tieulent, R. and Tomasi-Gustafsson, E. and Turchinetz, W. and Vansyoc, K. and Volmer, J. and Voutier, E. and Vulcan, W. and Williamson, C. and Wood, S. A. and Yan, C. and Zhao, J. and Zhao, W.},
+  collaboration = {(The Jefferson Lab t20 Collaboration)},
+  journal = {Phys. Rev. Lett.},
+  volume = {82},
+  issue = {7},
+  pages = {1379--1382},
+  year = {1999},
+  month = {Feb},
+  doi = {10.1103/PhysRevLett.82.1379},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.82.1379},
+  publisher = {American Physical Society}
+}
+
+@article{Abbott:2000ak,
+      author         = "Abbott, D. and others",
+      title          = "{Phenomenology of the deuteron electromagnetic
+                        form-factors}",
+      collaboration  = "JLAB t20 Collaboration",
+      journal        = "Eur.Phys.J.",
+      volume         = "A7",
+      pages          = "421-427",
+      doi            = "10.1007/PL00013629",
+      year           = "2000",
+      eprint         = "nucl-ex/0002003",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      reportNumber   = "JLAB-PHY-00-30",
+      SLACcitation   = "%%CITATION = NUCL-EX/0002003;%%",
+}
+
+@misc{T20ALL,
+      note = "M. E. Schulze {\it et al.}, Phys. Rev. Lett. 52, 597 (1984); V. Dmitriev {\it et al.}, Phys. Lett. {\bf B157}, 143 (1985); R. A. Gilman {\it et al.}, Phys. Rev. Lett. {\bf 65}, 1733 (1990); B. Boden {\it et al.}, Z. Phys. {\bf C49}, 175 (1991); M. Garcon, Nucl. Phys. {\bf A508}, 445C (1990); I. The {\it et al.}, Phys. Rev. Lett. {\bf 67}, 173 (1991); M. Garcon {\it et al.}, Phys. Rev. {\bf C49}, 2516 (1994)."
+}
+
+@article{PhysRevLett.52.597,
+  title = {Measurement of the Tensor Polarization in Electron-Deuteron Elastic Scattering},
+  author = {Schulze, M. E. and Beck, D. and Farkhondeh, M. and Gilad, S. and Goloskie, R. and Holt, R. J. and Kowalski, S. and Laszewski, R. M. and Leitch, M. J. and Moses, J. D. and Redwine, R. P. and Saylor, D. P. and Specht, J. R. and Stephenson, E. J. and Stephenson, K. and Turchinetz, W. and Zeidman, B.},
+  journal = {Phys. Rev. Lett.},
+  volume = {52},
+  issue = {8},
+  pages = {597--600},
+  year = {1984},
+  month = {Feb},
+  doi = {10.1103/PhysRevLett.52.597},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.52.597},
+  publisher = {American Physical Society}
+}
+
+@article{Dmitriev1985143,
+title = "First measurement of the asymmetry in electron scattering by a jet target of polarized deuterium atoms ",
+journal = "Physics Letters B ",
+volume = "157",
+number = "2–3",
+pages = "143 - 145",
+year = "1985",
+note = "",
+issn = "0370-2693",
+doi = "http://dx.doi.org/10.1016/0370-2693(85)91534-5",
+url = "http://www.sciencedirect.com/science/article/pii/0370269385915345",
+author = "V.F. Dmitriev and D.M. Nikolenko and S.G. Popov and I.A. Rachek and Yu.M. Shatunov and D.K. Toporkov and E.P. Tsentalovich and Yu.G. Ukraintsev and B.B. Voitsekhovskii and V.G. Zelevinsky"
+}
+
+@article{Gilman:1990vg,
+      author         = "Gilman, Ronald A. and Holt, R.J. and Kinney, E.R. and
+                        Kowalczyk, R.S. and Mishnev, S.I. and others",
+      title          = "{Measurement of tensor analyzing power in electron
+                        deuteron elastic scattering}",
+      journal        = "Phys.Rev.Lett.",
+      volume         = "65",
+      pages          = "1733-1736",
+      doi            = "10.1103/PhysRevLett.65.1733",
+      year           = "1990",
+      SLACcitation   = "%%CITATION = PRLTA,65,1733;%%",
+}
+@article{Boden:1990una,
+      author         = "Boden, B. and Burkert, V. and Knop, G. and Kroesen, G.
+                        and Leenen, M. and others",
+      title          = "{Elastic electron deuteron scattering on a tensor
+                        polarized solid ND-3 target}",
+      journal        = "Z.Phys.",
+      volume         = "C49",
+      pages          = "175-186",
+      doi            = "10.1007/BF01555492",
+      year           = "1991",
+      reportNumber   = "BONN-ME-90-06",
+      SLACcitation   = "%%CITATION = ZEPYA,C49,175;%%",
+}
+
+@article{Garcon:1989gy,
+      author         = "Garcon, M.",
+      title          = "{POLARIZATION MEASUREMENTS IN ELASTIC ELECTRON - DEUTERON
+                        SCATTERING}",
+      journal        = "Nucl.Phys.",
+      volume         = "A508",
+      pages          = "445C-454C",
+      doi            = "10.1016/0375-9474(90)90508-J",
+      year           = "1990",
+      reportNumber   = "SACLAY-DPh-N-2545, C89/03/06",
+      SLACcitation   = "%%CITATION = NUPHA,A508,445C;%%",
+}
+
+@article{The:1991eg,
+      author         = "The, I. and Arvieux, J. and Beck, D.H. and Beise, E.J.
+                        and Boudard, A. and others",
+      title          = "{Measurement of tensor polarization in elastic electron
+                        deuteron scattering in the momentum transfer range
+                        3.8-fm**(-1) &lt;= q &lt;= 4.6-fm**(-1)}",
+      journal        = "Phys.Rev.Lett.",
+      volume         = "67",
+      pages          = "173-176",
+      doi            = "10.1103/PhysRevLett.67.173",
+      year           = "1991",
+      SLACcitation   = "%%CITATION = PRLTA,67,173;%%",
+}
+
+@article{Garcon:1993vm,
+      author         = "Garcon, M. and Arvieux, J. and Beck, D.H. and Beise, E.J.
+                        and Boudard, A. and others",
+      title          = "{Tensor polarization in elastic electron - deuteron
+                        scattering in the momentum transfer range 3.8-fm**-1 &lt;=
+                        q &lt;= 4.6-fm**-1}",
+      journal        = "Phys.Rev.",
+      volume         = "C49",
+      pages          = "2516-2537",
+      doi            = "10.1103/PhysRevC.49.2516",
+      year           = "1994",
+      reportNumber   = "DAPNIA-SPHN-93-19",
+      SLACcitation   = "%%CITATION = PHRVA,C49,2516;%%",
+}
+
+@misc{BISHOP,
+     note ="H.~Bishop, Communications and Power Industries (CPI). Personal communication"}
+
+@misc{HAUTLETHESIS,
+        note="P. Hautle, PhD. Thesis."
+}
+
+@article{Frankfurt:1988nt,
+      author         = "Frankfurt, L.L. and Strikman, M.I.",
+      title          = "{Hard Nuclear Processes and Microscopic Nuclear
+                        Structure}",
+      journal        = "Phys.Rept.",
+      volume         = "160",
+      pages          = "235-427",
+      doi            = "10.1016/0370-1573(88)90179-2",
+      year           = "1988",
+      SLACcitation   = "%%CITATION = PRPLC,160,235;%%",
+}
+
+@article{HAUTNIM,
+      author         = "P. Hautle and others",
+      journal        = "Nucl.Instrum.Meth.",
+      volume         = "A356",
+      pages          = "108",
+      year           = "1995",
+}
+
+@article{Berger:2001zb,
+      author         = "Berger, Edgar R. and Cano, F. and Diehl, M. and Pire, B.",
+      title          = "{Generalized parton distributions in the deuteron}",
+      journal        = "Phys.Rev.Lett.",
+      volume         = "87",
+      pages          = "142302",
+      doi            = "10.1103/PhysRevLett.87.142302",
+      year           = "2001",
+      eprint         = "hep-ph/0106192",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CPHT-S029-0601, DESY-01-082",
+      SLACcitation   = "%%CITATION = HEP-PH/0106192;%%",
+}
+
+@article{Berger:2001xd,
+      author         = "Berger, Edgar R. and Diehl, M. and Pire, B.",
+      title          = "{Time - like Compton scattering: Exclusive
+                        photoproduction of lepton pairs}",
+      journal        = "Eur.Phys.J.",
+      volume         = "C23",
+      pages          = "675-689",
+      doi            = "10.1007/s100520200917",
+      year           = "2002",
+      eprint         = "hep-ph/0110062",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CPHT-S010-0201, DESY-01-119",
+      SLACcitation   = "%%CITATION = HEP-PH/0110062;%%",
+}
+
+@misc{Pierce:2013pua,
+      author         = "Pierce, Joshua and Maxwell, James and Badman, Toby and
+                        Brock, James and Carlin, Christopher and others",
+      title          = "{{\it Dynamically polarized target for the g2p and GEp
+                        experiments at Jefferson Lab}, arXiv 1305.3295. In press.  Nucl. Instr. Meth.}",
+      year           = "2013",
+      eprint         = "1305.3295",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      reportNumber   = "JLAB-PHY-13-1712",
+      SLACcitation   = "%%CITATION = ARXIV:1305.3295;%%",
+}
+
+
+@Article{Hoodbhoy:1988am,
+     author    = "Hoodbhoy, Pervez and Jaffe, R. L. and Manohar, Aneesh",
+     title     = "{Novel Effects in Deep Inelastic Scattering from Spin 1
+                  Hadrons}",
+     journal   = "Nucl. Phys.",
+     volume    = "B312",
+     year      = "1989",
+     pages     = "571",
+     doi       = "10.1016/0550-3213(89)90572-5",
+     SLACcitation  = "%%CITATION = NUPHA,B312,571;%%"
+}
+
+@Article{Lampe:1998eu,
+     author    = "Lampe, Bodo and Reya, Ewald",
+     title     = "{Spin physics and polarized structure functions}",
+     journal   = "Phys. Rept.",
+     volume    = "332",
+     year      = "2000",
+     pages     = "1-163",
+     eprint    = "hep-ph/9810270",
+     archivePrefix = "arXiv",
+     doi       = "10.1016/S0370-1573(99)00100-3",
+     SLACcitation  = "%%CITATION = HEP-PH/9810270;%%"
+}
+
+@Article{Close:1990zw,
+     author    = "Close, F. E. and Kumano, S.",
+     title     = "{A sum rule for the spin dependent structure function b-
+                  1(x) for spin one hadrons}",
+     journal   = "Phys. Rev.",
+     volume    = "D42",
+     year      = "1990",
+     pages     = "2377-2379",
+     doi       = "10.1103/PhysRevD.42.2377",
+     SLACcitation  = "%%CITATION = PHRVA,D42,2377;%%"
+}
+
+@Article{Khan:1991qk,
+     author    = "Khan, H. and Hoodbhoy, P.",
+     title     = "{Convenient parametrization for deep inelastic structure
+                  functions of the deuteron}",
+     journal   = "Phys. Rev.",
+     volume    = "C44",
+     year      = "1991",
+     pages     = "1219-1222",
+     doi       = "10.1103/PhysRevC.44.1219",
+     SLACcitation  = "%%CITATION = PHRVA,C44,1219;%%"
+}
+
+@Article{Kumano:2010vz,
+     author    = "Kumano, S.",
+     title     = "{Tensor-polarized quark and antiquark distribution
+                  functions in a spin-one hadron}",
+     journal   = "Phys. Rev.",
+     volume    = "D82",
+     year      = "2010",
+     pages     = "017501",
+     eprint    = "1005.4524",
+     archivePrefix = "arXiv",
+     primaryClass  =  "hep-ph",
+     doi       = "10.1103/PhysRevD.82.017501",
+     SLACcitation  = "%%CITATION = 1005.4524;%%"
+}
+
+@Article{Bora:1997pi,
+     author    = "Bora, K. and Jaffe, R. L.",
+     title     = "{The double scattering contribution to b1(x,Q**2) in the
+                  deuteron}",
+     journal   = "Phys. Rev.",
+     volume    = "D57",
+     year      = "1998",
+     pages     = "6906-6911",
+     eprint    = "hep-ph/9711323",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevD.57.6906",
+     SLACcitation  = "%%CITATION = HEP-PH/9711323;%%"
+}
+
+@Article{Nikolaev:1996jy,
+     author    = "Nikolaev, Nikolai N. and Schafer, W.",
+     title     = "{Nonvanishing tensor polarization of sea quarks in
+                  polarized deuterons}",
+     journal   = "Phys. Lett.",
+     volume    = "B398",
+     year      = "1997",
+     pages     = "245-251",
+     eprint    = "hep-ph/9611460",
+     archivePrefix = "arXiv",
+     doi       = "10.1016/S0370-2693(97)00250-5",
+     SLACcitation  = "%%CITATION = HEP-PH/9611460;%%"
+}
+
+@Article{Sather:1990bq,
+     author    = "Sather, Eric and Schmidt, Carl",
+     title     = "{Size and scaling of the double helicity flip hadronic
+                  structure function}",
+     journal   = "Phys. Rev.",
+     volume    = "D42",
+     year      = "1990",
+     pages     = "1424-1428",
+     doi       = "10.1103/PhysRevD.42.1424",
+     SLACcitation  = "%%CITATION = PHRVA,D42,1424;%%"
+}
+
+@Article{Piller:1997ny,
+     author    = "Piller, G. and Niesler, G. and Weise, W.",
+     title     = "{Diffractive phenomena and shadowing in deep-inelastic
+                  scattering}",
+     journal   = "Z. Phys.",
+     volume    = "A358",
+     year      = "1997",
+     pages     = "407-413",
+     eprint    = "hep-ph/9707266",
+     archivePrefix = "arXiv",
+     doi       = "10.1007/s002180050348",
+     SLACcitation  = "%%CITATION = HEP-PH/9707266;%%"
+}
+
+@Article{Miller:1989nc,
+     author    = "Miller, G. A.",
+     title     = "{The b(1) structure function and nuclear pions}",
+     journal      = "In Stanford 1989, Proceedings, Electronuclear physics with
+                  internal targets 30-33"
+}
+
+@Article{Sutton:1991ay,
+     author    = "Sutton, P. J. and Martin, Alan D. and Roberts, R. G. and
+                  Stirling, W. James",
+     title     = "{Parton distributions for the pion extracted from Drell-Yan
+                  and prompt photon experiments}",
+     journal   = "Phys. Rev.",
+     volume    = "D45",
+     year      = "1992",
+     pages     = "2349-2359",
+     doi       = "10.1103/PhysRevD.45.2349",
+     SLACcitation  = "%%CITATION = PHRVA,D45,2349;%%"
+}
+
+@Misc{Miller_tmp,
+     author    = "Miller, G. A.",
+     note      = "Private communication, to be published"
+}
+
+
+@Article{Riedl:2005jq,
+     author    = "Riedl, Caroline",
+     title     = "{The first measurement of the tensor structure function
+                  b1(d) of the  deuteron with the HERMES experiment}",
+     year      = "2005",
+     Journal   = "Ph. D thesis, DESY-THESIS-2005-027"
+}
+@misc{ALTOBIAS,
+     author    = "Tobias, Al",
+     note     = "{Measurement of the Proton and Deuteron Spin Structure Functions $g_1$ and $g_2$. Ph. D thesis, 2001.}",
+     year      = "2001",
+     Journal   = "Ph. D thesis"
+}
+
+
+@Article{Frankfurt:1983qs,
+     author    = "Frankfurt, L. L. and Strikman, M. I.",
+     title     = "{HIGH MOMENTUM TRANSFER PROCESSES WITH POLARIZED
+                  DEUTERONS}",
+     journal   = "Nucl. Phys.",
+     volume    = "A405",
+     year      = "1983",
+     pages     = "557-580",
+     doi       = "10.1016/0375-9474(83)90518-3",
+     SLACcitation  = "%%CITATION = NUPHA,A405,557;%%"
+}
+
+@Article{Pais:1967zz,
+     author    = "Pais, A.",
+     title     = "{Low-Energy Theorems for Spin S>~1}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "19",
+     year      = "1967",
+     pages     = "544-546",
+     doi       = "10.1103/PhysRevLett.19.544",
+     SLACcitation  = "%%CITATION = PRLTA,19,544;%%"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@Article{Burkhardt:1970ti,
+     author    = "Burkhardt, Hugh and Cottingham, W. N.",
+     title     = "Sum rules for forward virtual Compton scattering",
+     journal   = "Annals Phys.",
+     volume    = "56",
+     year      = "1970",
+     pages     = "453-463"
+}
+@Article{Amarian:2002ar,
+     author    = "Amarian, M. and others",
+     title     = "The Q**2 evolution of the generalized Gerasimov-Drell-Hearn
+                  integral  for the neutron using a He-3 target",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "89",
+     year      = "2002",
+     pages     = "242301"
+}
+
+@Article{Amarian:2004tmp,
+     author    = "Amarian, M. and others",
+     title     = "The $Q^2$ evolution of the Neutron Spin Structure Moments
+                  using a $^3$He target",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "92",
+     year      = "2004",
+     pages     = "022301"
+}
+@Article{Amarian:2004yf,
+     author    = "Amarian, M. and others",
+     title     = "Measurement of the generalized forward spin
+                  polarizabilities of the neutron",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "93",
+     year      = "2004",
+     pages     = "152301",
+}
+@Article{Meziani:2004ne,
+     author    = "Meziani, Z.-E. and others",
+     title     = "Higher twists and color polarizabilities in the neutron",
+     year      = "2004",
+     SLIFERCOMMENT = {eprint    = "hep-ph/0404066"},
+     note = "hep-ph/0404066",
+     SLACcitation  = "%%CITATION = HEP-PH 0404066;%%"
+}
+
+@Article{Deur:2004ti,
+     author    = "Deur, A. and others",
+     title     = "{Experimental determination of the evolution of the Bjorken
+                  integral at  low Q**2}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "93",
+     year      = "2004",
+     pages     = "212001",
+     eprint    = "hep-ex/0407007",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevLett.93.212001",
+     SLACcitation  = "%%CITATION = HEP-EX/0407007;%%"
+}
+
+
+
+@Article{Ji:1999mr,
+     author    = "Ji, Xiang-Dong and Osborne, Jonathan",
+     title     = "Generalized sum rules for spin-dependent structure
+                  functions of the  nucleon",
+     journal   = "J. Phys.",
+     volume    = "G27",
+     year      = "2001",
+     pages     = "127",
+     eprint    = "hep-ph/9905410",
+     SLACcitation  = "%%CITATION = HEP-PH 9905410;%%"
+}
+@Article{Drechsel:2000ct,
+     author    = "Drechsel, D. and Kamalov, S. S. and Tiator, L.",
+     title     = "The GDH sum rule and related integrals",
+     journal   = "Phys. Rev.",
+     volume    = "D63",
+     year      = "2001",
+     pages     = "114010"
+}
+@Article{Amroun:1994qj,
+     author    = "Amroun, A. and others",
+     title     = "H-3 and He-3 electromagnetic form-factors",
+     journal   = "Nucl. Phys.",
+     volume    = "A579",
+     year      = "1994",
+     pages     = "596-626"
+}
+@Article{Drechsel:1998hk,
+     author    = "Drechsel, D. and Hanstein, O. and Kamalov, S. S. and
+                  Tiator, L.",
+     title     = "A unitary isobar model for pion photo- and
+                  electroproduction on the  proton up to 1-GeV",
+     journal   = "Nucl. Phys.",
+     volume    = "A645",
+     year      = "1999",
+     pages     = "145-174"
+}
+@Article{CiofidegliAtti:1994cm,
+     author    = "Ciofi degli Atti, Claudio and Pace, E. and Salme, G.",
+     title     = "Investigation of the neutron form-factors by inclusive
+                  quasielastic scattering of polarized electrons off
+                  polarized He-3: A Theoretical overview",
+     journal   = "Phys. Rev.",
+     volume    = "C51",
+     year      = "1995",
+     pages     = "1108-1119"
+}
+@Article{Pace:2001cm,
+     author    = "Pace, E. and Salme, G. and Scopetta, S. and Kievsky, A.",
+     title     = "Neutron structure function F2(n)(x) from deep inelastic
+                  electron  scattering off few-nucleon systems",
+     journal   = "Phys. Rev.",
+     volume    = "C64",
+     year      = "2001",
+     pages     = "055203"
+}
+@Article{Anthony:2002hy,
+     author    = "Anthony, P. L. and others",
+ collaboration = "E155",
+     title     = "Precision measurement of the proton and deuteron spin
+                  structure  functions g2 and asymmetries A(2)",
+     journal   = "Phys. Lett.",
+     volume    = "B553",
+     year      = "2003",
+     pages     = "18-24",
+     eprint    = "hep-ex/0204028",
+     SLACcitation  = "%%CITATION = HEP-EX 0204028;%%"
+}
+@Article{Airapetian:2002wd,
+     author    = "Airapetian, A. and others",
+ collaboration = "HERMES",
+     title     = "The Q**2-dependence of the generalised Gerasimov-Drell-
+                  Hearn integral for the deuteron, proton and neutron",
+     journal   = "Eur. Phys. J.",
+     volume    = "C26",
+     year      = "2003",
+     pages     = "527-538",
+     eprint    = "hep-ex/0210047",
+     SLACcitation  = "%%CITATION = HEP-EX 0210047;%%"
+}
+@Article{Fatemi:2003yh,
+     author    = "Fatemi, R. and others",
+     title     = "Measurement of the proton spin structure function
+                  g1(x,Q**2) for Q**2  from 0.15-GeV**2 to 1.6-GeV**2 with
+                  CLAS",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "91",
+     year      = "2003",
+     pages     = "222002"
+}
+@Article{Wandzura:1977qf,
+     author    = "Wandzura, S. and Wilczek, Frank",
+     title     = "SUM RULES FOR SPIN DEPENDENT ELECTROPRODUCTION: TEST OF
+                  RELATIVISTIC CONSTITUENT QUARKS",
+     journal   = "Phys. Lett.",
+     volume    = "B72",
+     year      = "1977",
+     pages     = "195"
+}
+@Article{Meissner_chiral2,
+     author    = "Bernard, Veronique and Hemmert, Thomas R. and Meissner,
+                  Ulf-G.",
+     title     = "Novel analysis of chiral loop effects in the generalized
+                  Gerasimov-Drell-Hearn sum rule",
+     journal   = "Phys. Lett.",
+     volume    = "B545",
+     year      = "2002",
+     pages     = "105-111",
+     eprint    = "hep-ph/0203167",
+     SLACcitation  = "%%CITATION = HEP-PH 0203167;%%"
+}
+@Article{Bernard:2002bs,
+     author    = "Bernard, Veronique and Hemmert, Thomas R. and Meissner,
+                  Ulf-G.",
+     title     = "Novel analysis of chiral loop effects in the generalized
+                  Gerasimov-Drell-Hearn sum rule",
+     journal   = "Phys. Lett.",
+     volume    = "B545",
+     year      = "2002",
+     pages     = "105-111",
+     eprint    = "hep-ph/0203167",
+     SLACcitation  = "%%CITATION = HEP-PH 0203167;%%"
+}
+@Article{Kao:2002cp,
+     author    = "Kao, Chung Wen and Spitzenberg, Thomas and Vanderhaeghen,
+                  Marc",
+     title     = "Burkhardt-Cottingham sum rule and forward spin
+                  polarizabilities in heavy baryon chiral perturbation
+                  theory",
+     journal   = "Phys. Rev.",
+     volume    = "D67",
+     year      = "2003",
+     pages     = "016001",
+     eprint    = "hep-ph/0209241",
+     SLACcitation  = "%%CITATION = HEP-PH 0209241;%%"
+}
+@Article{Abe:1998wq,
+     author    = "Abe, K. and others",
+ collaboration = "E143",
+     title     = "Measurements of the proton and deuteron spin structure
+                  functions g1  and g2",
+     journal   = "Phys. Rev.",
+     volume    = "D58",
+     year      = "1998",
+     pages     = "112003",
+     eprint    = "hep-ph/9802357",
+     SLACcitation  = "%%CITATION = HEP-PH 9802357;%%"
+}
+@misc{SOLVI,
+      note={P. Solvignon,
+               b1 Technical note \#06,
+               (2011).}
+ }
+
+@misc{GDHSHORT,
+      note={S. Gerasimov,
+                Sov. J. Nucl. Phys. {\bf 2}, 430
+               (1966);
+            {S. D. Drell and A. C. Hearn} ,
+        Phys. Rev. Lett. {\bf 16}, 908 (1966);
+            {M. Hosoda and K. Yamamoto},
+        {Prog. Theor. Phys. } {\bf 30}, 425 (1966).}
+ }
+@Article{Gockeler:2000ja,
+     author    = "Gockeler, M. and others",
+     title     = "A lattice calculation of the nucleon's spin-dependent
+                  structure  function g2 revisited",
+     journal   = "Phys. Rev.",
+     volume    = "D63",
+     year      = "2001",
+     pages     = "074506",
+     eprint    = "hep-lat/0011091",
+     SLACcitation  = "%%CITATION = HEP-LAT 0011091;%%"
+}
+@Article{Stratmann:1993aw,
+     author    = "Stratmann, M.",
+     title     = "Bag model predictions for polarized structure functions and
+                  their Q**2 evolutions",
+     journal   = "Z. Phys.",
+     volume    = "C60",
+     year      = "1993",
+     pages     = "763-772",
+     SLACcitation  = "%%CITATION = ZEPYA,C60,763;%%"
+}
+@Article{Song:1996ea,
+     author    = "Song, X.",
+     title     = "Polarized structure function $g_2$ in the CM bag model",
+     journal   = "Phys. Rev.",
+     volume    = "D54",
+     year      = "1996",
+     pages     = "1955-1966",
+     eprint    = "hep-ph/9604264",
+     SLACcitation  = "%%CITATION = HEP-PH 9604264;%%"
+}
+@Article{Weigel:2000gx,
+     author    = "Weigel, Herbert and Gamberg, Leonard P.",
+     title     = "Hadron structure functions within a chiral quark model",
+     journal   = "Nucl. Phys.",
+     volume    = "A680",
+     year      = "2000",
+     pages     = "48-51",
+     eprint    = "hep-ph/0004057",
+     SLACcitation  = "%%CITATION = HEP-PH 0004057;%%"
+}
+@Article{Wakamatsu:2000ex,
+     author    = "Wakamatsu, M.",
+     title     = "Polarized structure functions g2(x) in the chiral quark
+                  soliton model",
+     journal   = "Phys. Lett.",
+     volume    = "B487",
+     year      = "2000",
+     pages     = "118-124",
+     eprint    = "hep-ph/0006212",
+     SLACcitation  = "%%CITATION = HEP-PH 0006212;%%"
+}
+@Article{Nazaryan:2005zc,
+     author    = "Nazaryan, Vahagn and Carlson, Carl E. and Griffioen, Keith
+                  A.",
+     title     = "{New experimental constraints on polarizability corrections
+                  to hydrogen  hyperfine structure}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "96",
+     year      = "2006",
+     pages     = "163001",
+     eprint    = "hep-ph/0512108",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevLett.96.163001",
+     SLACcitation  = "%%CITATION = HEP-PH/0512108;%%"
+}
+@Article{Prok:2008ev,
+     author    = "Prok, Y. and others",
+ collaboration = "CLAS",
+     title     = "{Moments of the Spin Structure Functions g_1^p and g_1^d
+                  for 0.05 < Q^2 < 3.0 GeV^2}",
+     year      = "2008",
+     eprint    = "0802.2232",
+     archivePrefix = "arXiv",
+     primaryClass  =  "nucl-ex",
+     SLACcitation  = "%%CITATION = 0802.2232;%%"
+}
+
+@Article{Simula:2001iy,
+     author    = "Simula, S. and Osipenko, M. and Ricco, G. and Taiuti, M.",
+     title     = "{Leading and higher twists in the proton polarized
+                  structure function  g1(p) at large Bjorken x}",
+     journal   = "Phys. Rev.",
+     volume    = "D65",
+     year      = "2002",
+     pages     = "034017",
+     eprint    = "hep-ph/0107036",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevD.65.034017",
+     SLACcitation  = "%%CITATION = HEP-PH/0107036;%%"
+}
+
+@Article{Slifer:2008re_offic,
+     author    = "Slifer, K. and others",
+ collaboration = "E94010",
+     title     = "{3He Spin-Dependent Cross Sections and Sum Rules}",
+     year      = "2008",
+     eprint    = "0803.2267",
+     archivePrefix = "arXiv",
+     primaryClass  =  "nucl-ex",
+     SLACcitation  = "%%CITATION = 0803.2267;%%"
+}
+
+@Article{Slifer:2008re_old,
+     author    = "Slifer, K. and others",
+ collaboration = "E94010",
+     title     = "{3He Spin-Dependent Cross Sections and Sum Rules}",
+     year      = "2008",
+     journal   = "arXiv:0803.2267, Accepted for publication in Phys. Rev. Lett.",
+}
+
+
+@Article{Slifer:2008re,
+     author    = "Slifer, K. and others",
+ collaboration = "E94010",
+     title     = "{3He Spin-Dependent Cross Sections and Sum Rules}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "101",
+     pages     = "022303",
+     year      = "2008",
+     eprint    = "0803.2267",
+     archivePrefix = "arXiv",
+     primaryClass  =  "nucl-ex",
+     SLACcitation  = "%%CITATION = 0803.2267;%%"
+}
+
+@Article{Airapetian:2005cb,
+     author    = "Airapetian, A. and others",
+ collaboration = "HERMES",
+     title     = "{First measurement of the tensor structure function b1 of
+                  the deuteron}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "95",
+     year      = "2005",
+     pages     = "242001",
+     eprint    = "hep-ex/0506018",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevLett.95.242001",
+     SLACcitation  = "%%CITATION = HEP-EX/0506018;%%"
+}
+
+@Article{Osipenko:2005nx,
+     author    = "Osipenko, M. and others",
+     title     = "{Global analysis of data on the proton structure function
+                  g1 and  extraction of its moments}",
+     journal   = "Phys. Rev.",
+     volume    = "D71",
+     year      = "2005",
+     pages     = "054007",
+     eprint    = "hep-ph/0503018",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevD.71.054007",
+     SLACcitation  = "%%CITATION = HEP-PH/0503018;%%"
+}
+
+@Article{Wesselmann:2006mw,
+     author    = "Wesselmann, F. R. and others",
+ collaboration = "RSS",
+     title     = "{Proton Spin Structure in the Resonance Region}",
+     journal   = "Phys. Rev. Lett.",
+     volume    = "98",
+     year      = "2007",
+     pages     = "132003",
+     eprint    = "nucl-ex/0608003",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevLett.98.132003",
+     SLACcitation  = "%%CITATION = NUCL-EX/0608003;%%"
+}
+
+@Article{Guichon:1995pu,
+     author    = "Guichon, P. A. M. and Liu, G. Q. and Thomas, Anthony
+                  William",
+     title     = "{Virtual Compton scattering and generalized
+                  polarizabilities of the proton}",
+     journal   = "Nucl. Phys.",
+     volume    = "A591",
+     year      = "1995",
+     pages     = "606-638",
+     eprint    = "nucl-th/9605031",
+     archivePrefix = "arXiv",
+     doi       = "10.1016/0375-9474(95)00217-O",
+     SLACcitation  = "%%CITATION = NUCL-TH/9605031;%%"
+}
+
+@Article{Zemach,
+     author    = "Zemach, A. C.",
+     title     = "Proton Structure and the Hyperfine Shift in Hydrogen", 
+     journal   = "Phys. Rev.", 
+     volume    = "104", 
+     pages     = "1771", 
+     year      = "1956"
+}
+
+
+@Article{Shuryak:1981pi,
+     author    = "Shuryak, Edward V. and Vainshtein, A. I.",
+     title     = "{Theory of Power Corrections to Deep Inelastic Scattering
+                  in Quantum Chromodynamics. 2. Q**4 Effects: Polarized
+                  Target}",
+     journal   = "Nucl. Phys.",
+     volume    = "B201",
+     year      = "1982",
+     pages     = "141",
+     doi       = "10.1016/0550-3213(82)90377-7",
+     SLACcitation  = "%%CITATION = NUPHA,B201,141;%%"
+}
+
+@Article{Jones:2006kf,
+     author    = "Jones, M. K. and others",
+ collaboration = "Resonance Spin Structure",
+     title     = "{Proton G(E)/G(M) from beam-target asymmetry}",
+     journal   = "Phys. Rev.",
+     volume    = "C74",
+     year      = "2006",
+     pages     = "035201",
+     eprint    = "nucl-ex/0606015",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevC.74.035201",
+     SLACcitation  = "%%CITATION = NUCL-EX/0606015;%%"
+}
+
+@Article{Averett:1999nz,
+     author    = "Averett, T. D. and others",
+     title     = "{A solid polarized target for high-luminosity
+                  experiments}",
+     journal   = "Nucl. Instrum. Meth.",
+     volume    = "A427",
+     year      = "1999",
+     pages     = "440-454",
+     doi       = "10.1016/S0168-9002(98)01431-4",
+     SLACcitation  = "%%CITATION = NUIMA,A427,440;%%"
+}
+
+@Article{Hayashi:1995xt,
+     author    = "Hayashi, N. and others",
+     title     = "{Online system for NMR polarization measurement}",
+     journal   = "Nucl. Instrum. Meth.",
+     volume    = "A356",
+     year      = "1995",
+     pages     = "91-95",
+     doi       = "10.1016/0168-9002(94)01451-5",
+     SLACcitation  = "%%CITATION = NUIMA,A356,91;%%"
+}
+
+@Article{Niinikoski:1981kc,
+     author    = "Niinikoski, T. O.",
+     title     = "{DILUTION REFRIGERATOR FOR A 2-LITER POLARIZED TARGET}",
+     journal   = "Nucl. Instr. Meth.",
+     volume    = "192",
+     year      = "1982",
+     pages     = "151",
+     doi       = "10.1016/0029-554X(82)90817-5",
+     SLACcitation  = "%%CITATION = NUIMA,192,151;%%"
+}
+
+@Article{Court:1993mc,
+     author    = "Court, G. R. and Gifford, D. W. and Harrison, P. and Heyes,
+                  W. G. and Houlden, M. A.",
+     title     = "{A High precision Q meter for the measurement of proton
+                  polarization in polarized targets}",
+     journal   = "Nucl. Instrum. Meth.",
+     volume    = "A324",
+     year      = "1993",
+     pages     = "433-440",
+     doi       = "10.1016/0168-9002(93)91047-Q",
+     SLACcitation  = "%%CITATION = NUIMA,A324,433;%%"
+}
+
+@Article{Crabb:1997cy,
+     author    = "Crabb, D. G. and Meyer, W.",
+     title     = "{Solid polarized targets for nuclear and particle physics
+                  experiments}",
+     journal   = "Ann. Rev. Nucl. Part. Sci.",
+     volume    = "47",
+     year      = "1997",
+     pages     = "67-109",
+     doi       = "10.1146/annurev.nucl.47.1.67",
+     SLACcitation  = "%%CITATION = ARNUA,47,67;%%"
+}
+
+@Article{Keith:2003ca,
+     author    = "Keith, C. D. and others",
+     title     = "{A polarized target for the CLAS detector}",
+     journal   = "Nucl. Instrum. Meth.",
+     volume    = "A501",
+     year      = "2003",
+     pages     = "327-339",
+     doi       = "10.1016/S0168-9002(03)00429-7",
+     SLACcitation  = "%%CITATION = NUIMA,A501,327;%%"
+}
+
+@Article{Martin:2009iq,
+     author    = "Martin, A. D. and Stirling, W. J. and Thorne, R. S. and
+                  Watt, G.",
+     title     = "{Parton distributions for the LHC}",
+     journal   = "Eur. Phys. J.",
+     volume    = "C63",
+     year      = "2009",
+     pages     = "189-285",
+     eprint    = "0901.0002",
+     archivePrefix = "arXiv",
+     primaryClass  =  "hep-ph",
+     doi       = "10.1140/epjc/s10052-009-1072-5",
+     SLACcitation  = "%%CITATION = 0901.0002;%%"
+}
+
+
+@Article{Edelmann:1997ik,
+     author    = "Edelmann, J. and Piller, G. and Weise, W.",
+     title     = "{Deuteron spin structure functions at small Bjorken-x}",
+     journal   = "Phys. Rev.",
+     volume    = "C57",
+     year      = "1998",
+     pages     = "3392-3405",
+     eprint    = "hep-ph/9709455",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevC.57.3392",
+     SLACcitation  = "%%CITATION = HEP-PH/9709455;%%"
+}
+
+@Article{Umnikov:1996qv,
+     author    = "Umnikov, A. Yu.",
+     title     = "{Relativistic Calculation of Structure Functions b_{1,2}(X)
+                  of the Deuteron}",
+     journal   = "Phys. Lett.",
+     volume    = "B391",
+     year      = "1997",
+     pages     = "177-184",
+     eprint    = "hep-ph/9605291",
+     archivePrefix = "arXiv",
+     doi       = "10.1016/S0370-2693(96)01440-2",
+     SLACcitation  = "%%CITATION = HEP-PH/9605291;%%"
+}
+
+@Article{Efremov:1981vs,
+     author    = "Efremov, A. V. and Teryaev, O. V.",
+     title     = "{ON HIGH P(T) VECTOR MESONS SPIN ALIGNMENT}",
+     journal   = "Sov. J. Nucl. Phys.",
+     volume    = "36",
+     year      = "1982",
+     pages     = "557",
+     SLACcitation  = "%%CITATION = SJNCA,36,557;%%"
+}
+
+
+@Article{Frankfurt:1981mk,
+     author    = "Frankfurt, L. L. and Strikman, M. I.",
+     title     = "{High-Energy Phenomena, Short Range Nuclear Structure and
+                  QCD}",
+     journal   = "Phys. Rept.",
+     volume    = "76",
+     year      = "1981",
+     pages     = "215-347",
+     doi       = "10.1016/0370-1573(81)90129-0",
+     SLACcitation  = "%%CITATION = PRPLC,76,215;%%"
+}
+
+@Article{Sargsian:2001gu,
+     author    = "Sargsian, M. M. and Simula, S. and Strikman, M. I.",
+     title     = "{Neutron structure function and inclusive DIS from H-3 and
+                  He-3 at large  Bjorken-x}",
+     journal   = "Phys. Rev.",
+     volume    = "C66",
+     year      = "2002",
+     pages     = "024001",
+     eprint    = "nucl-th/0105052",
+     archivePrefix = "arXiv",
+     doi       = "10.1103/PhysRevC.66.024001",
+     SLACcitation  = "%%CITATION = NUCL-TH/0105052;%%"
+}
+
+
+
+%\cite{FS81} L.~L.~Frankfurt, M.~I.~Strikman, Phys.\ Rept.\ {\bf 76}, 215-347 (1981).
+%\cite{SSS}M.~M.~Sargsian, S.~Simula, M.~I.~Strikman,  Phys.\ Rev.\ {\bf C66}, 024001 (2002).
+%\cite{MS}M.~M.~Sargsiabm {\em private communication}
+
+
+@article{Taneja:2011sy,
+      author         = "Taneja, Swadhin K. and Kathuria, Kunal and Liuti,
+                        Simonetta and Goldstein, Gary R.",
+      title          = "{Angular momentum sum rule for spin one hadronic
+                        systems}",
+      journal        = "Phys.Rev.",
+      volume         = "D86",
+      pages          = "036008",
+      doi            = "10.1103/PhysRevD.86.036008",
+      year           = "2012",
+      eprint         = "1101.0581",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1101.0581;%%",
+}
+
+@article{Gilman:2001yh,
+      author         = "Gilman, Ronald A. and Gross, Franz",
+      title          = "{Electromagnetic structure of the deuteron}",
+      journal        = "J.Phys.",
+      volume         = "G28",
+      pages          = "R37-R116",
+      doi            = "10.1088/0954-3899/28/4/201",
+      year           = "2002",
+      eprint         = "nucl-th/0111015",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      reportNumber   = "JLAB-PHY-01-25, WM-01-113",
+      SLACcitation   = "%%CITATION = NUCL-TH/0111015;%%",
+}
+
+@article{Schiavilla:2006xx,
+      author         = "Schiavilla, R. and Wiringa, Robert B. and Pieper, Steven
+                        C. and Carlson, J.",
+      title          = "{Tensor Forces and the Ground-State Structure of Nuclei}",
+      journal        = "Phys.Rev.Lett.",
+      volume         = "98",
+      pages          = "132501",
+      doi            = "10.1103/PhysRevLett.98.132501",
+      year           = "2007",
+      eprint         = "nucl-th/0611037",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      reportNumber   = "JLAB-THY-06-562",
+      SLACcitation   = "%%CITATION = NUCL-TH/0611037;%%",
+}
+
+@article{Arnold:1979cg,
+      author         = "Arnold, R.G. and Carlson, Carl E. and Gross, Franz",
+      title          = "{Elastic electron-Deuteron Scattering at High-Energy}",
+      journal        = "Phys.Rev.",
+      volume         = "C21",
+      pages          = "1426",
+      doi            = "10.1103/PhysRevC.21.1426",
+      year           = "1980",
+      reportNumber   = "SLAC-PUB-2318",
+      SLACcitation   = "%%CITATION = PHRVA,C21,1426;%%",
+}
+
+@article{Phillips:1999hh,
+      author         = "Phillips, Daniel R. and Rupak, Gautam and Savage, Martin
+                        J.",
+      title          = "{Improving the convergence of N N effective field
+                        theory}",
+      journal        = "Phys.Lett.",
+      volume         = "B473",
+      pages          = "209-218",
+      doi            = "10.1016/S0370-2693(99)01496-3",
+      year           = "2000",
+      eprint         = "nucl-th/9908054",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      reportNumber   = "NT-UW-99-42",
+      SLACcitation   = "%%CITATION = NUCL-TH/9908054;%%",
+}
+
+@article{Phillips:1999am,
+      author         = "Phillips, Daniel R. and Cohen, T.D.",
+      title          = "{Deuteron electromagnetic properties and the viability of
+                        effective field theory methods in the two nucleon system}",
+      journal        = "Nucl.Phys.",
+      volume         = "A668",
+      pages          = "45-82",
+      doi            = "10.1016/S0375-9474(99)00422-4",
+      year           = "2000",
+      eprint         = "nucl-th/9906091",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      reportNumber   = "UMD-PP-99-117, DOE-ER-40762-174, NT-UW-99-19",
+      SLACcitation   = "%%CITATION = NUCL-TH/9906091;%%",
+}
+
+@article{Walzl:2001vb,
+      author         = "Walzl, Markus and Meissner, Ulf G.",
+      title          = "{Elastic electron - deuteron scattering in chiral
+                        effective field theory}",
+      journal        = "Phys.Lett.",
+      volume         = "B513",
+      pages          = "37-45",
+      doi            = "10.1016/S0370-2693(01)00727-4",
+      year           = "2001",
+      eprint         = "nucl-th/0103020",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      reportNumber   = "FZJ-IKP-TH-2001-06",
+      SLACcitation   = "%%CITATION = NUCL-TH/0103020;%%",
+}
+
+@article{Tjon.48218,
+   author = "Tjon, J. A.",
+   title = "Field theory based covariant models",
+   journal = "AIP Conference Proceedings",
+   year = "1995",
+   volume = "334",
+   number = "1", 
+   pages = "177-191",
+   url = "http://scitation.aip.org/content/aip/proceeding/aipcp/10.1063/1.48218",
+   doi = "http://dx.doi.org/10.1063/1.48218" 
+}
+
+@article{Isgur:1988iw,
+      author         = "Isgur, Nathan and Llewellyn Smith, C.H.",
+      title          = "{The Applicability of Perturbative QCD to Exclusive
+                        Processes}",
+      journal        = "Nucl.Phys.",
+      volume         = "B317",
+      pages          = "526-572",
+      doi            = "10.1016/0550-3213(89)90532-4",
+      year           = "1989",
+      reportNumber   = "CERN-TH-5013-88",
+      SLACcitation   = "%%CITATION = NUPHA,B317,526;%%",
+}
+
+@article{Radyushkin:1990te,
+      author         = "Radyushkin, A.V.",
+      title          = "{Hadronic form-factors: Perturbative QCD versus QCD sum
+                        rules}",
+      journal        = "Nucl.Phys.",
+      volume         = "A532",
+      pages          = "141-154",
+      doi            = "10.1016/0375-9474(91)90691-X",
+      year           = "1991",
+      reportNumber   = "CEBAF-TH-91-07, C90-10-08.1",
+      SLACcitation   = "%%CITATION = NUPHA,A532,141;%%",
+}
+
+@article{Petratos:2002wz,
+      author         = "Petratos, G.G.",
+      title          = "{JLab measurements of the deuteron electric and magnetic
+                        form-factors}",
+      journal        = "AIP Conf.Proc.",
+      volume         = "549",
+      pages          = "438-441",
+      doi            = "10.1063/1.1345291",
+      year           = "2000",
+      SLACcitation   = "%%CITATION = APCPC,549,438;%%",
+}
+
+@article{Pieper:2001mp,
+      author         = "Pieper, Steven C. and Wiringa, Robert B.",
+      title          = "{Quantum Monte Carlo calculations of light nuclei}",
+      journal        = "Ann.Rev.Nucl.Part.Sci.",
+      volume         = "51",
+      pages          = "53-90",
+      doi            = "10.1146/annurev.nucl.51.101701.132506",
+      year           = "2001",
+      eprint         = "nucl-th/0103005",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      SLACcitation   = "%%CITATION = NUCL-TH/0103005;%%",
+}
+
+@article{Kamada:2001tv,
+      author         = "Kamada, H. and Nogga, A. and Gloeckle, Walter and Hiyama,
+                        E. and Kamimura, M. and others",
+      title          = "{Benchmark test calculation of a four nucleon bound
+                        state}",
+      journal        = "Phys.Rev.",
+      volume         = "C64",
+      pages          = "044001",
+      doi            = "10.1103/PhysRevC.64.044001",
+      year           = "2001",
+      eprint         = "nucl-th/0104057",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      SLACcitation   = "%%CITATION = NUCL-TH/0104057;%%",
+}
+
+@article{Myo:2013dya,
+      author         = "Myo, Takayuki",
+      title          = "{Role of Tensor Force in Light Nuclei with
+                        Tensor-Optimized Shell Model}",
+      journal        = "Few Body Syst.",
+      volume         = "54",
+      pages          = "849-855",
+      doi            = "10.1007/s00601-012-0572-2",
+      year           = "2013",
+      SLACcitation   = "%%CITATION = FBSYE,54,849;%%",
+}
+
+@article{Myo:2012pv,
+      author         = "Myo, Takayuki and Umeya, Atsushi and Toki, Hiroshi and
+                        Ikeda, Kiyomi",
+      title          = "{Tensor-optimized shell model for the Li isotopes with a
+                        bare nucleon-nucleon interaction}",
+      journal        = "Phys.Rev.",
+      volume         = "C86",
+      pages          = "024318",
+      doi            = "10.1103/PhysRevC.86.024318",
+      year           = "2012",
+      eprint         = "1209.0150",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      SLACcitation   = "%%CITATION = ARXIV:1209.0150;%%",
+}
+
+@article{Sargsian:2012gj,
+      author         = "Sargsian, Misak M",
+      title          = "{The EMC Effect and Short-Range Correlations}",
+      year           = "2012",
+      eprint         = "1209.2477",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      SLACcitation   = "%%CITATION = ARXIV:1209.2477;%%",
+}
+
+@article{Sargsian:2001ax,
+      author         = "Sargsian, Misak M.",
+      title          = "{Selected topics in high energy semiexclusive
+                        electronuclear reactions}",
+      journal        = "Int.J.Mod.Phys.",
+      volume         = "E10",
+      pages          = "405-458",
+      doi            = "10.1142/S0218301301000617",
+      year           = "2001",
+      eprint         = "nucl-th/0110053",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      reportNumber   = "FIU-2328-01",
+      SLACcitation   = "%%CITATION = NUCL-TH/0110053;%%",
+}
+
+@article{Sargsian:2002wc,
+      author         = "Sargsian, M.M. and Arrington, J. and Bertozzi, W. and
+                        Boeglin, W. and Carlson, C.E. and others",
+      title          = "{Hadrons in the nuclear medium}",
+      journal        = "J.Phys.",
+      volume         = "G29",
+      pages          = "R1",
+      doi            = "10.1088/0954-3899/29/3/201",
+      year           = "2003",
+      eprint         = "nucl-th/0210025",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      reportNumber   = "NT-UW-02-020, JLAB-PHY-02-48",
+      SLACcitation   = "%%CITATION = NUCL-TH/0210025;%%",
+}
+
+@article{Piasetzky:2006ai,
+      author         = "Piasetzky, E. and Sargsian, M. and Frankfurt, L. and
+                        Strikman, M. and Watson, J.W.",
+      title          = "{Evidence for the strong dominance of proton-neutron
+                        correlations in nuclei}",
+      journal        = "Phys.Rev.Lett.",
+      volume         = "97",
+      pages          = "162504",
+      doi            = "10.1103/PhysRevLett.97.162504",
+      year           = "2006",
+      eprint         = "nucl-th/0604012",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      reportNumber   = "FIU-NUPAR-04-06",
+      SLACcitation   = "%%CITATION = NUCL-TH/0604012;%%",
+}
+
+@article{Subedi:2008zz,
+      author         = "Subedi, R. and Shneor, R. and Monaghan, P. and Anderson,
+                        B.D. and Aniol, K. and others",
+      title          = "{Probing Cold Dense Nuclear Matter}",
+      journal        = "Science",
+      volume         = "320",
+      pages          = "1476-1478",
+      doi            = "10.1126/science.1156675",
+      year           = "2008",
+      eprint         = "0908.1514",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      reportNumber   = "JLAB-PHY-08-828",
+      SLACcitation   = "%%CITATION = ARXIV:0908.1514;%%",
+}
+
+@article{McGauley:2011qc,
+      author         = "McGauley, Michael and Sargsian, Misak M.",
+      title          = "{Off-Fermi Shell Nucleons in Superdense Asymmetric
+                        Nuclear Matter}",
+      year           = "2011",
+      eprint         = "1102.3973",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      SLACcitation   = "%%CITATION = ARXIV:1102.3973;%%",
+}
+
+@article{Sargsian:2014bwa,
+      author         = "Sargsian, Misak M",
+      title          = "{Nucleon - Nucleon Interactions at Short Distances}",
+      year           = "2014",
+      eprint         = "1403.0678",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      reportNumber   = "FIU-NUPAR-03-2014-1",
+      SLACcitation   = "%%CITATION = ARXIV:1403.0678;%%",
+}
+
+@article{Harvey:1980rva,
+      author         = "Harvey, M.",
+      title          = "{Effective nuclear forces in the quark model with Delta
+                        and hidden color channel coupling}",
+      journal        = "Nucl.Phys.",
+      volume         = "A352",
+      pages          = "326-342",
+      doi            = "10.1016/0375-9474(81)90413-9",
+      year           = "1981",
+      SLACcitation   = "%%CITATION = NUPHA,A352,326;%%",
+}
+
+@article{Obukhovsky:1982ci,
+      author         = "Obukhovsky, I.T. and Smirnov, Yu.F. and Chuvilsky, Yu.M.",
+      title          = "{ON THE CONSTRUCTION OF WAVE FUNCTIONS IN THE SIX QUARK
+                        SYSTEM}",
+      journal        = "J.Phys.",
+      volume         = "A15",
+      pages          = "7-23",
+      doi            = "10.1088/0305-4470/15/1/013",
+      year           = "1982",
+      SLACcitation   = "%%CITATION = JPHGB,A15,7;%%",
+}
+
+@article{Brodsky:1985gu,
+      author         = "Brodsky, Stanley J. and Ji, Chueng-Ryong",
+      title          = "{Quantum Chromodynamic Evolution of the Baryon System}",
+      journal        = "Phys.Rev.",
+      volume         = "D33",
+      pages          = "1951",
+      doi            = "10.1103/PhysRevD.33.1951",
+      year           = "1986",
+      reportNumber   = "SLAC-PUB-3706",
+      SLACcitation   = "%%CITATION = PHRVA,D33,1951;%%",
+}
+
+@article{Ji:1985ky,
+      author         = "Ji, Chueng-Ryong and Brodsky, Stanley J.",
+      title          = "{Quantum Chromodynamic Evolution of Six Quark States}",
+      journal        = "Phys.Rev.",
+      volume         = "D34",
+      pages          = "1460",
+      doi            = "10.1103/PhysRevD.34.1460",
+      year           = "1986",
+      reportNumber   = "SLAC-PUB-3148, ITP-800-STANFORD",
+      SLACcitation   = "%%CITATION = PHRVA,D34,1460;%%",
+}
+
+@article{Kusainov:1991vn,
+      author         = "Kusainov, A.M. and Neudatchin, V.G. and Obukhovsky, I.T.",
+      title          = "{Projection of the six quark wave function onto the N N
+                        channel and the problem of the repulsive core in the N N
+                        interaction}",
+      journal        = "Phys.Rev.",
+      volume         = "C44",
+      pages          = "2343-2357",
+      doi            = "10.1103/PhysRevC.44.2343",
+      year           = "1991",
+      SLACcitation   = "%%CITATION = PHRVA,C44,2343;%%",
+}
+
+@article{Demorest:2010bx,
+      author         = "Demorest, Paul and Pennucci, Tim and Ransom, Scott and
+                        Roberts, Mallory and Hessels, Jason",
+      title          = "{Shapiro Delay Measurement of A Two Solar Mass Neutron
+                        Star}",
+      journal        = "Nature",
+      volume         = "467",
+      pages          = "1081-1083",
+      doi            = "10.1038/nature09466",
+      year           = "2010",
+      eprint         = "1010.5788",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:1010.5788;%%",
+}
+
+@article{Heiselberg:2000dn,
+      author         = "Heiselberg, Henning and Pandharipande, Vijay",
+      title          = "{Recent progress in neutron star theory}",
+      journal        = "Ann.Rev.Nucl.Part.Sci.",
+      volume         = "50",
+      pages          = "481-524",
+      doi            = "10.1146/annurev.nucl.50.1.481",
+      year           = "2000",
+      eprint         = "astro-ph/0003276",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph",
+      SLACcitation   = "%%CITATION = ASTRO-PH/0003276;%%",
+}
+
+@article{Frankfurt:2008zv,
+      author         = "Frankfurt, Leonid and Sargsian, Misak and Strikman, Mark",
+      title          = "{Recent observation of short range nucleon correlations
+                        in nuclei and their implications for the structure of
+                        nuclei and neutron stars}",
+      journal        = "Int.J.Mod.Phys.",
+      volume         = "A23",
+      pages          = "2991-3055",
+      doi            = "10.1142/S0217751X08041207",
+      year           = "2008",
+      eprint         = "0806.4412",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      SLACcitation   = "%%CITATION = ARXIV:0806.4412;%%",
+}
+
+
+@article{Frankfurt:2012qs,
+      author         = "Frankfurt, Leonid and Strikman, Mark",
+      title          = "{QCD and QED dynamics in the EMC effect}",
+      journal        = "Int.J.Mod.Phys.",
+      volume         = "E21",
+      pages          = "1230002",
+      doi            = "10.1142/S0218301312300020",
+      year           = "2012",
+      eprint         = "1203.5278",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1203.5278;%%",
+}
+
+@article{Farrar:1988me,
+      author         = "Farrar, G.R. and Liu, H. and Frankfurt, L.L. and
+                        Strikman, M.I.",
+      title          = "{Transparency in Nuclear Quasiexclusive Processes with
+                        Large Momentum Transfer}",
+      journal        = "Phys.Rev.Lett.",
+      volume         = "61",
+      pages          = "686-689",
+      doi            = "10.1103/PhysRevLett.61.686",
+      year           = "1988",
+      SLACcitation   = "%%CITATION = PRLTA,61,686;%%",
+}
+
+@article{Kopeliovich:2007mm,
+      author         = "Kopeliovich, B.Z. and Nemchik, J. and Schmidt, Ivan",
+      title          = "{Color Transparency at Low Energies: Predictions for
+                        JLAB}",
+      journal        = "Phys.Rev.",
+      volume         = "C76",
+      pages          = "015205",
+      doi            = "10.1103/PhysRevC.76.015205",
+      year           = "2007",
+      eprint         = "hep-ph/0702272",
+      archivePrefix  = "arXiv",
+      primaryClass   = "HEP-PH",
+      reportNumber   = "USM-TH-206",
+      SLACcitation   = "%%CITATION = HEP-PH/0702272;%%",
+}
+
+
+@article{Frankfurt:1993it,
+      author         = "Frankfurt, L. and Miller, G.A. and Strikman, M.",
+      title          = "{Coherent nuclear diffractive production of mini - jets:
+                        Illuminating color transparency}",
+      journal        = "Phys.Lett.",
+      volume         = "B304",
+      pages          = "1-7",
+      doi            = "10.1016/0370-2693(93)91390-9",
+      year           = "1993",
+      eprint         = "hep-ph/9305228",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "DOE-ER-40427-01-N93",
+      SLACcitation   = "%%CITATION = HEP-PH/9305228;%%",
+}
+
+@article{ElFassi:2012nr,
+      author         = "El Fassi, L. and Zana, L. and Hafidi, K. and Holtrop, M.
+                        and Mustapha, B. and others",
+      title          = "{Evidence for the Onset of Color Transparency in $\rho^0$
+                        Electroproduction off Nuclei}",
+      journal        = "Phys.Lett.",
+      volume         = "B712",
+      pages          = "326-330",
+      doi            = "10.1016/j.physletb.2012.05.019",
+      year           = "2012",
+      eprint         = "1201.2735",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      reportNumber   = "JLAB-PHY-12-1504",
+      SLACcitation   = "%%CITATION = ARXIV:1201.2735;%%",
+}
+
+@article{Clasie:2007aa,
+      author         = "Clasie, B. and Qian, X. and Arrington, J. and Asaturyan,
+                        R. and Benmokhtar, F. and others",
+      title          = "{Measurement of nuclear transparency for the A(e,
+                        e-prime' pi+) reaction}",
+      journal        = "Phys.Rev.Lett.",
+      volume         = "99",
+      pages          = "242502",
+      doi            = "10.1103/PhysRevLett.99.242502",
+      year           = "2007",
+      eprint         = "0707.1481",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      reportNumber   = "JLAB-PHY-07-678",
+      SLACcitation   = "%%CITATION = ARXIV:0707.1481;%%",
+}
+
+@article{Frankfurt:1993sp,
+      author         = "Frankfurt, L.L. and Strikman, M.I. and Day, D.B. and
+                        Sargsian, M.",
+      title          = "{Evidence for short range correlations from high Q**2 (e,
+                        e-prime) reactions}",
+      journal        = "Phys.Rev.",
+      volume         = "C48",
+      pages          = "2451-2461",
+      doi            = "10.1103/PhysRevC.48.2451",
+      year           = "1993",
+      SLACcitation   = "%%CITATION = PHRVA,C48,2451;%%",
+}
+
+@article{Arrington:2011xs,
+      author         = "Arrington, J. and Higinbotham, D.W. and Rosner, G. and
+                        Sargsian, M.",
+      title          = "{Hard probes of short-range nucleon-nucleon
+                        correlations}",
+      journal        = "Prog.Part.Nucl.Phys.",
+      volume         = "67",
+      pages          = "898-938",
+      doi            = "10.1016/j.ppnp.2012.04.002",
+      year           = "2012",
+      eprint         = "1104.1196",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      reportNumber   = "PHY-12946-ME-2011, JLAB-PHY-11-1329",
+      SLACcitation   = "%%CITATION = ARXIV:1104.1196;%%",
+}
+
+@article{Sargsian:2009hf,
+      author         = "Sargsian, Misak M.",
+      title          = "{Large Q**2 Electrodisintegration of the Deuteron in
+                        Virtual Nucleon Approximation}",
+      journal        = "Phys.Rev.",
+      volume         = "C82",
+      pages          = "014612",
+      doi            = "10.1103/PhysRevC.82.014612",
+      year           = "2010",
+      eprint         = "0910.2016",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      reportNumber   = "FIU-NUPAR-DECEMBER-3-2009",
+      SLACcitation   = "%%CITATION = ARXIV:0910.2016;%%",
+}
+
+
+@article{Boeglin:2011mt,
+      author         = "Boeglin, W.U. and others",
+      title          = "{Probing the high momentum component of the deuteron at
+                        high Q^2}",
+      collaboration  = "Hall A Collaboration",
+      journal        = "Phys.Rev.Lett.",
+      volume         = "107",
+      pages          = "262501",
+      doi            = "10.1103/PhysRevLett.107.262501",
+      year           = "2011",
+      eprint         = "1106.0275",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      reportNumber   = "JLAB-PHY-11-1471, APS-123-QED",
+      SLACcitation   = "%%CITATION = ARXIV:1106.0275;%%",
+}
+
+
+@book{thomas2000science,
+  title={The Science Driving the 12 GeV Upgrade of CEBAF.},
+  author={Thomas Jefferson National Accelerator Facility (U.S.)},
+  url={http://books.google.com/books?id=cWWiGwAACAAJ},
+  year={2000},
+  publisher={Jefferson Lab}
+}
+
+@article{PhysRev.81.165,
+  title = {On the Nucleon-Nucleon Interaction},
+  author = {Jastrow, Robert},
+  journal = {Phys. Rev.},
+  volume = {81},
+  issue = {2},
+  pages = {165--170},
+  numpages = {0},
+  year = {1951},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRev.81.165},
+  url = {http://link.aps.org/doi/10.1103/PhysRev.81.165}
+}
+

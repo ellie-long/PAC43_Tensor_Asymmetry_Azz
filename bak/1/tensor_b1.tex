@@ -1,0 +1,110 @@
+\documentclass[12pt]{article}
+
+\usepackage{fullpage}
+\usepackage{epsfig}
+\usepackage{longtable}
+\usepackage{fontenc}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{rotating}
+\usepackage{psfrag}
+\usepackage{graphics}
+\usepackage{lscape}
+
+\bibliographystyle{input/prsty.bst}
+
+\input{input/0_defs.tex}
+
+%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\pagestyle{empty}
+ 
+\begin{center}
+ \LARGE{
+  The Deuteron Tensor Structure Function $b_1$
+ }
+\end{center}
+%
+\hrule \vspace{.05cm}\hrule
+%
+\input{input/0_author.tex}
+
+\newpage
+
+\begin{abstract}
+  \input{input/0_abstract.tex}
+\end{abstract}
+
+\newpage
+
+\section*{Foreword}
+
+\input{input/foreword.tex}
+
+
+\clearpage
+
+
+\tableofcontents
+
+
+\pagestyle{plain}
+
+\clearpage
+
+\section{Background and Motivation}
+\input{input/1_intro.tex}
+\subsection{Tensor Structure of the Deuteron}
+ \input{input/1_tensor_pol.tex}
+\subsection{Deep Inelastic Scattering from Spin-1 Targets}
+ \input{input/1_b1_background.tex}
+
+\subsubsection{First Measurement of $b_1(x)$ by the HERMES Collaboration}
+ \input{input/data.tex}
+
+\subsection{Predictions for the Tensor Structure Function $b_1(x)$}
+\label{PREDB1X}
+   \input{input/1_th_predictions.tex}
+
+
+\section{The Proposed Experiment}
+\input{input/2exp_overview.tex}
+\input{input/Azz_method.tex}
+%\input{input/oldmethod.tex}
+%\input{input/3intrumentation.tex}
+\input{input/overhead.tex}
+
+\input{input/4target.tex}
+
+
+
+\section{Summary}
+  \input{input/7summary.tex}
+%\clearpage
+%\appendix
+%\section{Statistical error calculations of $A_{zz}$}
+%\input{input/Azz_error.tex}
+%\input{input/b1_error.tex}
+%\input{input/dustin3.tex}
+%  Go to fullpage mode
+
+\topmargin 0pt
+\advance \topmargin by -\headheight
+\advance \topmargin by -\headsep
+
+\textheight 8.9in
+
+\oddsidemargin 0pt
+\evensidemargin \oddsidemargin
+\marginparwidth 0.5in
+
+\textwidth 6.5in
+\clearpage
+%\begin{thebibliography}{99}
+%\input{input/bib.tex}
+%\end{thebibliography}
+
+ \bibliography{input/tensor_b1}
+\end{document}

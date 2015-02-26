@@ -1,0 +1,27 @@
+This proposal follows the letter of intent LOI-11-003 which was submitted to PAC 37.  For convenience we reproduce the draft PAC report comments below.  We note that we plan to use Hall C's HMS/SHMS spectrometers, an option that we briefly explored in the appendix of the LOI. We have signficantly revised our experimental method, as discussed in Sec.~\ref{EXP},  which now makes the Hall C option compelling.   ND$_3$ has been selected as the target material instead of LiD in order to simplify the analysis, and to take advantage of the extensive experience using ND$_3$ within the collaboration and in the JLab Target group.  
+We have also expanded our discussion in Sec.~\ref{PREDB1X} of the 
+expected behaviour of $b_1(x)$, in order to strengthen the justification for measuring in
+the region $\XMIN <x<\XMAX$, where most models predict very small or vanishing values for $b_1(x)$, in contrast to the HERMES data.
+
+
+\vspace{1cm}
+{\it
+\noindent
+{\bf LOI-11-003} ``The Deuteron Tensor Structure Function b1''
+
+\vspace{0.5cm}
+\noindent
+{\bf Motivation}: The collaboration proposes to measure the deuteron tensor structure function b1 by measuring deep inelastic scattering from a tensor polarized deuterium. This structure function would be zero for a deuteron with constituents in a relative s-wave. The structure function b1 can be compared with conventional calculations of quark distribution functions convoluted with nucleon momentum distributions in the deuteron including the d-state admixture. Departures from such approach, as hinted at in pioneering data at HERMES, is conjectured to be sensitive to orbital angular momentum effects.
+
+\vspace{1cm}
+\noindent
+{\bf Measurement and Feasibility}: The letter of intent proposes such experiment in Hall A using an 11 GeV beam and the SoLID spectrometer. The polarized target proposed is a $^6$LiD target. The rates in the proposal only assume tensor polarizations that have been demonstrated previously. The projected precision on the tensor structure function using SoLID is compelling to improve on the HERMES measurement at small x and extend it into the large x region. The proposed measurement will allow to map out the qualitative behavior of b1, which will serve as a benchmark for theoretical interpretations. In the appendix to the LOI, a feasibility study has also been performed for a measurement in Hall C using the HMS/SHMS spectrometers. Given the projected precision obtained, such measurement using HMS/SHMS does not seem to be compelling at this stage.
+
+
+\vspace{1cm}\noindent
+{\bf Issues}: The main issue is on the theoretical interpretation of such experiment. The authors are urged to consult some theorists to provide at least some qualitative behavior of b1 when making their physics case for a proposal.
+
+
+\vspace{1cm}\noindent
+{\bf Recommendation}: The PAC encourages the submission of a fully developed proposal that addresses the issue raised above.
+}

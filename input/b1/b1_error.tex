@@ -1,0 +1,187 @@
+\label{APPERR}
+Full details of the error calculation can be found in Ref.~\cite{SOLVI}.
+%
+From section 6 of Ref.~\cite{Hoodbhoy:1988am},
+%Hoodbhoy, Jaffe and Manihar (Nuc. Phys. B312, p571-588, 1989),
+we have:
+
+\begin{eqnarray}
+\frac{d\sigma_{\parallel}^H}{dxdy} & = & K \Bigg[x F_1(x) + \Big(\frac{2}{3} - H^2\Big) x b_1(x) \Bigg]\\
+\frac{d\sigma_{\perp}^H}{dxdy}    & = & K \Bigg[x F_1(x) - \Big(\frac{1}{3} - \frac{1}{2}H^2\Big) x b_1(x) \Bigg]
+\label{xs} 
+\end{eqnarray}
+%
+with $K = \frac{e^4 M E}{2 \pi Q^4} [1+(1-y)^2]$.
+
+For simplicity, we will use $\sigma_{\parallel}$ for $\frac{d\sigma_{\parallel}^H}{dxdy}$ and $\sigma_{\perp}$ for $\frac{d\sigma_{\perp}^H}{dxdy}$.
+
+
+We know that $H^2 = (P+2)/3$, where $P$ is the vector polarization of the target. 
+And the tensor polarization $P_{zz}$ is related to $P_z$ via Eq.~\ref{TENSORVECTOR}.
+
+The tensor asymmetry $A_{zz}$ depends on $b_1$ and $F_1$:
+\begin{eqnarray}
+\frac{b_1}{F_1} = - \frac{3}{2} A_{zz}
+\label{none} 
+\end{eqnarray}
+
+\subsection{Cross section method}
+
+Working with the equations of $\sigma_{\parallel}$ and $\sigma_{\perp}$, we can isolate $b_{1}$:
+
+\begin{eqnarray}
+\sigma_{\parallel} - \sigma_{\perp} = \frac{-K}{6} (2 P_z^{\parallel} + P_z^{\perp}) x b_1
+\label{MAIN}
+\end{eqnarray}
+where $P_z^{\parallel}$ and $P_z^{\perp}$ are the vector polarization achieved in the longitudinal and transverse configurations respectively.
+%
+%Note, that if the vector polarization in the parallel orientation $P_z^\parallel$
+%differs from the polarization in the perpendicular orientation
+%$P_z^\perp$, then Eq.~\ref{MAIN} is modified slightly to:
+%\begin{eqnarray*}
+%\frac{\sigma_{\parallel} - \sigma_{\perp}}{\kappa\sigma_{\parallel} + 2 \sigma_{\perp}} = \frac{1}{4} P_z^\parallel A_{zz}
+%\end{eqnarray*}
+%where $\kappa={P_z^\perp}/{P_z^\parallel}$.   We've assumed $\kappa=1$ for rates calculations.
+
+\begin{eqnarray}
+\frac{\delta b_1}{b_1} = \frac{\sqrt{\delta \sigma_{\perp}^2 + \delta \sigma_{\parallel}^2}}{\sigma_{\perp} - \sigma_{\parallel}} 
+\label{none} 
+\end{eqnarray}
+
+In the valence region, $b_1 < 0$ which implies $\sigma_{\perp} < \sigma_{\parallel}$. We can define the difference between $\sigma_{\perp}$ and $\sigma_{\parallel}$ as:
+
+\begin{eqnarray}
+\sigma_{\parallel} = (1+\epsilon) \sigma_{\perp}
+\label{none} 
+\end{eqnarray}
+
+It is safe to assume that we will need $\delta \sigma_{\perp} \approx \delta \sigma_{\parallel}$. We obtain:
+\begin{eqnarray}
+\frac{\delta b_1}{b_1} = - \frac{\sqrt{2}}{\epsilon} \frac{\delta \sigma_{\perp}}{\sigma_{\perp}} 
+\label{none} 
+\end{eqnarray}
+
+Now to evaluate the time necessary to perform a significant measurement of $b_1$, we need an estimate of the value of $\epsilon$.  So we start from:
+\begin{eqnarray}
+\sigma_{\parallel} & = & \sigma_{u} (1 - \frac{1}{3} P_z^{\parallel} \frac{b_1}{F_1}) \\
+\sigma_{\perp} & = & \sigma_{u} (1 + \frac{1}{6} P_z^{\perp} \frac{b_1}{F_1})
+\label{none} 
+\end{eqnarray}
+%
+with $\sigma_u$ the unpolarized cross section.  Which leads to:
+
+\begin{eqnarray}
+\epsilon = & \frac{1 - \frac{1}{3} P_z^{\parallel} \frac{b_1}{F_1}}{1 + \frac{1}{6} P_z^{\perp} \frac{b_1}{F_1}}
+\label{EPSILON} 
+\end{eqnarray}
+
+We use for $b_1^d$ the fit from Kumano~\cite{Kumano:2010vz} and for $F_1^d$ MSTW~\cite{Martin:2009iq} (no EMC effect or smearing included). For $x$-values of 0.30, 0.40 and 0.50, $\epsilon$ is equal to 0.0013, 0.0026 and 0.0037 respectively, assuming $P_z^{\perp} = P_z^{\parallel} = 0.35$
+
+\begin{eqnarray}
+\frac{\delta b_1}{b_1} = - \frac{\sqrt{2}}{\epsilon} \frac{1}{\sqrt{N}} 
+\label{none} 
+\end{eqnarray}
+
+The number of events needed in each parallel and perpendicular kinematics are $N/2$ with:
+\begin{eqnarray}
+N = \frac{2}{\epsilon^2} \frac{1}{(\delta b_1 / b_1)^2}
+\label{none} 
+\end{eqnarray}
+
+The time necessary to achieve this statistics is:
+\begin{eqnarray}
+T = \frac{N}{R_D} = \frac{2}{\epsilon^2 R_D (\delta b_1 / b_1)^2}
+\label{none} 
+\end{eqnarray}
+
+The deuterium rates are estimated from the unpolarized deuteron cross section~\cite{Martin:2009iq} $\sigma_D$:
+%MRST2008:
+\begin{eqnarray}
+ R_D = \sigma_D~dp~d\Omega~L = \sigma_D~dp~d\Omega~\rho_D~\frac{I}{e}
+\label{none} 
+\end{eqnarray}
+%
+with $\rho_D = \rho_{ND3} \cdot f_{ND3} \cdot PF_{ND3}$, where $f_{ND3}$ is the dilution and $PF_{ND3}$ is the packing fraction. To estimate the physics rates, the spectrometer acceptance and momentum bite were reduced to $d\Omega = 6.5$ msr and $dp = \pm$8\% for the HMS and $d\Omega = 4.4$ msr and $dp = ^{+20\%} _{-8\%}$ for SHMS and a cut on $W \ge 1.8$ GeV was required.
+
+
+
+%%\section{Asymmetry method}
+%
+%Working with the equations of $\sigma_{\parallel}$ and $\sigma_{\perp}$, we can isolate $A_{zz}$:
+%\begin{eqnarray}
+%\frac{\sigma_{\parallel} - \sigma_{\perp}}{\sigma_{\parallel} + 2 \sigma_{\perp}} = \frac{1}{4} P_z A_{zz}
+%\label{none} 
+%\end{eqnarray}
+%
+%\vspace{0.5cm}
+%\underline{Calculation of $A_{zz}$ statistical error}
+%\begin{eqnarray}
+%(\delta A_{zz})^2 = \Bigg( \frac{\delta A_{zz}}{\delta \sigma_{\parallel}} \Bigg)^2 (\delta \sigma_{\parallel})^2 + \Bigg( \frac{\delta A_{zz}}{\delta \sigma_{\perp}} \Bigg)^2 (\delta \sigma_{\perp})^2
+%\label{none} 
+%\end{eqnarray}
+%
+%\begin{eqnarray}
+%\frac{\delta A_{zz}}{\delta \sigma_{\parallel}} & = &\frac{4}{P_z} \Bigg[\frac{- (\sigma_{\parallel} - \sigma_{\perp})}{(\sigma_{\parallel} + 2 \sigma_{\perp})^2} + \frac{1}{\sigma_{\parallel} + 2 \sigma_{\perp}} \Bigg] \\
+%         & = & \frac{4}{P_z} \frac{3 \sigma_{\perp}}{(\sigma_{\parallel} + 2 \sigma_{\perp})^2}
+%\label{none} 
+%\end{eqnarray}
+%
+%
+%\begin{eqnarray}
+%\frac{\delta A_{zz}}{\delta \sigma_{\perp}} & = &\frac{4}{P_z} \Bigg[\frac{- 2 (\sigma_{\parallel} - \sigma_{\perp})}{(\sigma_{\parallel} + 2 \sigma_{\perp})^2} - \frac{1}{\sigma_{\parallel} + 2 \sigma_{\perp}} \Bigg] \\
+%         & = & \frac{4}{P_z} \frac{-3 \sigma_{\parallel}}{(\sigma_{\parallel} + 2 \sigma_{\perp})^2}
+%\label{none} 
+%\end{eqnarray}
+%
+%\begin{eqnarray}
+%(\delta A_{zz})^2 = \Bigg(\frac{4}{P_z}\Bigg)^2 \Bigg[ \frac{9 \sigma_{\perp}^2 \delta \sigma_{\parallel}^2 + 9\sigma_{\parallel}^2 \delta \sigma_{\perp}^2 }{(\sigma_{\parallel} + 2 \sigma_{\perp})^4} \Bigg]
+%\label{none} 
+%\end{eqnarray}
+%
+%The parallel and perpendicular cross sections have the same kinematical weight $K$. Since $b_1$ is very small compared to $F_1$ (or $A_{zz}$ is very small), we can make the assumption $\sigma_{\parallel} \approx \sigma_{\perp} \equiv \sigma$ and  $\delta \sigma_{\parallel} \approx  \delta \sigma_{\perp} \equiv \delta \sigma$. 
+%
+%\begin{eqnarray}
+%(\delta A_{zz})^2 = \frac{9 \times 16}{P_z^2} \frac{2 \sigma^2 \delta \sigma^2}{(3 \sigma)^4} = \frac{32}{9 P_z^2} \frac{\delta \sigma^2}{\sigma^2}
+%\label{none} 
+%\end{eqnarray}
+%
+%\begin{eqnarray}
+%\delta A_{zz} = \frac{4 \sqrt{2}}{3 P_z} \frac{\delta \sigma}{\sigma} =  \frac{4 \sqrt{2}}{3 P_z} \frac{1}{\sqrt{N}}
+%\label{none} 
+%\end{eqnarray}
+%
+%I get $N$ from the unpolarized cross sections. Then I calculate the rates and the time.
+%
+%\begin{eqnarray}
+%N = \frac{32}{9} \frac{1}{P_z^2 (\delta A_{zz}^{meas})^2}
+%\label{none} 
+%\end{eqnarray}
+%
+%To get the rates as a function of the theoretical tensor asymmetry, we need to apply the dilution factors:
+%\begin{eqnarray}
+%A_{zz}^{meas} = f P_{zz} A_{zz}
+%\label{none} 
+%\end{eqnarray}
+%
+%\begin{eqnarray}
+%N = \frac{32}{9} \frac{1}{P_z^2 (f P_{zz} \delta A_{zz})^2}
+%\label{none} 
+%\end{eqnarray}
+%
+%We need $N/2$ events in parallel and perpendicular kinematics. If I had a pure deuterium target, the time need will be:
+%\begin{eqnarray}
+%T = \frac{N}{R_D} = \frac{32}{9} \frac{1}{R_D P_z^2 (f P_{zz} \delta A_{zz})^2}
+%\label{none} 
+%\end{eqnarray}
+%
+%Now the deuterium rates are estimated from the unpolarized deuteron cross section $\sigma_D$:
+%\begin{eqnarray}
+% R_D = \sigma_D~dp~d\Omega~L = \sigma_D~dp~d\Omega~\rho_D~\frac{I}{e}
+%\label{none} 
+%\end{eqnarray}
+%
+%with $\rho_D = \rho_{LiD} \cdot f_{LiD} \cdot PF_{LiD}$, where $f_{LiD}$ is the dilution and $PF_{LiD}$ is the packing fraction.
+%
+%
+%
+%

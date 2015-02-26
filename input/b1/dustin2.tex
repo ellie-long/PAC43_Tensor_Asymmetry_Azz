@@ -1,0 +1,40 @@
+\subsection{Rendering Dilution Factor}
+\label{dil}
+To derive the dilution factor we first start with the ratio of 
+polarized to unpolarized counts.
+%equation used to obtain the observable in terms of each measured cross section.
+%\begin{equation}
+%\frac{A_{zz}P_{zz}}{2}=\left(\frac{\sigma^1-\sigma}{\sigma}\right).
+%\end{equation}
+In each case, the number of counts that are actually measured, and neglecting 
+the small contributions of the thin aluminium cup window materials, NMR coils, etc.,
+are
+\begin{equation}
+N_1=Q_1\varepsilon_1 {\cal A}_1 l_1[(\sigma_N+3\sigma_1)p_f+\sigma_{He}(1-p_f)],
+\end{equation}
+and
+\begin{equation}
+N=Q\varepsilon {\cal A}l[(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)].
+\end{equation}
+where $Q$ represents accumulated charge, $\varepsilon$ is the dectector 
+efficiency, ${\cal A}$ the cup acceptance, and $l$ the cup length.  
+
+For
+this calculation we assume similar charge accumulation such that $Q\simeq Q_1$, 
+and that the efficiencies stay constant, in which case all factors drop out of 
+the ratio leading to
+\begin{eqnarray}
+\nonumber \frac{N_1}{N}& = &\frac{{(\sigma_N+3\sigma_1)p_f+\sigma_{He}(1-p_f)}
+}{(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)}\\
+\nonumber & = & \frac{{(\sigma_N+3\sigma(1+2A_{zz}P_{zz}/2))p_f+\sigma_{He}(1-p_
+f)}}{(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)}\\
+\nonumber & = & \frac{{[(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_
+f)]+3\sigma A_{zz}P_{zz}/2}}{(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)}\\
+\nonumber & = & 1 + \frac{3\sigma 
+A_{zz}P_{zz}/2}{(\sigma_N+3\sigma)p_f+\sigma_{He}(1-p_f)}\\
+& = & 1 + \frac{1}{2} f A_{zz}P_{zz}, 
+\end{eqnarray}
+where $\sigma_1 = \sigma(1+2A_{zz}P_{zz}/2)$ has ben substituted, per 
+eq.~(\ref{eq:one}), with $P_B =0$. It can be seen that the above result 
+corresponds to eq.~(\ref{3}) in the main text.
+

@@ -1,0 +1,186 @@
+\subsection{Experimental Method}
+\setcounter{footnote}{2}
+Following Ref.~\cite{Hoodbhoy:1988am},  we will extract $b_1(x)$ from
+%the asymmetry $A_{zz}$ by taking 
+the difference of parallel and perpendicular polarized target cross sections, 
+with an unpolarized\footnote{Polarized beam is not required for this experiment, but would enable a simultaneous measurement of $g_1$.  The
+tensor structure function $b_1$ can then be isolated by averaging the results of data with beam polarized parallel and anti-parallel.  Any contribution from residual vector polarization can be eliminated by grouping together two sets of data of opposing beam helicity.  False asymmetries will be monitored in a similar fashion by periodically flipping the target spin direction.} incident electron beam.  
+The polarized cross sections\footnote{For simplicity, we will use $\sigma_{\parallel}$ for $\frac{d\sigma_{\parallel}^H}{dxdy}$ and $\sigma_{\perp}$ for $\frac{d\sigma_{\perp}^H}{dxdy}$.} 
+%$d^2\sigma_{\parallel}/d\Omega dE'$ and $d^2\sigma_{\perp}/d\Omega dE'$
+can be extracted from data collected by scattering an unpolarized electron beam off a spin-1 target
+polarized longitudinally and perpendicularly to the electron beam direction.
+%
+
+For this configuration, it can be shown that:
+%\begin{eqnarray}
+%\frac{\frac{d^2\sigma_{\parallel}}{d\Omega dE'} - \frac{d^2\sigma_{\perp}}{d\Omega dE'}}
+%{\frac{d^2\sigma_{\parallel}}{d\Omega dE'} + 2 \frac{d^2\sigma_{\perp}}{d\Omega dE'}} = 
+%- \frac{1}{2} (1 - \frac{3}{2} H^2) A_{zz},
+%\label{para-perp}
+%\end{eqnarray}
+%
+%where $H^2=(P+2)/3$, with $P$ the deuteron vector polarization.
+\begin{eqnarray}
+ \sigma_{\perp} - \sigma_{\parallel} = \frac{K}{6} (2 P_z^{\parallel} + P_z^{\perp}) x b_1
+\label{MAIN}
+\end{eqnarray}
+where $P_z^{\parallel}$ and $P_z^{\perp}$ are the vector polarization achieved in the longitudinal and transverse configurations respectively. 
+%
+The tensor asymmetry can then be extracted from the structure function $b_1$ via:
+\begin{eqnarray}
+\label{STUFF}
+A_{zz} = -\frac{2}{3} \frac{b_1}{F_1} 
+\label{Azz}
+\end{eqnarray}
+The time necessary to achieve the desired precision $\delta b_1$ is:
+\begin{eqnarray}
+T = \frac{N}{R_D} = \frac{2}{\epsilon^2 R_D (\delta b_1 / b_1)^2}
+\label{none}
+\end{eqnarray}
+%
+where $R_D$ is the deuteron rate, which is estimated from Ref.~\cite{Martin:2009iq}, and $\epsilon$ is given  by Eq.~\ref{EPSILON}. 
+Full details of the statistical error calculation are provided in Appendix~\ref{APPERR}, for reference.
+
+
+%From Eq.~\ref{para-perp}, the beam time needed to achieve an absolute uncertainty 
+%of $\delta A_{zz}$ can be deduced as:
+%\begin{eqnarray}
+%T = \frac{32}{9 P_{z}^2} \frac{1}{R_D~f~(P_{zz}~\delta A_{zz})^2}
+%\label{time-eq2}
+%\end{eqnarray}
+%
+%where $R_D$ is the deuteron rate, $f$ the dilution factor and $P_{zz}$ the tensor polarization.
+
+
+
+\subsubsection{Systematic Uncertainties}
+Table~\ref{sys} summarizes the systematic error estimate for the cross section measurement.
+The unpolarized structure function
+$F_1$ is used to evaluate $A_{zz}$ from the measured $b_1$  using Eq.~\ref{STUFF}.   This contributes an additional 5\% relative, which raises the total systematic for $A_{zz}$ to 10.6\%.
+
+%\begin{table}
+%\begin{center}
+%\begin{tabular}{l|c}\hline\hline
+%Item                         & Systematic \\
+%\hline
+%Polarimetry                  &   8\%   \\
+%Dilution/packing fraction    &   5\%   \\
+%Radiative corrections        &   5\%   \\
+%%F$_1$ structure function     &   5\%   \\
+%Computer deadtime            &  0.5\%  \\
+%Charge measurement           &  0.5\%  \\
+%Energy measurement           &  0.05\% \\
+%\hline
+%Total  &  10.7\%   \\
+%\hline
+%\end{tabular}
+%\caption{\label{sys}Relative systematic uncertainties for $A_{zz}$.  }
+%\end{center}
+%\end{table}
+
+\begin{table}
+\begin{center}
+  \begin{tabular}{ll} \hline\hline
+ Source    &  (\%) \\
+  \hline \hline
+   Target Polarization                  & 5.0     \\
+   Dilution/Packing fraction            & 5.0      \\
+   Radiative Corrections                & 4.0     \\
+   Acceptance                           & 4.0      \\
+   Charge determination      & $\le$1      \\
+   VDC efficiency            & $\le$1      \\
+   PID detector efficiencies & $\le$1 \\
+   Software cut efficiency   & $\le$1 \\
+   Energy                    & 0.5      \\
+ \hline\hline
+    Total                    & 9.3  \\
+ %\hline
+ \end{tabular}
+\caption{\label{sys} Major contributions to the cross section systematic.}
+ \end{center}
+\end{table}
+
+
+
+%\begin{table}
+%\begin{center}
+%\begin{tabular}{c|ccc}\hline\hline
+%     ~                 &  Time   & Number &   Total Time \\
+%     ~                 &  (hrs)  &   ~    &    (hrs)     \\
+%\hline
+%Elastic calibration                &    48.0    &   1    &     48.0     \\
+%Target dilution measurement               &    8.0    &   1    &     8.0      \\
+%Configuration changes   &   16    &   4    &     64.0     \\
+%Beam Energy measurement      &   2.0   &   2    &     4.0      \\
+%BCM calibration        &   1.0   &   2    &     2.0      \\
+%Target Annealing       &   2.5   &   4    &     10.0     \\
+%Target Material Change &   4.0   &   4    &     16.0     \\
+%\hline\hline
+%\end{tabular}
+%\caption{\label{OVHEAD}Summary of the Overhead.}
+%\end{center}
+%\end{table}
+
+
+\begin{table}
+\begin{center}
+  \begin{tabular}{lrrr} \hline\hline
+ Overhead & Number&Time Per (hr)&(hr)\\
+\hline
+Target anneal             &   30&       2.0&      60.0\\
+Target field rotation     &    3&       12.0&      36.0\\
+Beamline survey           &    2&       8.0&      16.0\\
+Target material change    &    5&       8.0&      40.0\\
+Target T.E.               &   16&       4.0&      64.0\\
+Packing Fraction          &    6&       2.0&     12.0\\
+\hline
+%Pass change              &    0&       4.0&       0.0\\
+Linac change              &    2&       8.0&      16.0\\
+Momentum/angle change     &    1&       2.0&       2.0\\
+Moller measurement        &    6&       2.0&       12.0\\
+Optics                    &    3&       4.0&      12.0\\
+Arc Energy Meas.          &    3&       2.0&       6.0\\
+BCM calibration           &    2&       2.0&      8.0\\
+\hline
+                          &     &          &        \overhead_days days  \\
+\hline
+ \end{tabular}
+
+ \end{center}
+
+  \caption{\label{OVERHEAD} Major contributions to the overhead.}
+\end{table}
+
+
+%\subsection{Alternate Methodology}
+%
+%In addition to the experimental approach considered in this proposal, we 
+% have two other options which we will explore further in preparation for a full proposal: 
+%\begin{enumerate}
+% \item measuring the tensor structure function $b_1$ with a longitudinally polarized target
+%using the cross section method suggested in Ref.~\cite{Hoodbhoy:1988am};
+% \item measuring the tensor asymmetry $A_{zz}$ using the HERMES method~\cite{Riedl:2005jq}, 
+%with only a longitudinally polarized target.
+%\end{enumerate}
+%We are also exploring other forms of accessing $A_{zz}$ that don't rely on $A_2^d$ 
+%being negligible, like HERMES assumed.
+
+
+
+
+\subsubsection{Overhead}
+%
+Table~\ref{OVERHEAD} summarizes the expected overhead, which sums to \overhead_days days.
+%In order to calibrate the target polarimetry, elastic scattering measurements will be performed at %an 
+%incident energy of 2.2 GeV. 
+Measurements
+of the dilution from the unpolarized materials contained in the target, and of the packing fraction due to
+the granular composition of the target material will be performed with a carbon target.
+Target annealing will be performed approximately once per day, and target material changes will be performed slightly more than  once a week.
+Configuration changes include rotation of the magnetic field of the target from parallel to perpendicular and vice versa.
+
+
+%\subsection{Background}
+%The pion background has not been estimated yet for this measurement, but should be comparable to other
+%proposed DIS measurements with HMS and SHMS. A careful study of the background will be performed in a full
+%proposal.

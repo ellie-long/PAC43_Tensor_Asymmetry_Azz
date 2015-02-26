@@ -1,0 +1,160 @@
+\appendix
+
+\section{Feasibility Study in Hall C with the HMS and SHMS Spectrometers}
+
+We studied the feasibility of a measurement on the leading twist tensor structure 
+function $b_1$ for $0.15<x<0.55$, $1.5<Q^2<4.2$ GeV$^2$ and $W \ge 2.0$ GeV. Fig.~\ref{kincov} 
+shows the kinematic coverage available at JLab utilizing an 11 GeV beam, and the Hall C HMS 
+and SHMS spectrometers at forward angle. 
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{figs/hallc/cov_split.eps}
+\caption{\label{kincov} Kinematic coverage for 11 GeV beam in Hall C using the HMS and SHMS.}
+\end{center}
+\end{figure}
+
+The polarized target considered in this proposal is the solid lithium deuteride (LiD) 
+since it has a better dilution factor than ND$_3$. The vector polarization, packing fraction and 
+dilution used in the estimate of the rates are 55\%, 0.55 and 0.50 respectively. With an incident 
+electron beam current of \CURRENT nA, the 
+expected deuteron luminosity is $2\times 10^{35}$ cm$^{-2}$s$^{-1}$. The momentum bite and the acceptance 
+were assumed to be $\Delta P = \pm 8\%$ and $\Delta\Omega = 6.5$ msr for the HMS, and $\Delta P 
+= ^{+20\%}_{-8\%}$ and $\Delta\Omega =4.4$ msr for the SHMS. For the choice of the kinematics, 
+special attention was taken onto the angular and momentum limits of the spectrometers: for the 
+HMS, $10.5^{\circ} \le \theta \le 85^{\circ}$ and $1 \le P_0 \le 7.3$ GeV/c, and for the SHMS, 
+$5.5^{\circ} \le \theta \le 40^{\circ}$ and $2 \le P_0 \le 11$ GeV/c. In addition, the 
+opening angle between the spectrometers is physically constrained to be larger than 17.5$^{\circ}$. 
+The kinematics, rates, projected 
+statistical uncertainties of $A_{zz}$ and $b_1$ along with the time necessary to achieve this
+precision are summarized in Table~\ref{RATES}. The projected uncertainties are displayed in 
+Fig.~\ref{PROJ}. Only rates with kinematics coverage of $W \ge 2.0$ GeV were computed. A 
+total of 24 days of beam time is needed for production data.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.45\textwidth]{figs/hallc/Azz_proj_lin.eps}
+\hspace{0.5cm}
+\includegraphics[width=0.45\textwidth]{figs/hallc/xb1_proj_newmiller_lin.eps}
+\caption{\label{PROJ}
+{\bf Left: }
+Projected precision of the tensor asymmetry $A_{zz}$ with 30 days of beam time. Also 
+shown are the data from Hermes\cite{Airapetian:2005cb} and the calculation from Kumano~\cite{Kumano:2010vz}.
+{\bf Right:} Corresponding projected precision of the tensor structure function $b_1$. In addition,
+an updated calculation of Ref.~\cite{Miller:1989nc} from Miller is shown~\cite{Miller_tmp}. The black band
+represents the systematic uncertainties but a 60\% uncertainty should be added from the contribution
+of $F_1$ in the measured cross sections.}
+\end{center}
+\end{figure}
+%
+\subsection{Overhead}
+%
+In order to calibrate the target NMR system, elastic scattering measurement will be performed at an 
+incident energy of 2.2 GeV. Two days, including the energy pass change, should be sufficient. The 
+measured cross sections will need to be corrected by the dilution from the unpolarized materials
+contained in the target and by the packing fraction due to the granular composition of the target 
+material. In order to evaluate these two factors, a total of 8 hours of data will be taken on a 
+lithium target and on a carbon target. Target annealing and target material change will be done once 
+a week. Table~\ref{OVHEAD} summarizes the expected overhead. About 4 additional days will be needed 
+for calibration, background study and configuration changes.
+
+\begin{table}[h]
+\begin{center}
+\caption{\label{OVHEAD}Summary of the overhead}
+\begin{tabular}{c|ccc}\hline\hline
+     ~                 &  time   & number &   total time \\
+     ~                 &  (hrs)  &   ~    &    (hrs)     \\
+\hline
+elastic                &    ~    &   ~    &     48.0     \\
+dilution               &    ~    &   ~    &     8.0      \\
+configuration change   &   0.5   &   4    &     2.0      \\
+beam energy meas.      &   2.0   &   2    &     4.0      \\
+BCM calibration        &   1.0   &   2    &     2.0      \\
+target annealing       &   2.5   &   4    &     10.0     \\
+target material change &   4.0   &   4    &     16.0     \\
+\hline\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Background}
+The pion background has not been estimate yet for this measurement, but the detector package
+of the HMS and SHMS should provide a sufficient particle identification efficacy.
+
+\subsection{Experimental Method}
+Following Ref.~\cite{Hoodbhoy:1988am} it is possible to isolate the tensor structure function 
+$b_1$ from the parallel cross section expressed as follows:
+\begin{eqnarray}
+\frac{d^2\sigma_{\parallel}}{dx dy} = \frac{e^4 M E}{2 \pi Q^4} [1+(1-y)^2] [x F_1(x) + (\frac{2}{3} - H^2) x b_1(x)]
+\label{xsmeth}
+\end{eqnarray}
+%
+where $H^2=(P+2)/3$ is the target spin projection along the beam and $P$ is the target 
+polarization. The polarized cross sections $d^2\sigma_{\parallel}/d\Omega dE'$ are measured
+by scattering an unpolarized electron beam off a spin-1 target polarized longitudinally 
+to the electron beam direction. 
+
+From Eq.~\ref{xsmeth}, the beam time needed to achieve an absolute uncertainty 
+of $\delta A_{zz}$ can be deduced and is expressed as follows:
+\begin{eqnarray}
+T = \frac{1}{R_D~f~(P_{zz}~\delta A_{zz})^2}
+\label{time-eq}
+\end{eqnarray}
+where $R_D$ is the deuteron rate, $f$ the dilution factor and $P_{zz}$ the tensor polarization. 
+The expression of the tensor asymmetry $A_{zz}$ can be found in Eq.~\ref{Azz}.
+
+\subsection{Conclusion}
+
+The main concern of this method is the systematic uncertainty from $F_1$. 
+Since $F_1$ is about 30 times larger than $b_1$ (at $x = 0.45$),  a 2\% uncertainty in $F_1$
+will translate into 60\% systematic uncertainty in $b_1$ which is larger than HERMES uncertainty.
+We believe any precision measurement will have to come from the asymmetry or ratio method.
+
+\begin{table}
+\begin{center}
+\caption{\label{RATES}Summary of the kinematics and rates using Hall C HMS (top part of the table) and SHMS (bottom part of the table) spectrometers for the measurement.}
+\begin{tabular}{|ccc|cc|c|cc|cc|c|}\hline
+ $<x>$  & $<Q^2>$      &  $<W>$  &    $P_0$    &    $\theta$  &  Rates & $A_{zz}$ & $\delta A_{zz}^{stat}$    & $b_1$  & $\delta b_1^{stat}$ & time   \\
+  ~     & (GeV)$^2$  & (GeV) & (GeV)  &     (deg.)  &   (Hz)  & $\times 10^{-2}$ & $\times 10^{-2}$ &  $\times 10^{-2}$ & $\times 10^{-2}$    & (hours) \\
+\hline\hline
+0.15 &   2.0 &    3.5 &   4.22 &   11.9 &   6.34 & -0.51 &  0.23 &  0.71 & 0.32  &   285 \\
+0.35 &   2.8 &    2.5 &   6.93 &   11.0 &  14.77 &  0.75 &  0.22 & -0.36 & 0.11  &   128 \\
+0.45 &   3.5 &    2.3 &   7.04 &   12.2 &   8.02 &  1.2  &  0.36 & -0.31 & 0.93  &    91 \\
+0.55 &   4.2 &    2.1 &   7.11 &   13.3 &   4.03 &  1.6  &  0.54 & -0.19 & 0.065 &    80 \\
+\hline\hline
+0.15 &   2.0 &    3.5 &   4.22 &   11.9 &   7.03 & -0.51 &  0.23 &  0.71 & 0.32  &   257 \\
+0.25 &   2.0 &    2.6 &   6.93 &    9.3 &  41.77 &  0.19 &  0.15 & -0.16 & 0.13  &   101 \\
+0.35 &   2.5 &    2.4 &   7.37 &   10.1 &  21.87 &  0.75 &  0.22 & -0.37 & 0.11  &    86 \\
+0.55 &   4.2 &    2.1 &   7.11 &   13.3 &   2.43 &  1.6  &  0.54 & -0.19 & 0.065 &   133 \\
+\hline\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+%\subsection{Systematic uncertainty}
+
+%In this proposal, we consider using a model for the unpolarized structure function
+%$F_1$ needed to extract $b_1$ from Eq.~\ref{xsmeth}. So no time has been attributed to a 
+%possible measurement of $F_1$ at each of our kinematics.
+
+%\begin{table}[h]
+%\begin{center}
+%\caption{\label{sys}Relative systematic uncertainties in the extraction of $b_1$ from the
+%longitudinal cross sections.}
+%\begin{tabular}{|cc|}\hline
+%Polarimetry                  &   8\%   \\
+%Dilution/packing fraction    &   5\%   \\
+%Acceptance                   &   3\%   \\
+%Tracking efficiency          &   1\%   \\
+%Trigger  efficiency          &  0.5\%  \\
+%PID  efficiency              &  1.5\%  \\
+%Charge measurement           &  0.5\%  \\
+%Energy measurement           &  0.05\% \\
+%Radiative corrections        &   5\%   \\         
+%$F_1$ model                  &  10\%   \\
+%\hline
+%COMBINED UNCERTAINTY         &  15\%   \\
+%hline
+%\end{tabular}
+%\end{center}
+%\end{table}

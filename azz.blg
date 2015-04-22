@@ -1,51 +1,6 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: azz.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: azz.aux
 The style file: input/prsty.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: input/bibliography.bib
 Warning--Warning: pages missing in entry Bosted:2012qc.
 Warning--Warning: pages missing in entry PTSTDUST.
-You've used 30 entries,
-            1909 wiz_defined-function locations,
-            678 strings with 7428 characters,
-and the built_in function-call counts, 5416 in all, are:
-= -- 143
-> -- 264
-< -- 0
-+ -- 86
-- -- 56
-* -- 447
-:= -- 654
-add.period$ -- 30
-call.type$ -- 30
-change.case$ -- 1
-chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 259
-empty$ -- 629
-format.name$ -- 80
-if$ -- 1294
-int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 0
-newline$ -- 93
-num.names$ -- 24
-pop$ -- 236
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 388
-stack$ -- 0
-substring$ -- 261
-swap$ -- 154
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 2
-while$ -- 46
-width$ -- 32
-write$ -- 144
 (There were 2 warnings)

@@ -1,4 +1,5 @@
 \subsection{Uncertainty Estimates}
+\label{uncertainties}
 We discuss here the expected experimental and systematic uncertainties that we expect to contribute to the measurement.
 
 \subsubsection{Statistical Uncertainty}
@@ -14,12 +15,26 @@ The statistical error with respect to counts is then
 \end{equation}
 For $\delta N_{p(u)}=\sqrt{N_{p(u)}}$, the uncertainty becomes
 \begin{equation}
+\label{dAzz}
 \delta A_{zz}=\frac{2}{fP_{zz}}\sqrt{\frac{N_p(N_u + N_p)}{N_u^3}},
 \end{equation}
 which can't be simplified further due to the large expected asymmetry.
 
-The number of counts was calculated using a combination of P. Bosted's~\cite{Bosted:2012qc} and M. Sargsian's~\cite{misak-convo} code. The Bosted code was used for the lowest $Q^2$ setting, where effects of SRC scaling are expected to be negligible, and for $x<1.1$ to accurately determine the quasi-elastic peak. The Sargsian code was used for the higher $Q^2$ settings at $x>1.1$ due to its inclusion of SRC scaling effects.
+The number of counts was calculated using a combination of P. Bosted's~\cite{Bosted:2012qc} and M. Sargsian's~\cite{misak-convo} code for $x<2$. The Bosted code was used for the lowest $Q^2$ setting, where effects of SRC scaling are expected to be negligible, and for $x<1.1$ to accurately determine the quasi-elastic peak. The Sargsian code was used for the higher $Q^2$ settings at $x>1.1$ due to its inclusion of SRC scaling effects.
 
+The deuteron elastic peak was calculated using a parametrization of the deuteron elastic form factors $A$ and $B$ by
+
+\begin{equation}
+\frac{d^2 \sigma}{d\Omega dE'} = \sigma_{\mathrm{Mott}}\left(\frac{E'}{E}\right)\left[ A + B \tan ^2 \left( \frac{\theta}{2} \right) \right] \delta (E'-E'_{el}),
+\end{equation}
+
+where $\delta(E'-E'_{el})$ is approximated by $\frac{n}{\sqrt{\pi}}e^{-n^2 (E'-E'_{el})^2}$ with $n=5000$ and $E'_{el}=\frac{Q^2}{(2M_D)}.$ This was added to the rates calculation that was used for quasi-elastic $A_{zz}$ and $b_1$~\cite{Long:2013tn}. The uncertainty of $A_{zz}$ on the elastic peak was calculated the same as Eq.~\ref{dAzz}.
+
+To obtain statistical uncertainties for $T_{20}$, we scale our calculated elastic $A_{zz}$ uncertainties by
+
+\begin{equation}
+\delta t_{20} = \sqrt{2}\delta A_{zz}.
+\end{equation}
 
 \subsubsection{Systematic Uncertainty}% in $A_{zz}$ }
 \begin{table}

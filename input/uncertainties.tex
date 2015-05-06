@@ -1,40 +1,6 @@
 \subsection{Uncertainty Estimates}
 \label{uncertainties}
-We discuss here the expected experimental and systematic uncertainties that we expect to contribute to the measurement.
-
-\subsubsection{Statistical Uncertainty}
-\label{stat}
-To investigate the statistical uncertainty we start with the equation for $A_{zz}$ using
-measured counts for polarized data ($N_p$) and unpolarized data ($N_u$), 
-\begin{equation}
-A_{zz}=\frac{2}{fP_{zz}}\left(\frac{N_p}{N_u}-1\right).
-\end{equation}
-The statistical error with respect to counts is then
-\begin{equation}
-\delta A_{zz}=\frac{2}{fP_{zz}}\sqrt{\left(\frac{\delta N_p}{N_u}\right)^2+\left(\frac{N_p\delta N_u}{N_u^2}\right)^2}.
-\end{equation}
-For $\delta N_{p(u)}=\sqrt{N_{p(u)}}$, the uncertainty becomes
-\begin{equation}
-\label{dAzz}
-\delta A_{zz}=\frac{2}{fP_{zz}}\sqrt{\frac{N_p(N_u + N_p)}{N_u^3}},
-\end{equation}
-which can't be simplified further due to the large expected asymmetry.
-
-The number of counts was calculated using a combination of P. Bosted's~\cite{Bosted:2012qc} and M. Sargsian's~\cite{misak-convo} code for $x<2$. The Bosted code was used for the lowest $Q^2$ setting, where effects of SRC scaling are expected to be negligible, and for $x<1.1$ to accurately determine the quasi-elastic peak. The Sargsian code was used for the higher $Q^2$ settings at $x>1.1$ due to its inclusion of SRC scaling effects.
-
-The deuteron elastic peak was calculated using a parametrization of the deuteron elastic form factors $A$ and $B$ by
-
-\begin{equation}
-\frac{d^2 \sigma}{d\Omega dE'} = \sigma_{\mathrm{Mott}}\left(\frac{E'}{E}\right)\left[ A + B \tan ^2 \left( \frac{\theta}{2} \right) \right] \delta (E'-E'_{el}),
-\end{equation}
-
-where $\delta(E'-E'_{el})$ is approximated by $\frac{n}{\sqrt{\pi}}e^{-n^2 (E'-E'_{el})^2}$ with $n=5000$ and $E'_{el}=\frac{Q^2}{(2M_D)}.$ This was added to the rates calculation that was used for quasi-elastic $A_{zz}$ and $b_1$~\cite{Long:2013tn}. The uncertainty of $A_{zz}$ on the elastic peak was calculated the same as Eq.~\ref{dAzz}.
-
-To obtain statistical uncertainties for $T_{20}$, we scale our calculated elastic $A_{zz}$ uncertainties by
-
-\begin{equation}
-\delta t_{20} = \sqrt{2}\delta A_{zz}.
-\end{equation}
+We discuss here the expected statistical and systematic uncertainties that we expect to contribute to the measurement.
 
 \subsubsection{Systematic Uncertainty}% in $A_{zz}$ }
 \begin{table}
@@ -129,3 +95,163 @@ during the experiment though monitoring as well as systematic studies of the dat
 Checks on the consistency of the cross section data that can be use ensuring the quality of each run will be used in the asymmetry analysis.  Regression can be use to correct for any long term drifts that are of a non-stochastic nature.
 Each of these systematic effects can mitigate the systematic uncertainty to $\sim0.001$. 
 In the kinematic region proposed here, $A_{zz}$ is expected to be large, on the order of $0.1$ to $1.0$, making any absolute errors on this scale only critical as the data and models pass through the x-axis.  
+
+\subsubsection{Statistical Uncertainty}
+\label{stat}
+To investigate the statistical uncertainty we start with the equation for $A_{zz}$ using
+measured counts for polarized data ($N_p$) and unpolarized data ($N_u$), 
+\begin{equation}
+A_{zz}=\frac{2}{fP_{zz}}\left(\frac{N_p}{N_u}-1\right).
+\end{equation}
+The statistical error with respect to counts is then
+\begin{equation}
+\delta A_{zz}=\frac{2}{fP_{zz}}\sqrt{\left(\frac{\delta N_p}{N_u}\right)^2+\left(\frac{N_p\delta N_u}{N_u^2}\right)^2}.
+\end{equation}
+For $\delta N_{p(u)}=\sqrt{N_{p(u)}}$, the uncertainty becomes
+\begin{equation}
+\label{dAzz}
+\delta A_{zz}=\frac{2}{fP_{zz}}\sqrt{\frac{N_p(N_u + N_p)}{N_u^3}},
+\end{equation}
+which can't be simplified further due to the large expected asymmetry.
+
+The number of counts was calculated using a combination of P. Bosted's~\cite{Bosted:2012qc} and M. Sargsian's~\cite{misak-convo} code for $x<2$. The Bosted code was used for the lowest $Q^2$ setting, where effects of SRC scaling are expected to be negligible, and for $x<1.1$ to accurately determine the quasi-elastic peak. The Sargsian code was used for the higher $Q^2$ settings at $x>1.1$ due to its inclusion of SRC scaling effects.
+
+The deuteron elastic peak was calculated using a parametrization of the deuteron elastic form factors $A$ and $B$ by
+
+\begin{equation}
+\frac{d^2 \sigma}{d\Omega dE'} = \sigma_{\mathrm{Mott}}\left(\frac{E'}{E}\right)\left[ A + B \tan ^2 \left( \frac{\theta}{2} \right) \right] \delta (E'-E'_{el}),
+\end{equation}
+
+where $\delta(E'-E'_{el})$ is approximated by a Gaussian distribution with its width determined by the resolution of the spectrometers, 
+\begin{equation}
+\delta(E'-E'_{el}) = \frac{1}{2\Delta E\cdot E'_{el}\sqrt{\pi}}e^{-\frac{(E'-E'_{el})^2}{2(\Delta E\cdot E'_{el})^2}}, 
+\end{equation}
+where $\Delta E=0.1 ~(0.08)\%$ for the HMS (SHMS) and $E'_{el}=\frac{Q^2}{2m_D}.$ This was added to the rates calculation that was used for quasi-elastic $A_{zz}$ and $b_1$~\cite{Long:2013tn}. The uncertainty of $A_{zz}$ on the elastic peak was calculated the same as Eq.~\ref{dAzz}.
+
+Following the methodology discussed in Section~\ref{t20_exp}, to obtain statistical uncertainties for $T_{20}$ we scale our calculated elastic $A_{zz}$ uncertainties by
+\begin{equation}
+\delta t_{20} = \sqrt{2}\delta A_{zz}.
+\end{equation}
+
+The projected uncertainties for $A_{zz}$ are summarized in Tables~\ref{RATES2}-\ref{RATES3} and displayed in Figs.~\ref{PROJ}-\ref{PROJ-zoom}. The projected uncertainties for $T_{20}$ are summarized in Table~\ref{RATES-T20}\need and displayed in Fig.~\ref{PROJ-T20}.  
+
+
+
+
+
+
+\begin{table}
+\begin{center}
+\begin{tabular}{c|ccc|ccc|ccc}
+ ~ & \multicolumn{3}{|c}{H1: $Q^2=2.9\mathrm{~(GeV/}c)^2$} & \multicolumn{3}{|c}{H2: $Q^2=1.8\mathrm{~(GeV/}c)^2$} & \multicolumn{3}{|c}{S1: $Q^2=1.5\mathrm{~(GeV/}c)^2$} \\
+ \hline
+  $x$  & $f_{dil}$ & $\delta A_{zz}^{stat}$ & $\delta A_{zz}^{sys}$ & $f_{dil}$ & $\delta A_{zz}^{stat}$ & $\delta A_{zz}^{sys}$ & $f_{dil}$ & $\delta A_{zz}^{stat}$ & $\delta A_{zz}^{sys}$ \\
+  &     & $\times 10^{-2}$  & $\times 10^{-2}$  &    & $\times 10^{-2}$  & $\times 10^{-2}$ &    & $\times 10^{-2}$  & $\times 10^{-2}$ \\
+\hline\hline
+%       |         Q2=2.9         |      Q2=1.8           |      Q2=1.5
+%  x  	   fdil 	   dAzz	 dAzzSys  fdil 	  dAzz   dAzzSys  fdil   dAzz	 dAzzSys
+ 0.50   &  0.29	 & 2.02	& 1.84	& ---	& ---	& ---	& 0.25	& 0.72	& 1.84 \\
+ 0.60   &  0.29	 & 0.91	& ????	& 0.27	& 3.15	& ????	& 0.30	& 0.36	& ???? \\ 
+ 0.70   &  0.27	 & 1.01	& ????	& 0.32	& 1.26	& ????	& 0.29	& 0.38	& ???? \\
+ 0.80	&  0.30	 & 1.11	& 1.34	& 0.20	& 2.00	& 0.48	& 0.17	& 0.74	& 1.34 \\
+ 0.90	&  0.24	 & 1.73 	& 0.38 	& 0.27	& 1.45	& 1.10	& 0.29	& 0.44	& 0.38 \\
+ 1.00	&  0.46	 & 1.03	& ???? 	& 0.50	& 0.74	& ????	& 0.51	& 0.24	& ???? \\
+ 1.10	&  0.28	 & 2.48	& 0.14 	& 0.33	& 1.58	& 1.65	& 0.34	& 0.49	& 0.14 \\
+ 1.20	&  0.09	 & 11.7	& 1.55 	& 0.10	& 7.18	& 3.31	& 0.17	& 1.34	& 1.55 \\
+ 1.30	&  0.11	 & 16.8	& 4.13 	& 0.11	& 9.76	& 4.96	& 0.12	& 2.79	& 4.13 \\
+ 1.40	&  ---	 & ---	& --- 	& 0.12	& 15.1	& 6.65	& 0.13	& 4.30	& 6.72 \\
+ 1.50	&  ---	 & ---	& ---	& 0.11	& 19.8	& 8.29	& 0.10	& 7.01	& 8.34 \\
+ 1.60	&  ---	 & ---	& --- 	& ---	& ---	& ---	& 0.10	& 9.60	& 8.42 \\
+ 1.70	&  ---	 & ---	& --- 	& ---	& ---	& ---	& 0.10	& 12.7	& 7.04 \\
+ 1.80	&  ---	 & ---	& --- 	& ---	& ---	& ---	& 0.10	& 16.6	& 4.72 \\
+ 2.00   &  ---	 & ---	& ---	& 0.20	& 9.33	& 9.20	& 0.50	& 2.79	& 9.20 \\
+\hline\hline
+\end{tabular}
+\caption{\label{RATES2}Summary of the expected uncertainty for each $x$ bin for settings S1, H1, and H2. }
+\end{center}
+\end{table}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{c|ccc|ccc|ccc}
+ ~ & \multicolumn{3}{|c}{S2: $Q^2=0.7\mathrm{~(GeV/}c)^2$} & \multicolumn{3}{|c}{H3: $Q^2=0.3\mathrm{~(GeV/}c)^2$} & \multicolumn{3}{|c}{S3: $Q^2=0.2\mathrm{~(GeV/}c)^2$} \\
+ \hline
+  $x$  & $f_{dil}$ & $\delta A_{zz}^{stat}$ & $\delta A_{zz}^{sys}$ & $f_{dil}$ & $\delta A_{zz}^{stat}$ & $\delta A_{zz}^{sys}$ & $f_{dil}$ & $\delta A_{zz}^{stat}$ & $\delta A_{zz}^{sys}$ \\
+  &     & $\times 10^{-2}$  & $\times 10^{-2}$  &    & $\times 10^{-2}$  & $\times 10^{-2}$ &    & $\times 10^{-2}$  & $\times 10^{-2}$ \\
+\hline\hline
+%       |         Q2=0.7         |      Q2=0.3           |      Q2=0.2
+%  x  	   fdil 	   dAzz	 dAzzSys  fdil 	  dAzz   dAzzSys  fdil   dAzz	 dAzzSys
+ 0.30   &  0.24	 & 0.99	& 1.84	& ---	& ---	& ---	& 0.18	& 2.13	& 1.84 \\
+ 0.40   &  0.28	 & 0.26	& 1.84	& ---	& ---	& ---	& 0.12	& 1.38	& 1.84 \\
+ 0.50   &  0.32	 & 0.21	& 1.84	& 0.14	& 3.52	& 1.84	& 0.11	& 1.23	& 1.84 \\
+ 0.60   &  0.19	 & 0.41	& ????	& 0.12	& 2.26	& ????	& 0.18	& 0.78	& ???? \\ 
+ 0.70   &  0.13	 & 0.68	& ????	& 0.18	& 1.33	& ????	& 0.28	& 0.48	& ???? \\
+ 0.80	&  0.19	 & 0.48	& 0.48	& 0.30	& 0.72	& 0.48	& 0.42	& 0.31	& 0.48 \\
+ 0.90	&  0.39	 & 0.22 	& 1.10 	& 0.46	& 0.45	& 1.10	& 0.54	& 0.24	& 1.10 \\
+ 1.00	&  0.52	 & 0.16	& ???? 	& 0.52	& 0.43	& ????	& 0.58	& 0.25	& ???? \\
+ 1.10	&  0.39	 & 0.28	& 1.27 	& 0.43	& 0.63	& 1.07	& 0.53	& 0.33	& 0.95 \\
+ 1.20	&  0.22	 & 0.65	& 2.54 	& 0.30	& 1.15	& 2.14	& 0.40	& 0.55	& 1.91 \\
+ 1.30	&  0.14	 & 1.34	& 3.81 	& 0.19	& 2.16	& 3.22	& 0.32	& 0.83	& 2.87 \\
+ 1.40	&  0.09	 & 2.29	& 5.06 	& 0.14	& 3.52	& 4.29	& 0.24	& 1.31	& 3.82 \\
+ 1.50	&  0.06	 & 4.09	& 6.35	& 0.10	& 5.85	& 5.37	& 0.20	& 1.86	& 4.78 \\
+ 1.60	&  0.04	 & 7.76	& 7.60 	& 0.06	& 10.4	& 6.45	& 0.14	& 2.87	& 5.74 \\
+ 1.70	&  0.04	 & 9.23	& 8.88 	& 0.05	& 13.5	& 7.52	& 0.10	& 4.53	& 6.69 \\
+ 1.80	&  0.03	 & 14.9	& 9.20 	& 0.06	& 13.9	& 8.60	& 0.11	& 4.73	& 7.66 \\
+ 2.00   &  0.67	 & 3.79	& 9.20	& 0.20	& 3.05	& 9.20	& 0.70	& 0.45	& 9.20 \\
+\hline\hline
+\end{tabular}
+\caption{\label{RATES3}Summary of the expected uncertainty for each $x$ bin for settings S2, S3, and H3. }
+\end{center}
+\end{table}
+
+
+\begin{figure}
+\begin{center}
+%\includegraphics[width=0.45\textwidth]{figs/plots0705/b1_proj_newmiller_lin.eps}
+%\hspace{0.5cm}
+\includegraphics[width=0.49\textwidth]{figs/Azz_S1_H1_H2_vn_lc.eps} 
+\includegraphics[width=0.49\textwidth]{figs/Azz_S1_H1_H2_fsi.eps} \\
+\includegraphics[width=0.49\textwidth]{figs/Azz_S2_H3_S3.eps} 
+\caption{\label{PROJ}Projected uncertainties for the tensor asymmetry $A_{zz}$ with \productiondays days of beam time. The band represents the systematic uncertainty. The top row shows the $Q^2>1.0~(\mathrm{GeV}/c)^2$ settings and the bottom row shows the $Q^2<1.0~(\mathrm{GeV}/c)^2$. The upper $x$ limit for H1 (H2) is $x=1.3$ ($x=1.5$). The upper-left plot includes light-cone (LC) and virtual-nucleon (VN) calculations provided by M. Sargsian~\cite{Sargsian:2014fla}, as well as the dependence of each model on various deuteron wave functions (AV18, CDBonn). The dotted line at $x=1.75$ indicates the threshold where LC and VN calculations begin to break down as $A_{zz}$ approaches the elastic peak. The upper-right plot includes virtual-nucleon plane wave and final state interaction (FSI) calculations provided by W. Cosyn~\cite{cosyn-convo}. The bottom row includes a modified Frankfurt and Strikman model~\cite{Frankfurt:1988nt} that estimates the peak shifts in $x$ expected due to the SRC scaling changing with $Q^2$~\cite{Frankfurt:2008zv}.
+}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+%\includegraphics[width=0.45\textwidth]{figs/plots0705/b1_proj_newmiller_lin.eps}
+%\hspace{0.5cm}
+\includegraphics[width=0.49\textwidth]{figs/Azz_S1_H1_H2_zoom.eps} 
+\includegraphics[width=0.49\textwidth]{figs/Azz_S2_H3_S3_zoom.eps} 
+\caption{\label{PROJ-zoom}Projected uncertainties for the tensor asymmetry $A_{zz}$ with \productiondays days of beam time, same as in Figure~\ref{PROJ}, but zoomed in to $-0.1<A_{zz}<0.1$ to more clearly show the small uncertainties around the quasi-elastic peak.
+}
+\end{center}
+\end{figure}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{c|c|c|c}
+		& $Q^2$    	& $\delta T_{20}^{stat}$	&  $\delta T_{20}^{sys}$ \\
+Setting	& (GeV$^2$)	& $\times 10^{-2}$		& $\times 10^{-2}$ \\
+\hline\hline
+H2 		& 1.8		&  13.2					& 4.7 \\  
+S1 		& 1.5		&  3.95					& 4.6 \\
+S2 		& 0.7		&  5.36					& 4.6 \\  
+H3 		& 0.3		&  4.31					& 9.2 \\  
+S3 		& 0.2		&  0.64					& 5.5 \\
+  
+\hline\hline
+\end{tabular}
+\caption{\label{RATES-T20}Expected uncertainties for $T_{20}$, assuming a systematic uncertainty of 9.2\%, which could be reduced further by utilizing the S3 measurement as a calibration for the polarized target.}
+\end{center}
+\end{table}
+
+\begin{figure}
+\begin{center}
+%\includegraphics[width=0.45\textwidth]{figs/plots0705/b1_proj_newmiller_lin.eps}
+%\hspace{0.5cm}
+\includegraphics[width=\textwidth]{figs/plot_t20_fit.eps} 
+\caption{\label{PROJ-T20}Projected uncertainties for the elastic tensor analyzing power $T_{20}$ with \productiondays days of beam time.
+}
+\end{center}
+\end{figure}

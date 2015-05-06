@@ -2,6 +2,9 @@
 \label{uncertainties}
 We discuss here the expected statistical and systematic uncertainties that we expect to contribute to the measurement.
 
+\input{input/systematics.tex}
+
+\iffalse
 \subsubsection{Systematic Uncertainty}% in $A_{zz}$ }
 \begin{table}
 \begin{center}
@@ -96,6 +99,8 @@ Checks on the consistency of the cross section data that can be use ensuring the
 Each of these systematic effects can mitigate the systematic uncertainty to $\sim0.001$. 
 In the kinematic region proposed here, $A_{zz}$ is expected to be large, on the order of $0.1$ to $1.0$, making any absolute errors on this scale only critical as the data and models pass through the x-axis.  
 
+\fi
+
 \subsubsection{Statistical Uncertainty}
 \label{stat}
 To investigate the statistical uncertainty we start with the equation for $A_{zz}$ using
@@ -126,14 +131,14 @@ where $\delta(E'-E'_{el})$ is approximated by a Gaussian distribution with its w
 \begin{equation}
 \delta(E'-E'_{el}) = \frac{1}{2\Delta E\cdot E'_{el}\sqrt{\pi}}e^{-\frac{(E'-E'_{el})^2}{2(\Delta E\cdot E'_{el})^2}}, 
 \end{equation}
-where $\Delta E=0.1 ~(0.08)\%$ for the HMS (SHMS) and $E'_{el}=\frac{Q^2}{2m_D}.$ This was added to the rates calculation that was used for quasi-elastic $A_{zz}$ and $b_1$~\cite{Long:2013tn}. The uncertainty of $A_{zz}$ on the elastic peak was calculated the same as Eq.~\ref{dAzz}.
+where $\Delta E=0.1 ~(0.08)\%$ for the HMS (SHMS) and $E'_{el}=\frac{Q^2}{2m_D}.$ This was added to the rates calculation that was used for quasi-elastic $A_{zz}$ and $b_1$~\cite{Long:2013tn}, and the uncertainty of $A_{zz}$ on the elastic peak was calculated the as in Eq.~\ref{dAzz}.
 
 Following the methodology discussed in Section~\ref{t20_exp}, to obtain statistical uncertainties for $T_{20}$ we scale our calculated elastic $A_{zz}$ uncertainties by
 \begin{equation}
 \delta t_{20} = \sqrt{2}\delta A_{zz}.
 \end{equation}
 
-The projected uncertainties for $A_{zz}$ are summarized in Tables~\ref{RATES2}-\ref{RATES3} and displayed in Figs.~\ref{PROJ}-\ref{PROJ-zoom}. The projected uncertainties for $T_{20}$ are summarized in Table~\ref{RATES-T20}\need and displayed in Fig.~\ref{PROJ-T20}.  
+The projected uncertainties for $A_{zz}$ are summarized in Tables~\ref{RATES2}-\ref{RATES3} and displayed in Figs.~\ref{PROJ}-\ref{PROJ-zoom}. The projected uncertainties for $T_{20}$ are summarized in Table~\ref{RATES-T20} and displayed in Fig.~\ref{PROJ-T20}.  
 
 
 
@@ -212,7 +217,7 @@ The projected uncertainties for $A_{zz}$ are summarized in Tables~\ref{RATES2}-\
 \includegraphics[width=0.49\textwidth]{figs/Azz_S1_H1_H2_vn_lc.eps} 
 \includegraphics[width=0.49\textwidth]{figs/Azz_S1_H1_H2_fsi.eps} \\
 \includegraphics[width=0.49\textwidth]{figs/Azz_S2_H3_S3.eps} 
-\caption{\label{PROJ}Projected uncertainties for the tensor asymmetry $A_{zz}$ with \productiondays days of beam time. The band represents the systematic uncertainty. The top row shows the $Q^2>1.0~(\mathrm{GeV}/c)^2$ settings and the bottom row shows the $Q^2<1.0~(\mathrm{GeV}/c)^2$. The upper $x$ limit for H1 (H2) is $x=1.3$ ($x=1.5$). The upper-left plot includes light-cone (LC) and virtual-nucleon (VN) calculations provided by M. Sargsian~\cite{Sargsian:2014fla}, as well as the dependence of each model on various deuteron wave functions (AV18, CDBonn). The dotted line at $x=1.75$ indicates the threshold where LC and VN calculations begin to break down as $A_{zz}$ approaches the elastic peak. The upper-right plot includes virtual-nucleon plane wave and final state interaction (FSI) calculations provided by W. Cosyn~\cite{cosyn-convo}. The bottom row includes a modified Frankfurt and Strikman model~\cite{Frankfurt:1988nt} that estimates the peak shifts in $x$ expected due to the SRC scaling changing with $Q^2$~\cite{Frankfurt:2008zv}.
+\caption{\label{PROJ}Projected uncertainties for the tensor asymmetry $A_{zz}$ with \productiondays days of beam time. The band represents the systematic uncertainty. The top row shows the $Q^2>1.0~(\mathrm{GeV}/c)^2$ settings and the bottom row shows the $Q^2<1.0~(\mathrm{GeV}/c)^2$. The upper $x$ limit for H1 (H2) is $x=1.3$ ($x=1.5$). The upper-left plot includes light-cone (LC) and virtual-nucleon (VN) calculations provided by M. Sargsian~\cite{Sargsian:2014fla}, as well as the dependence of each model on various deuteron wave functions (AV18, CDBonn). The dotted line at $x=1.75$ indicates the threshold of $W_{NN}>m_D+100$~MeV where LC and VN calculations begin to not be valid as $A_{zz}$ approaches the elastic peak. The upper-right plot includes virtual-nucleon plane wave and final state interaction (FSI) calculations provided by W. Cosyn~\cite{cosyn-convo}. The bottom row includes a modified Frankfurt and Strikman model~\cite{Frankfurt:1988nt} that estimates the peak shifts in $x$ expected due to the SRC scaling changing with $Q^2$~\cite{Frankfurt:2008zv}.
 }
 \end{center}
 \end{figure}
@@ -251,7 +256,7 @@ S3 		& 0.2		&  0.64					& 5.5 \\
 %\includegraphics[width=0.45\textwidth]{figs/plots0705/b1_proj_newmiller_lin.eps}
 %\hspace{0.5cm}
 \includegraphics[width=\textwidth]{figs/plot_t20_fit.eps} 
-\caption{\label{PROJ-T20}Projected uncertainties for the elastic tensor analyzing power $T_{20}$ with \productiondays days of beam time.
+\caption{\label{PROJ-T20}Projected statistical uncertainties for the elastic tensor analyzing power $T_{20}$ with \productiondays days of beam time.
 }
 \end{center}
 \end{figure}

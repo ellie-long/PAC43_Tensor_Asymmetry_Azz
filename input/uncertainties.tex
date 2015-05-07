@@ -1,6 +1,46 @@
 \subsection{Uncertainty Estimates}
 \label{uncertainties}
-We discuss here the expected statistical and systematic uncertainties that we expect to contribute to the measurement.
+We discuss here the expected statistical and systematic uncertainties that we expect to contribute to the measurement. The projected uncertainties for $A_{zz}$ are summarized in Tables~\ref{RATES2}-\ref{RATES3} and displayed in Figs.~\ref{PROJ}-\ref{PROJ-zoom}. The projected uncertainties for $T_{20}$ are summarized in Table~\ref{RATES-T20} and displayed in Fig.~\ref{PROJ-T20}.  
+
+\subsubsection{Statistical Uncertainty}
+\label{stat}
+To investigate the statistical uncertainty we start with the equation for $A_{zz}$ using
+measured counts for polarized data ($N_p$) and unpolarized data ($N_u$), 
+\begin{equation}
+A_{zz}=\frac{2}{fP_{zz}}\left(\frac{N_p}{N_u}-1\right).
+\end{equation}
+The statistical error with respect to counts is then
+\begin{equation}
+\delta A_{zz}=\frac{2}{fP_{zz}}\sqrt{\left(\frac{\delta N_p}{N_u}\right)^2+\left(\frac{N_p\delta N_u}{N_u^2}\right)^2}.
+\end{equation}
+For $\delta N_{p(u)}=\sqrt{N_{p(u)}}$, the uncertainty becomes
+\begin{equation}
+\label{dAzz}
+\delta A_{zz}=\frac{2}{fP_{zz}}\sqrt{\frac{N_p(N_u + N_p)}{N_u^3}},
+\end{equation}
+which can't be simplified further due to the large expected asymmetry.
+
+The number of counts was calculated using a combination of P. Bosted's~\cite{Bosted:2012qc} and M. Sargsian's~\cite{misak-convo} code for $x<2$. The Bosted code was used for the lowest $Q^2$ setting, where effects of SRC scaling are expected to be negligible, and for $x<1.1$ to accurately determine the quasi-elastic peak. The Sargsian code was used for the higher $Q^2$ settings at $x>1.1$ due to its inclusion of SRC scaling effects.
+
+The deuteron elastic peak was calculated using a parametrization of the deuteron elastic form factors $A$ and $B$ by
+
+\begin{equation}
+\frac{d^2 \sigma}{d\Omega dE'} = \sigma_{\mathrm{Mott}}\left(\frac{E'}{E}\right)\left[ A + B \tan ^2 \left( \frac{\theta}{2} \right) \right] \delta (E'-E'_{el}),
+\end{equation}
+
+where $\delta(E'-E'_{el})$ is approximated by a Gaussian distribution with its width determined by the resolution of the spectrometers, 
+\begin{equation}
+\delta(E'-E'_{el}) = \frac{1}{2\Delta E\cdot E'_{el}\sqrt{\pi}}e^{-\frac{(E'-E'_{el})^2}{2(\Delta E\cdot E'_{el})^2}}, 
+\end{equation}
+where $\Delta E=0.1 ~(0.08)\%$ for the HMS (SHMS) and $E'_{el}=\frac{Q^2}{2m_D}.$ This was added to the rates calculation that was used for quasi-elastic $A_{zz}$ and $b_1$~\cite{Long:2013tn}, and the uncertainty of $A_{zz}$ on the elastic peak was calculated the as in Eq.~\ref{dAzz}.
+
+Following the methodology discussed in Section~\ref{t20_exp}, to obtain statistical uncertainties for $T_{20}$ we scale our calculated elastic $A_{zz}$ uncertainties by
+\begin{equation}
+\delta t_{20} = \sqrt{2}\delta A_{zz}.
+\end{equation}
+
+
+
 
 \input{input/systematics.tex}
 
@@ -101,44 +141,6 @@ In the kinematic region proposed here, $A_{zz}$ is expected to be large, on the 
 
 \fi
 
-\subsubsection{Statistical Uncertainty}
-\label{stat}
-To investigate the statistical uncertainty we start with the equation for $A_{zz}$ using
-measured counts for polarized data ($N_p$) and unpolarized data ($N_u$), 
-\begin{equation}
-A_{zz}=\frac{2}{fP_{zz}}\left(\frac{N_p}{N_u}-1\right).
-\end{equation}
-The statistical error with respect to counts is then
-\begin{equation}
-\delta A_{zz}=\frac{2}{fP_{zz}}\sqrt{\left(\frac{\delta N_p}{N_u}\right)^2+\left(\frac{N_p\delta N_u}{N_u^2}\right)^2}.
-\end{equation}
-For $\delta N_{p(u)}=\sqrt{N_{p(u)}}$, the uncertainty becomes
-\begin{equation}
-\label{dAzz}
-\delta A_{zz}=\frac{2}{fP_{zz}}\sqrt{\frac{N_p(N_u + N_p)}{N_u^3}},
-\end{equation}
-which can't be simplified further due to the large expected asymmetry.
-
-The number of counts was calculated using a combination of P. Bosted's~\cite{Bosted:2012qc} and M. Sargsian's~\cite{misak-convo} code for $x<2$. The Bosted code was used for the lowest $Q^2$ setting, where effects of SRC scaling are expected to be negligible, and for $x<1.1$ to accurately determine the quasi-elastic peak. The Sargsian code was used for the higher $Q^2$ settings at $x>1.1$ due to its inclusion of SRC scaling effects.
-
-The deuteron elastic peak was calculated using a parametrization of the deuteron elastic form factors $A$ and $B$ by
-
-\begin{equation}
-\frac{d^2 \sigma}{d\Omega dE'} = \sigma_{\mathrm{Mott}}\left(\frac{E'}{E}\right)\left[ A + B \tan ^2 \left( \frac{\theta}{2} \right) \right] \delta (E'-E'_{el}),
-\end{equation}
-
-where $\delta(E'-E'_{el})$ is approximated by a Gaussian distribution with its width determined by the resolution of the spectrometers, 
-\begin{equation}
-\delta(E'-E'_{el}) = \frac{1}{2\Delta E\cdot E'_{el}\sqrt{\pi}}e^{-\frac{(E'-E'_{el})^2}{2(\Delta E\cdot E'_{el})^2}}, 
-\end{equation}
-where $\Delta E=0.1 ~(0.08)\%$ for the HMS (SHMS) and $E'_{el}=\frac{Q^2}{2m_D}.$ This was added to the rates calculation that was used for quasi-elastic $A_{zz}$ and $b_1$~\cite{Long:2013tn}, and the uncertainty of $A_{zz}$ on the elastic peak was calculated the as in Eq.~\ref{dAzz}.
-
-Following the methodology discussed in Section~\ref{t20_exp}, to obtain statistical uncertainties for $T_{20}$ we scale our calculated elastic $A_{zz}$ uncertainties by
-\begin{equation}
-\delta t_{20} = \sqrt{2}\delta A_{zz}.
-\end{equation}
-
-The projected uncertainties for $A_{zz}$ are summarized in Tables~\ref{RATES2}-\ref{RATES3} and displayed in Figs.~\ref{PROJ}-\ref{PROJ-zoom}. The projected uncertainties for $T_{20}$ are summarized in Table~\ref{RATES-T20} and displayed in Fig.~\ref{PROJ-T20}.  
 
 
 

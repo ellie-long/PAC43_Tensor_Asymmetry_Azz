@@ -1,50 +1,40 @@
 
-\section{Contributions from Final State Interactions}
+\subsection{Contributions from Final State Interactions}
 
-The model uses the virtual nucleon approximation (VNA) to compute inclusive 
-observables in electron-induced scattering off the deuteron including the 
-effect of final-state interactions.  Amplitudes and observables are computed in 
-an unfactorized manner.  This is still work in development.  Current 
-calculations include on-shell and off-shell contributions to the FSI 
-amplitudes, but the off-shell contribution is calculated neglecting any 
-possible singularities of the EM current in the complex plane.  Calculations 
+In order to accurately determine the nucleonic components of the deuteron's wave function, it is vital to that non-nucleonic contributions, such as final state interactions (FSI), are understood. As demonstrated below, FSI can introduce a significant component to the $A_{zz}$ observable, particularly in the large $x>1.2$ region. Including these effects is necessary for further constraining our theoretical understanding of the deuteron through $A_{zz}$.
+
+The effects of FSI on $A_{zz}$ have been recently been modelled by W. Cosyn in the deep-inelastic region~\cite{Cosyn:2014sqa} and in the quasi-elastic region discussed in this proporsal~\cite{cosyn-convo}, which is an on-going area of research. Results are shown in Fig.~\ref{fig:fsi-kin1}-{fig:fsi-kin2}. The calculations use the virtual nucleon (VN) approximation to compute inclusive observables in electron-induced scattering off the deuteron including the 
+effect of final-state interactions. Amplitudes and observables are computed in an unfactorized manner.   
+
+Current calculations include on-shell and off-shell contributions to the FSI amplitudes, but the off-shell contribution is calculated 	by neglecting any  possible singularities of the EM current in the complex plane.  Calculations 
 including these are forthcoming.  The inclusive observables are computed using 
 the optical theorem in a manner analogous to Ref.~\cite{Cosyn:2013uoa}.  The 
 rescattering of the struck nucleon with the spectator is modelled using an 
-eikonal amplitude.  Currently, we have chosen to not suppress the off-shell 
-contribution to the fsi amplitude in any manner, as to estimate the maximum 
-possible effect of FSI.
+eikonal amplitude.  For the calculations included in this proposal, the off-shell 
+contribution to the FSI amplitude has not been suppressed in any manner, such that the maximum possible effect of FSI are estimated.
 
 \begin{figure}[htb]
 \begin{center}
   \includegraphics[width=0.5\textwidth]{figs/kin1_cdbonn_av18.eps}
-\caption{$A_{zz}$ calculation for kinematic S1 including FSI contributions.  
+\caption{$A_{zz}$ calculation for $E_0=8.8\mathrm{~GeV}^2$ and $Q^2=1.5\mathrm{~(GeV/}c)^2$ including contributions from final state interactions.  
 Full curves use the CDBonn deuteron wave function, dashed ones the AV18 
 deuteron wave function.}
-\label{fig:kin1}       % Give a unique label
+\label{fig:fsi-kin1}       % Give a unique label
 \end{center}
 \end{figure}
 
 \begin{figure}[htb]
 \begin{center}
-  \includegraphics[width=0.5\textwidth]{figs/kin1_cdbonn_av18.eps}
-\caption{Same as Fig.~\ref{fig:kin1}, but for kinematic H1}
-\label{fig:kin2}       % Give a unique label
+  \includegraphics[width=0.5\textwidth]{figs/kin2_cdbonn_av18.eps}
+\caption{Same as Fig.~\ref{fig:fsi-kin1}, but for $E_0=8.8\mathrm{~GeV}^2$ and $Q^2=2.9\mathrm{~(GeV/}c)^2$}
+\label{fig:fsi-kin2}       % Give a unique label
 \end{center}
 \end{figure}
 
-Note: strange bumps in the red curves (plane-wave+on-shell fsi) is due to 
-contributions almost cancelling each other in combination with numerical 
-errors.  Which means the numerical noise gets enhanced bigtime.  I suggest 
-dropping these for now, since the off-shell contribution dominates anyway.
+%Note: strange bumps in the red curves (plane-wave+on-shell fsi) is due to contributions almost cancelling each other in combination with numerical errors.  Which means the numerical noise gets enhanced bigtime.  I suggest dropping these for now, since the off-shell contribution dominates anyway.
 
-Most theory calculations calculate Azz with a deuteron polarized along the 
-virtual photon momentum direction as this limits the number of response 
-functions included in the cross section.  For a deuteron polarized along the 
-electron beam direction, an extra rotation of the deuteron density matrix needs 
-to be accounted for and extra response functions contribute (see Ref. 
-\cite{Cosyn:2014sqa} for formulas).  The next figures show how $A_zz$ changes 
-when accounting for this.
+\iffalse
+Most theory calculations calculate Azz with a deuteron polarized along the  virtual photon momentum direction as this limits the number of response  functions included in the cross section.  For a deuteron polarized along the  electron beam direction, an extra rotation of the deuteron density matrix needs  to be accounted for and extra response functions contribute~\cite{Cosyn:2014sqa}.  The next figures show how $A_{zz}$ changes  when accounting for this.
 
 \begin{figure}[htb]
 \begin{center}
@@ -82,5 +72,5 @@ function.}
 \label{fig:beampol4}       % Give a unique label
 \end{center}
 \end{figure}
-
+\fi
 

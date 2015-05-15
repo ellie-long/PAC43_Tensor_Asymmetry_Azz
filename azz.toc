@@ -1,0 +1,33 @@
+\contentsline {section}{\numberline {1}$A_{zz}$ Motivation}{6}{section.1}
+\contentsline {subsection}{\numberline {1.1}Probing the Deuteron Wavefunction}{7}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Study of the Relativistic NN Bound System}{8}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Final State Interactions}{9}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Interest from Theorists}{9}{subsection.1.4}
+\contentsline {section}{\numberline {2}$T_{20}$ Motivation}{12}{section.2}
+\contentsline {section}{\numberline {3}The Proposed Experiment}{14}{section.3}
+\contentsline {subsection}{\numberline {3.1}$A_{zz}$ Experimental Method}{14}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}$T_{20}$ Experimental Method}{16}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Kinematics}{17}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Uncertainty Estimates}{19}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Statistical Uncertainty}{24}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Systematic Uncertainty}{25}{subsubsection.3.4.2}
+\contentsline {paragraph}{\numberline {3.4.2.1}Time Dependent Factors}{26}{paragraph.3.4.2.1}
+\contentsline {paragraph}{\numberline {3.4.2.2}Drift Mitigation}{28}{paragraph.3.4.2.2}
+\contentsline {paragraph}{\numberline {3.4.2.3}Trigger-Tracking}{29}{paragraph.3.4.2.3}
+\contentsline {paragraph}{\numberline {3.4.2.4}Target Dilution and Length}{29}{paragraph.3.4.2.4}
+\contentsline {paragraph}{\numberline {3.4.2.5}Solid Angle}{31}{paragraph.3.4.2.5}
+\contentsline {paragraph}{\numberline {3.4.2.6}Beam Current Monitors}{31}{paragraph.3.4.2.6}
+\contentsline {paragraph}{\numberline {3.4.2.7}Systematic Summary}{32}{paragraph.3.4.2.7}
+\contentsline {subsection}{\numberline {3.5}Polarized Target}{32}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Polarization Analysis}{34}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Elastic Normalization of Tensor Polarization}{35}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}Tensor Polarization Enhancement}{35}{subsubsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.4}Depolarizing the Target}{35}{subsubsection.3.5.4}
+\contentsline {subsubsection}{\numberline {3.5.5}Dilution Factor}{36}{subsubsection.3.5.5}
+\contentsline {subsection}{\numberline {3.6}Overhead}{37}{subsection.3.6}
+\contentsline {section}{\numberline {4}PAC42 Comments and Concerns}{38}{section.4}
+\contentsline {subsection}{\numberline {4.1}Theory Advisory Committee}{38}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Technical Advisory Committee}{38}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Program Advisory Committee}{39}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Response to PAC42 Concerns}{39}{subsection.4.4}
+\contentsline {section}{\numberline {5}Summary}{40}{section.5}

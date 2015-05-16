@@ -1,8 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{MISAK}
-M. Sargsian, private communication, to be published.
-
 \bibitem{Forest:1996kp}
 J.~L. Forest {\it et~al.}, Phys. Rev. {\bf C54},  646  (1996).
 
@@ -157,6 +154,9 @@ C.~D. Keith {\it et~al.}, Nucl. Instrum. Meth. {\bf A501},  327  (2003).
 \bibitem{chenyan}
 C. Yan, JLab Hall C Technical Note, \\ \noindent {\tt
   http://hallcweb.jlab.org/document/howtos/slow\_raster.pdf}.
+
+\bibitem{TOBIASTHESIS}
+W. A. Tobias, PhD. Thesis.
 
 \bibitem{lhe}
 Russell J. Donelly, {\tt http://pages.uoregon.edu/rjd/vapor2.htm}.

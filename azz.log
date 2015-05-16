@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.12.18)  16 MAY 2015 13:31
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.12.18)  16 MAY 2015 15:25
 entering extended mode
 **azz.tex
 (C:\Users\Elena\SkyDrive\Documents\PAC43_Tensor_Asymmetry_Azz\azz.tex
@@ -723,10 +723,10 @@ tex
 File: figs/Pzz_30_all_q2.eps Graphic file (type eps)
  <figs/Pzz_30_all_q2.eps>
 File: figs/Pzz_30_all_nu_wnn.eps Graphic file (type eps)
- <figs/Pzz_30_all_nu_wnn.eps>
+ <figs/Pzz_30_all_nu_wnn.eps> [17] [18]
 File: figs/Pzz_30_fdil_all.eps Graphic file (type eps)
 
-<figs/Pzz_30_fdil_all.eps> [17] [18]
+<figs/Pzz_30_fdil_all.eps>
 File: figs/Azz_S1.eps Graphic file (type eps)
  <figs/Azz_S1.eps>
 File: figs/Azz_H2.eps Graphic file (type eps)
@@ -778,7 +778,7 @@ Missing character: There is no ’ in font cmr12!
 
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 154.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 158.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -799,12 +799,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 12165 strings out of 493922
- 208779 string characters out of 3147304
- 301546 words of memory out of 3000000
- 15216 multiletter control sequences out of 15000+200000
+ 12166 strings out of 493922
+ 208797 string characters out of 3147304
+ 301499 words of memory out of 3000000
+ 15217 multiletter control sequences out of 15000+200000
  17635 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  38i,11n,36p,10398b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on azz.dvi (43 pages, 289024 bytes).
+Output written on azz.dvi (43 pages, 289868 bytes).

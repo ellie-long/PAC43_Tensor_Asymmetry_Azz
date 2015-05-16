@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.12.18)  16 MAY 2015 13:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.12.18)  16 MAY 2015 13:28
 entering extended mode
 **azz.tex
 (C:\Users\Elena\SkyDrive\Documents\PAC43_Tensor_Asymmetry_Azz\azz.tex
@@ -627,95 +627,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 x
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 1.
- [3]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¢ in font ptmr7t!
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.22 ...ch asymmetries of $>100\%$,\frac{â€¢}{â€¢}
-                                                   so this experiment could ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\genfrac  ...delims\fi \endcsname #2#3#4\relax #6}
-                                                  }
-l.22 ...ch asymmetries of $>100\%$,\frac{â€¢}{â€¢}
-                                                   so this experiment could ...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\genfrac  ...elims\fi \endcsname #2#3#4\relax #6}}
-                                                  
-l.22 ...ch asymmetries of $>100\%$,\frac{â€¢}{â€¢}
-                                                   so this experiment could ...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-Missing character: There is no â in font cmr8!
-Missing character: There is no € in font cmr8!
-Missing character: There is no ¢ in font cmr8!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.23 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.23 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (2027.409pt too wide) in paragraph at lines 22--23
-\OT1/ptm/m/n/10.95 12-011 and are ex-pected to reach asym-me-tries of $\OML/cmm
-/m/it/10.95 > \OT1/cmr/m/n/10.95 100%$\OT1/ptm/m/n/10.95 ,$[]$b_1$\OML/cmm/m/it
-/10.95 experiment:ThisexperimentwillplayacrucialroleinthelargertensorprogramatJ
-effersonLab; whichcontinuestogenerateinterestfromexperimental; polarizedtarget;
- andtheoreticalspincommunities; byprovidingthefirstexperimentaldatainanregionwh
-erethereremainsagapinourunderstandingofthesimplestcompositenuclearsystem:[]$ 
- []
-
-)
-! Missing } inserted.
-<inserted text> 
-                }
-l.51 \end{abstract}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[4]
+ [3]) [4]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
- (C:\Users\Elena\SkyDrive\Documents\PAC43_Tensor_Asymmetry_Azz\azz.toc
+
+(C:\Users\Elena\SkyDrive\Documents\PAC43_Tensor_Asymmetry_Azz\azz.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 )
 \tf@toc=\write5
-
-[5
+ [5
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -886,4 +807,4 @@ Here is how much of TeX's memory you used:
  841 hyphenation exceptions out of 8191
  38i,11n,36p,10398b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on azz.dvi (43 pages, 288532 bytes).
+Output written on azz.dvi (43 pages, 289012 bytes).

@@ -17,7 +17,7 @@
 \contentsline {paragraph}{\numberline {3.4.2.4}Target Dilution and Length}{28}{paragraph.3.4.2.4}
 \contentsline {paragraph}{\numberline {3.4.2.5}Solid Angle}{30}{paragraph.3.4.2.5}
 \contentsline {paragraph}{\numberline {3.4.2.6}Beam Current Monitors}{30}{paragraph.3.4.2.6}
-\contentsline {paragraph}{\numberline {3.4.2.7}Systematic Summary}{30}{paragraph.3.4.2.7}
+\contentsline {paragraph}{\numberline {3.4.2.7}Systematic Summary}{31}{paragraph.3.4.2.7}
 \contentsline {subsection}{\numberline {3.5}Polarized Target}{31}{subsection.3.5}
 \contentsline {subsubsection}{\numberline {3.5.1}Polarization Analysis}{33}{subsubsection.3.5.1}
 \contentsline {subsubsection}{\numberline {3.5.2}Elastic Normalization of Tensor Polarization}{33}{subsubsection.3.5.2}
